@@ -1,7 +1,7 @@
 /* AI-bulletin service worker.
    App shell: cache with network update. news.json: network first, cache as fallback.
    Bump VERSION whenever index.html, the icons or the manifest change. */
-const VERSION = "v8";
+const VERSION = "v9";
 const SHELL_CACHE = "shell-" + VERSION;
 const DATA_CACHE = "data";
 const FONT_CACHE = "fonts";

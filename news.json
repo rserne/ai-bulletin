@@ -12,7 +12,7 @@
       "source": "Sam on AI",
       "url": "https://samonai.substack.com/p/ai-brief-november-14-2026",
       "body": [
-        "Jensen Huang, die Nvidia in 1993 mede oprichtte en het uitbouwde tot een van de waardevolste bedrijven ter wereld, legt per direct al zijn functies neer: president, ceo en lid van het bestuur. Financieel directeur Colette Kress wordt interim-ceo en houdt daarnaast haar huidige rol. Kress werkt sinds 2013 bij Nvidia en is bij beleggers het bekendste gezicht na Huang.",
+        "Huang richtte Nvidia in 1993 mee op en bouwde het uit tot een van de waardevolste bedrijven ter wereld. Kress is sinds 2013 financieel directeur en houdt die rol naast het interim-ceoschap; bij beleggers is zij het bekendste gezicht na Huang.",
         "Het vertrek volgt op weken van berichtgeving over een relatie tussen Huang en een voormalige bestuurder van een datacenterbedrijf uit Singapore, en een onderzoek door het bestuur. Nvidia liet toen nog weten dat Huang zonder onderbreking aanbleef. Volgens het bedrijf lopen afspraken met klanten en de planning van nieuwe chips gewoon door; inhoudelijk bewijs daarvoor geeft de aankondiging niet."
       ],
       "why": "Nvidia levert de chips waarop vrijwel alle grote AI-modellen draaien. Onrust aan de top raakt daarmee de hele sector, van cloudbedrijven tot AI-labs."
@@ -28,7 +28,7 @@
       "source": "note.com",
       "url": "https://note.com/hirokimiyano/n/nfbe1c6a4d41a?hl=en",
       "body": [
-        "Het bestuur van Nvidia zoekt zowel binnen als buiten het bedrijf naar een vaste opvolger voor Jensen Huang. Rene Haas, topman van de Britse chipontwerper Arm, zou al zijn benaderd. Eerder werden ook interne kandidaten genoemd, zoals vicepresident Ian Buck en interim-ceo Colette Kress.",
+        "Naast Haas werden eerder ook interne kandidaten genoemd, zoals vicepresident Ian Buck en interim-ceo Colette Kress. Het bestuur kijkt nadrukkelijk ook naar kandidaten van buiten.",
         "Tegelijk zouden Amerikaanse inlichtingendiensten vragen hebben gesteld over beschuldigingen van spionage rond de affaire. China heeft die beschuldigingen eerder afgedaan als een lastercampagne."
       ],
       "why": "Wie Nvidia gaat leiden, bepaalt mede de koers van de belangrijkste leverancier van AI-rekenkracht ter wereld."
@@ -44,8 +44,8 @@
       "source": "Sam on AI",
       "url": "https://samonai.substack.com/p/ai-brief-november-14-2026",
       "body": [
-        "Met ChatGPT Wallet kunnen de altijd actieve agents van ChatGPT, de zogeheten dots, namens jou afrekenen. Voor elke aankoop zie je eerst de artikelen, het totaalbedrag en de gekozen kaart, en je bevestigt met een beveiligingscheck zoals een vingerafdruk of gezichtsscan. De agent en de winkel krijgen alleen een betaaltoken van de kaartmaatschappij te zien, niet je echte kaartnummer. OpenAI bouwde de dienst samen met American Express, Mastercard en Visa.",
-        "Voorlopig is Wallet alleen beschikbaar voor Pro-abonnees in de Verenigde Staten. Bestedingslimieten en het vooraf machtigen van aankopen noemt OpenAI als functies voor later. Er is ook een handleiding voor winkels, zodat die betrouwbaar agentverkeer kunnen herkennen in plaats van het als bot te blokkeren. Dat het nog niet vlekkeloos gaat, bleek eerder dit jaar uit tests van Visa: winkelassistenten rondden toen ongeveer 43 van de 100 aankopen niet goed af."
+        "De betalingen lopen via de dots, de altijd actieve agents van ChatGPT. Je bevestigt bijvoorbeeld met je vingerafdruk of een gezichtsscan. Agent en winkel krijgen alleen een betaaltoken van de kaartmaatschappij te zien; OpenAI bouwde de dienst samen met American Express, Mastercard en Visa.",
+        "Bestedingslimieten en het vooraf machtigen van aankopen noemt OpenAI als functies voor later. Er is ook een handleiding voor winkels, zodat die betrouwbaar agentverkeer kunnen herkennen in plaats van het als bot te blokkeren. Dat het nog niet vlekkeloos gaat, bleek eerder dit jaar uit tests van Visa: winkelassistenten rondden toen ongeveer 43 van de 100 aankopen niet goed af."
       ],
       "why": "Het is een van de eerste keren dat een AI-assistent op grote schaal echt geld mag uitgeven, met de mens als laatste controlepunt."
     },
@@ -60,8 +60,8 @@
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht",
       "body": [
-        "Google rolt Gemini 4 Hydrogen wereldwijd uit. Het model komt in de Gemini-app, in Google Zoeken en in de diensten voor ontwikkelaars, en is nu ook beschikbaar voor wie geen betaald abonnement heeft.",
-        "Hydrogen is volgens berichtgeving vooral sneller en goedkoper in gebruik, en geschikt voor taken waarbij het model zelfstandig stappen uitvoert. Daarmee mikt Google op toepassingen als agents en zoekopdrachten die meerdere stappen vragen."
+        "Hydrogen is volgens berichtgeving vooral sneller en goedkoper in gebruik, en geschikt voor taken waarbij het model zelfstandig stappen uitvoert. Google mikt daarmee op agents en op zoekopdrachten die meerdere stappen vragen.",
+        "Opvallend is dat Google het nieuwe model niet eerst voorbehoudt aan betalende abonnees."
       ],
       "why": "Door een nieuw model meteen aan gratis gebruikers te geven, vergroot Google het bereik ervan in één klap naar honderden miljoenen mensen."
     },
@@ -76,8 +76,8 @@
       "source": "TNW",
       "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation",
       "body": [
-        "Anthropic, het bedrijf achter Claude, biedt 825 miljoen aandelen aan tegen 70 tot 78 dollar per stuk. Dat levert maximaal 64,4 miljard dollar op. De prijs wordt naar verwachting op woensdag 18 november vastgesteld; een dag later begint de handel op de Nasdaq onder de afkorting ANT. Ongeveer een vijfde van de aandelen is gereserveerd voor particuliere beleggers, en in Australië loopt nog tot 17 november een aparte inschrijving voor particulieren.",
-        "Daarnaast kopen zeven chip- en cloudbedrijven, waaronder Nvidia, Google, Microsoft en TSMC, voor 26 miljard dollar aan aandelen tegen de beursprijs. Uit de stukken bij de beursgang blijkt dat Anthropic in de eerste negen maanden van het jaar ruim 33 miljard dollar omzette en 104 miljard dollar verlies leed. De inschrijving zou al zo'n zes keer overtekend zijn."
+        "De prijs wordt naar verwachting op woensdag 18 november vastgesteld; een dag later begint de handel. Ongeveer een vijfde van de aandelen is gereserveerd voor particuliere beleggers, en in Australië loopt nog tot 17 november een aparte inschrijving voor particulieren. De inschrijving zou al zo'n zes keer overtekend zijn.",
+        "Daarnaast kopen zeven chip- en cloudbedrijven, waaronder Nvidia, Google, Microsoft en TSMC, voor 26 miljard dollar aan aandelen tegen de beursprijs. Uit de stukken bij de beursgang blijkt dat Anthropic in de eerste negen maanden van het jaar ruim 33 miljard dollar omzette en 104 miljard dollar verlies leed."
       ],
       "why": "Het wordt een van de grootste beursgangen ooit en een graadmeter voor hoeveel beleggers over hebben voor AI-bedrijven die nog flink verlies maken."
     },
@@ -92,8 +92,8 @@
       "source": "Bloomberg",
       "url": "https://bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
       "body": [
-        "Tijdens een besloten bijeenkomst in het Witte Huis adviseerden ambtenaren van de AI-taskforce van president Trump overheidsdiensten om hun regels rond cyberincidenten te versoepelen. Bedrijven zouden ernstige AI-incidenten dan eerder melden, zonder bang te hoeven zijn voor strenge maatregelen.",
-        "Volgens een betrokken ambtenaar zijn de huidige normen voor ingrijpen na een cyberincident verouderd en werken ze juist ontmoedigend: wie iets meldt, loopt risico. Het advies is nog geen beleid; het is aan de afzonderlijke diensten om er iets mee te doen."
+        "Het advies kwam tijdens een besloten bijeenkomst in het Witte Huis. Volgens een betrokken ambtenaar zijn de huidige normen voor ingrijpen na een cyberincident verouderd en werken ze juist ontmoedigend: wie iets meldt, loopt risico.",
+        "Het advies is nog geen beleid; het is aan de afzonderlijke diensten om er iets mee te doen."
       ],
       "why": "Hoe overheden incidentmeldingen belonen of bestraffen, bepaalt hoeveel zicht ze krijgen op wat er misgaat met krachtige AI-systemen."
     },
@@ -108,8 +108,8 @@
       "source": "note.com",
       "url": "https://note.com/gifted_ixora801/n/n624f48273f80?hl=en",
       "body": [
-        "Een groep non-profitorganisaties heeft een rechtszaak aangespannen tegen de AI-afdelingen van OpenAI, Anthropic, Google, Meta en SpaceX. Ze eisen dat de ontwikkeling van de meest geavanceerde AI-modellen wordt stilgelegd.",
-        "Over de juridische onderbouwing en de rechtbank waar de zaak dient, zijn nog weinig details bekend. De zaak past in een bredere discussie, waarin ook oud-medewerkers van AI-labs en bekende techfiguren de afgelopen maanden opriepen tot een rem op de ontwikkeling."
+        "Over de juridische onderbouwing en de rechtbank waar de zaak dient, zijn nog weinig details bekend.",
+        "De zaak past in een bredere discussie, waarin ook oud-medewerkers van AI-labs en bekende techfiguren de afgelopen maanden opriepen tot een rem op de ontwikkeling."
       ],
       "why": "Als een rechter meegaat in zo'n eis, zou dat voor het eerst via de rechtspraak in plaats van via wetgeving grenzen stellen aan de bouw van AI-modellen."
     },
@@ -124,7 +124,6 @@
       "source": "note.com",
       "url": "https://note.com/hirokimiyano/n/nfbe1c6a4d41a?hl=en",
       "body": [
-        "OpenAI heeft zijn aparte roboticateam opgeheven. In plaats van eigen robotsystemen te ontwikkelen, wil het bedrijf robots voortaan laten aansturen door zijn algemene AI-modellen.",
         "Het is niet de eerste koerswijziging op dit vlak. In 2021 stopte OpenAI al eens met robotica, en eerder dit jaar vertrok de toenmalige roboticabaas uit onvrede over een samenwerking met het Pentagon."
       ],
       "why": "De keuze laat zien dat OpenAI gelooft dat één groot model zowel tekst als fysieke apparaten kan aansturen, in plaats van gespecialiseerde systemen per toepassing."
@@ -140,8 +139,8 @@
       "source": "AI Agent Store",
       "url": "https://aiagentstore.ai/ai-agent-news/this-week",
       "body": [
-        "Beveiligingsbedrijf CrowdStrike voegt een noodknop toe aan zijn software Falcon Guardian. Bevoegde beveiligers kunnen daarmee een draaiende AI-agent direct stoppen, de netwerktoegang afsluiten en voorkomen dat de agent zichzelf opnieuw opstart.",
-        "Tegelijk neemt CrowdStrike Fiddler AI over, een bedrijf dat het gedrag van agents bewaakt en controleerbaar maakt. Volgens nieuwssite Axios gaat het om ongeveer 400 miljoen dollar. Ook concurrent Palo Alto Networks zou in gesprek zijn over de overname van een bedrijf dat de toegang van agents tot bedrijfssystemen controleert; die deal is nog niet bevestigd."
+        "De noodknop zit in Falcon Guardian, de software van CrowdStrike voor het beveiligen van AI-agents. Fiddler AI maakt software die het gedrag van agents vastlegt, toetst en uitlegbaar maakt.",
+        "Ook concurrent Palo Alto Networks zou in gesprek zijn over de overname van Clutch, dat de toegang van agents tot bedrijfssystemen controleert. Die deal van naar verluidt 500 miljoen dollar is nog niet bevestigd."
       ],
       "why": "Nu bedrijven agents zelfstandig laten werken, wordt de vraag hoe je ze in een noodgeval stopt een kernonderdeel van beveiliging."
     },
@@ -156,8 +155,8 @@
       "source": "AI Agent Store",
       "url": "https://aiagentstore.ai/ai-agent-news/this-week",
       "body": [
-        "United Airlines gaat persoonlijke AI-agents en assistenten weren die zonder toestemming het boekings- en reserveringssysteem gebruiken. Wie via zo'n assistent een vlucht wil boeken of wijzigen, loopt daardoor straks tegen een blokkade aan.",
-        "Het besluit staat haaks op de beweging van OpenAI, dat winkels juist helpt om agentverkeer te herkennen en toe te laten. Hoe United onderscheid maakt tussen toegestane en ongewenste agents, is nog niet duidelijk."
+        "Wie via zo'n assistent een vlucht wil boeken of wijzigen, loopt daardoor straks tegen een blokkade aan. Hoe United onderscheid maakt tussen toegestane en ongewenste agents, is nog niet duidelijk.",
+        "Het besluit staat haaks op de koers van OpenAI, dat winkels juist helpt om agentverkeer te herkennen en toe te laten."
       ],
       "why": "Bedrijven moeten kiezen of AI-agents klanten of indringers zijn, en die keuze bepaalt hoe bruikbaar zulke assistenten in de praktijk worden."
     },
@@ -172,8 +171,8 @@
       "source": "This is not Average",
       "url": "https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-14",
       "body": [
-        "Cloudflare heeft Kitesurf vrijgegeven als open source. Het is een browser die speciaal is gebouwd voor AI-agents en volledig draait binnen Cloudflare Workers, de serverdienst van het bedrijf.",
-        "Kitesurf kan webpagina's inlezen, de scripts op die pagina's uitvoeren en schermafbeeldingen maken, zonder dat er een volledige Chrome-installatie nodig is. Dat maakt het lichter en goedkoper om agents op grote schaal het web te laten gebruiken."
+        "Kitesurf draait volledig binnen Cloudflare Workers, de serverdienst van het bedrijf. Er hoeft dus geen aparte server met een complete browser voor te draaien.",
+        "Dat maakt het lichter en goedkoper om agents op grote schaal het web te laten gebruiken."
       ],
       "why": "Agents die het web gebruiken, draaien nu vaak op zware browserinstallaties; een lichtere browser verlaagt de kosten en drempel flink."
     },
@@ -188,8 +187,8 @@
       "source": "AI Agent Store",
       "url": "https://aiagentstore.ai/ai-agent-news/this-week",
       "body": [
-        "LangChain, dat software maakt om AI-agents te bouwen en te beheren, haalt 300 miljoen dollar op. De investeringsronde wordt geleid door CapitalG, het groeifonds van Google-moeder Alphabet. Ook GIC, DFJ Growth, IVP en Sapphire Ventures doen mee.",
-        "Met de investering wordt LangChain gewaardeerd op 3 miljard dollar. Het bedrijf is bij ontwikkelaars vooral bekend van zijn open-sourcebibliotheek voor het koppelen van taalmodellen aan andere software."
+        "CapitalG is het groeifonds van Google-moeder Alphabet. Ook GIC, DFJ Growth, IVP en Sapphire Ventures doen mee aan de ronde.",
+        "LangChain is bij ontwikkelaars vooral bekend van zijn open-sourcebibliotheek om taalmodellen aan andere software te koppelen."
       ],
       "why": "Investeerders zetten zwaar in op de gereedschappen waarmee bedrijven hun eigen agents bouwen, niet alleen op de modellen zelf."
     },
@@ -204,7 +203,6 @@
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht",
       "body": [
-        "Adobe werkt aan een nieuwe generatie AI-assistenten die rechtstreeks in Photoshop, Illustrator en Premiere werken. Ze maken niet alleen nieuwe afbeeldingen of video's, maar passen ook bestaande projecten aan.",
         "Het idee is dat je in gewone taal vraagt wat er moet veranderen, en dat de assistent de bewerking in het programma zelf uitvoert. Een releasedatum heeft Adobe nog niet genoemd."
       ],
       "why": "Daarmee schuift AI op van losse beeldgenerator naar collega die meewerkt in het bestaande werk van ontwerpers en editors."
@@ -220,8 +218,8 @@
       "source": "Rio Rundown",
       "url": "https://riorundown.substack.com/p/ai-news-nov-14-2026-local-ai-ecosystem",
       "body": [
-        "Het Amerikaanse zorgconcern Corewell Health testte 90 dagen lang een systeem dat meeluistert terwijl verpleegkundigen hun werk inspreken. De AI zet dat om in ingevulde formulieren in het patiëntendossier, die de verpleegkundige daarna controleert.",
-        "Volgens de eerste resultaten daalde de tijd voor verslaglegging met 52 procent en vielen er meer dan 277.000 muisklikken weg. Wie het systeem het meest gebruikte, won gemiddeld 28 minuten per dienst terug."
+        "Het systeem, Epic Rover, zet wat verpleegkundigen inspreken om in ingevulde formulieren in het patiëntendossier.",
+        "Naast de tijdwinst vielen er volgens de eerste resultaten meer dan 277.000 muisklikken weg. Wie het systeem het meest gebruikte, won gemiddeld 28 minuten per dienst terug."
       ],
       "why": "Administratie is een van de grootste tijdvreters in de zorg; dit soort resultaten maakt de stap naar bredere invoering waarschijnlijker."
     },
@@ -236,8 +234,8 @@
       "source": "Rio Rundown",
       "url": "https://riorundown.substack.com/p/ai-news-nov-14-2026-local-ai-ecosystem",
       "body": [
-        "llama.cpp, de populaire software om taalmodellen op je eigen computer te draaien, heeft versie 1.0 bereikt. Tegelijk zijn de gewichten van het goed presterende model Inkling 2 Small vrijgegeven, zodat iedereen het lokaal kan gebruiken.",
-        "Ook richtten grote techbedrijven het SGLang Consortium op, dat open-sourcesoftware wil verbeteren om AI-modellen efficiënter te laten draaien. Op sociale media groeit intussen de belangstelling om open modellen lokaal te bewaren, uit vrees dat ze in de toekomst lastiger verkrijgbaar worden."
+        "Ook richtten grote techbedrijven het SGLang Consortium op, dat open-sourcesoftware wil verbeteren om AI-modellen efficiënter te laten draaien.",
+        "Op sociale media groeit intussen de belangstelling om open modellen lokaal te bewaren, uit vrees dat ze in de toekomst lastiger verkrijgbaar worden."
       ],
       "why": "Wie AI op eigen hardware draait, is niet afhankelijk van een clouddienst en houdt zijn gegevens in eigen hand."
     },
@@ -252,8 +250,7 @@
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht",
       "body": [
-        "Europese regeringsleiders kwamen in Dublin bijeen om te bespreken hoe Europa voldoende rekenkracht voor AI krijgt, en vooral wie daarvoor gaat betalen. Het gaat om de bouw van grote datacenters en AI-fabrieken die Europa minder afhankelijk moeten maken van Amerikaanse en Chinese aanbieders.",
-        "Premier Jetten was niet bij de top aanwezig. Luxemburg voerde daar het woord namens Nederland."
+        "Het gaat om de bouw van grote datacenters en AI-fabrieken die Europa minder afhankelijk moeten maken van Amerikaanse en Chinese aanbieders. Nederland is zelf kandidaat voor zo'n Europese AI-gigafabriek, in Zuid-Holland."
       ],
       "why": "Zonder eigen rekenkracht blijft Europa voor de ontwikkeling van AI afhankelijk van bedrijven buiten de EU."
     },
@@ -268,8 +265,7 @@
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht",
       "body": [
-        "Het Amsterdamse Nebius investeert miljarden in AI-infrastructuur en verhuurt rekenkracht aan bedrijven die AI-modellen trainen en draaien. Het bedrijf kampt echter met vertragingen bij de bouw van nieuwe datacenters.",
-        "Dat laat zien hoe lastig het is om genoeg rekenkracht op tijd beschikbaar te krijgen, ook voor een partij met veel kapitaal. Stroom, vergunningen en de levering van chips zijn daarbij vaak de knelpunten."
+        "Nebius verhuurt rekenkracht aan bedrijven die AI-modellen trainen en draaien. De vertragingen laten zien dat zelfs een partij met veel kapitaal moeite heeft om op tijd genoeg capaciteit te leveren."
       ],
       "why": "Nebius is een van de weinige grote Europese aanbieders van AI-rekenkracht; vertraging daar raakt ook Europese ambities."
     },
@@ -284,8 +280,8 @@
       "source": "AI Report",
       "url": "https://podcasts.apple.com/nl/podcast/ai-report/id1692318247",
       "body": [
-        "Alexander, Wietse en Jeroen bespreken het vertrek van Jensen Huang bij Nvidia. Wietse vertelt hoe hij met Claude Fable 5.2 in twee dagen zeventien apps bouwde. Alexander liet Grokbot een Spider-Man-tandenborstel bestellen bij Coolblue, zonder zelf de website te openen.",
-        "De grote vraag: koop je straks nog software, of bouw je die zelf? Jeroen denkt dat grote organisaties altijd een leverancier willen die ze kunnen bellen. Wietse vergelijkt zelfgebouwde software met dertig geiten in je achtertuin die allemaal gevoerd moeten worden. De aflevering duurt 1 uur en 18 minuten."
+        "Wietse vertelt hoe hij met Claude Fable 5.2 in twee dagen zeventien apps bouwde. Toch vergelijkt hij zelfgebouwde software met dertig geiten in je achtertuin die allemaal gevoerd moeten worden.",
+        "Verder koppelde Jeroen een Europees model aan Claude. De aflevering duurt 1 uur en 18 minuten."
       ]
     },
     {
@@ -299,8 +295,8 @@
       "source": "POM",
       "url": "https://www.pom.show/p/ai-frituurt-je-brein-ernst-heeft",
       "body": [
-        "Alexander stopt tegenwoordig om drie uur met werken: het aansturen van AI-agents put hem uit. Ernst-Jan zoekt het tegengif in papier. Hij schrijft in notitieboekjes, leest non-fictie op papier en opende in Rotterdam een winkel vol notitieboekjes. Claude ontcijfert zijn handschrift, ook als hij op een winderige pont heeft geschreven.",
-        "Verder: Wietse kloonde met Fable 5.2 in één avond Calendly, DocuSign en Slack. Overleeft simpele software dat? Alexander en Ernst-Jan sluiten er een weddenschap over af. Ook komt Sunsama langs, een agenda-app die taken naast elkaar plant omdat agents parallel werken. En is schrijven nog nodig, of is het, zoals Alexander zegt, vooral een manier om met alles om te gaan?"
+        "Ernst-Jan leest non-fictie tegenwoordig op papier en opende in Rotterdam een winkel vol notitieboekjes. Claude kan zijn handschrift lezen, ook als hij op een winderige pont schreef.",
+        "Ook komt Sunsama langs, een agenda-app die taken naast elkaar plant omdat agents parallel werken. En is schrijven nog nodig? Ernst-Jan vergelijkt het met hardlopen: gezond, maar niet meer noodzakelijk. Volgens Alexander is het vooral een manier om met alles om te gaan."
       ]
     },
     {
@@ -314,8 +310,8 @@
       "source": "DataNorth",
       "url": "https://datanorth.ai/nl/nieuws/kabinetsvisie-ai-minder-afhankelijk",
       "body": [
-        "Het kabinet stelde op 6 november de AI-visie 'Kiezen voor AI voor iedereen' vast. Staatssecretaris Willemijn Aerdts wil per laag, van chips tot cloud en AI-modellen, bepalen waar Nederland zelf capaciteit nodig heeft en waar samenwerking met betrouwbare partners volstaat. Naast EU-landen kijkt het kabinet daarvoor naar Canada, Japan, Singapore en Zuid-Korea.",
-        "De visie legt de nadruk op zorg, energie en hightech, en de Europese AI-verordening staat centraal bij de regels. Of Nederland een eigen AI-veiligheidsinstituut krijgt, naar Brits voorbeeld, is nog niet besloten; in december volgt een advies. Begin 2027 komt een uitwerking van de benodigde rekenkracht en een aanpak voor datacenters. Extra geld trekt het kabinet nog niet uit."
+        "Het kabinet stelde de visie op 6 november vast. Staatssecretaris Willemijn Aerdts wil per laag, van chips tot cloud en AI-modellen, bepalen waar Nederland zelf capaciteit nodig heeft en waar samenwerking met betrouwbare partners volstaat.",
+        "De visie legt de nadruk op zorg, energie en hightech, en de Europese AI-verordening staat centraal bij de regels. Het mogelijke veiligheidsinstituut zou het Britse AI Security Institute als voorbeeld nemen. Begin 2027 volgt een uitwerking van de benodigde rekenkracht en een aanpak voor datacenters."
       ],
       "why": "Het is de eerste brede kabinetskoers voor AI, maar zonder budget blijft het voorlopig bij richting geven."
     },
@@ -330,8 +326,7 @@
       "source": "AI Report",
       "url": "https://podcasts.apple.com/nl/podcast/ai-report/id1692318247",
       "body": [
-        "Over hoe AI de Amerikaanse verkiezingen heeft beïnvloed, en over daten in San Francisco met hulp van ChatGPT. De podcast krijgt binnenkort een eigen MCP-koppeling, en daarom vertelt Jeroen voortaan precies wie waar aan tafel zit.",
-        "Alexander zweert bij een skill die Be Ambitious heet en je helpt groter te denken over je project. Wietse bouwt de standaardapps van zijn Mac na in zijn eigen stijl, en Jeroen is teleurgesteld in Elon Musk."
+        "De podcast krijgt binnenkort een eigen MCP-koppeling; daarom vertelt Jeroen voortaan precies wie waar aan tafel zit. Verder is Jeroen teleurgesteld in Elon Musk, en gaat het over daten in San Francisco met hulp van ChatGPT. De aflevering duurt ongeveer een uur."
       ]
     },
     {
@@ -345,7 +340,7 @@
       "source": "POM",
       "url": "https://www.pom.show/archive",
       "body": [
-        "Op NPO Start kijken makers terug naar hun eigen programma's, en Alexander en Ernst-Jan vragen zich af wat dat zegt over de omroep. Verder: het einde van Buzz, de gehackte Jack van Gelder en Henk Krol met een machete. De aflevering duurt 57 minuten."
+        "Verder komt Henk Krol met een machete voorbij. Alexander plaatst vraagtekens bij makers die naar hun eigen programma's kijken. De aflevering duurt 57 minuten."
       ]
     }
   ]
