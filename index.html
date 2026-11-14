@@ -214,6 +214,32 @@ button { font: inherit; }
 .skeleton i:nth-child(2) { width: 92%; height: 24px; }
 .skeleton i:nth-child(3) { width: 70%; }
 
+/* Story view */
+.back {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px; margin-top: 10px; padding: 0;
+  border: 0; background: none; cursor: pointer; color: var(--ink);
+}
+.back svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.story { padding-block: 14px 8px; }
+.story h1 { margin: 8px 0 0; font-size: clamp(32px, 9vw, 44px); font-weight: 700; line-height: 1.06; letter-spacing: -.015em; text-wrap: balance; }
+.story .standfirst { margin: 12px 0 0; font-style: italic; font-weight: 500; font-size: 20px; line-height: 1.4; color: var(--body); }
+.story .byline { display: block; margin-top: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--ink); }
+.story .text { margin-top: 18px; }
+.story .text p { margin: 0 0 16px; font-size: 18.5px; line-height: 1.6; max-width: 62ch; overflow-wrap: anywhere; }
+.story .text p:first-child::first-letter {
+  float: left; font-size: 3.3em; line-height: .82; font-weight: 700; padding: 6px 8px 0 0; color: var(--accent);
+}
+.why { margin: 8px 0 0; padding: 14px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+.why p { margin: 6px 0 0; font-size: 17.5px; line-height: 1.5; font-style: italic; }
+.story .actions { margin-top: 14px; }
+.more {
+  display: inline-flex; align-items: center; min-height: 34px;
+  font-family: var(--f-label); font-size: 12.5px; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase;
+  color: var(--accent); text-decoration: none;
+}
+.more:hover { text-decoration: underline; text-underline-offset: 3px; }
+
 footer.wrap { padding-block: 18px 40px; border-top: 3px double var(--ink); }
 footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--muted); max-width: 62ch; }
 
@@ -235,7 +261,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   </div>
 </div>
 
-<div class="wrap tools">
+<div class="wrap tools" id="tools">
   <div class="statusrow">
     <p class="status" id="statusline" aria-live="polite">Nieuws laden</p>
     <div class="btns">
@@ -332,7 +358,9 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       tag: str(d.tag, 40),
       url: safeUrl(d.url),
       date: date,
-      order: typeof d.order === "number" ? d.order : 0
+      order: typeof d.order === "number" ? d.order : 0,
+      body: Array.isArray(d.body) ? d.body.filter(function (x) { return typeof x === "string" && x.trim(); }).slice(0, 8).map(function (x) { return x.slice(0, 1500); }) : [],
+      why: str(d.why, 400)
     };
   }
   function sortItems(a, b) {
@@ -341,8 +369,15 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     return a.title < b.title ? -1 : 1;
   }
 
+  var lastList = "alles";
+  var scrollMemo = {};
+  function storyId() {
+    var h = (location.hash || "").replace(/^#/, "");
+    return h.indexOf("lees-") === 0 ? decodeURIComponent(h.slice(5)) : null;
+  }
   function currentView() {
     var h = (location.hash || "").replace(/^#/, "");
+    if (h.indexOf("lees-") === 0) h = lastList;
     for (var i = 0; i < VIEWS.length; i++) if (VIEWS[i].id === h) return VIEWS[i];
     return VIEWS[0];
   }
@@ -388,23 +423,26 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     }
     return k;
   }
+  function storyHref(it) { return "#lees-" + encodeURIComponent(it.id); }
   function titleLink(tag, cls, it) {
     var h = el(tag, cls);
-    if (it.url) {
-      var a = el("a", null, it.title);
-      a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-      h.appendChild(a);
-    } else {
-      h.textContent = it.title;
-    }
+    var a = el("a", null, it.title);
+    a.href = storyHref(it);
+    h.appendChild(a);
     return h;
   }
-  function actions(it, compact) {
+  function actions(it, compact, inStory) {
     var act = el("div", "actions");
-    if (it.url) {
+    if (!inStory) {
+      var more = el("a", "more", isPod(it) ? "Meer over deze aflevering" : "Lees verder");
+      if (compact) more.textContent = "Lees verder";
+      more.href = storyHref(it);
+      act.appendChild(more);
+    }
+    if (it.url && !(compact && !inStory)) {
       var a = el("a", "read");
       a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.appendChild(document.createTextNode(compact ? (it.source || "Bron") : (isPod(it) ? "Luister bij " : "Lees bij ") + (it.source || "de bron")));
+      a.appendChild(document.createTextNode(inStory ? (isPod(it) ? "Luister bij " : "Lees het origineel bij ") + (it.source || "de bron") : (it.source || "Bron")));
       a.appendChild(svg('<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9L9 3M4.5 3H9v4.5"></path></svg>'));
       act.appendChild(a);
     }
@@ -552,9 +590,49 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     }
   }
 
+  function renderStory(id) {
+    var it = null;
+    for (var i = 0; i < items.length; i++) if (items[i].id === id) { it = items[i]; break; }
+    var back = el("button", "back label");
+    back.type = "button";
+    back.appendChild(svg('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>'));
+    back.appendChild(el("span", null, "Terug"));
+    back.addEventListener("click", function () {
+      if (cameFromList) history.back(); else location.hash = "#" + lastList;
+    });
+    feedEl.appendChild(back);
+    if (!it) {
+      feedEl.appendChild(notice("Bericht niet gevonden", "Dit bericht staat niet meer in het bulletin. Oudere berichten verdwijnen na twee weken."));
+      return;
+    }
+    var art = el("article", "story");
+    art.appendChild(kicker(it, { cat: true }));
+    var h = el("h1", null, it.title);
+    art.appendChild(h);
+    if (it.summary) art.appendChild(el("p", "standfirst", it.summary));
+    var by = el("span", "meta-src byline", (it.source ? "Bron: " + it.source + " · " : "") + dayLong(it.date));
+    art.appendChild(by);
+    if (it.body.length) {
+      var text = el("div", "text");
+      it.body.forEach(function (p) { text.appendChild(el("p", null, p)); });
+      art.appendChild(text);
+    }
+    if (it.why) {
+      var why = el("aside", "why");
+      why.appendChild(el("span", "label kicker", "Waarom het ertoe doet"));
+      why.appendChild(el("p", null, it.why));
+      art.appendChild(why);
+    }
+    art.appendChild(actions(it, false, true));
+    feedEl.appendChild(art);
+  }
+
   function renderFeed() {
     var view = currentView();
     feedEl.textContent = "";
+    var sid = storyId();
+    document.getElementById("tools").hidden = !!sid && status === "ready";
+    if (sid && status === "ready") { renderStory(sid); return; }
 
     if (status === "loading") {
       var sk = el("div", "skeleton");
@@ -634,9 +712,23 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     query = qEl.value.trim();
     renderFeed();
   });
+  try { history.scrollRestoration = "manual"; } catch (e) {}
+  var cameFromList = false;
+  var prevHash = (location.hash || "#alles").replace(/^#/, "") || "alles";
+  if (prevHash.indexOf("lees-") !== 0) lastList = prevHash;
   window.addEventListener("hashchange", function () {
+    var h = (location.hash || "").replace(/^#/, "") || "alles";
+    var toStory = h.indexOf("lees-") === 0;
+    var fromStory = prevHash.indexOf("lees-") === 0;
+    if (!fromStory) scrollMemo[prevHash] = window.scrollY;
+    if (toStory) { cameFromList = !fromStory; }
+    else { lastList = h; }
     render();
-    window.scrollTo(0, 0);
+    var target = (!toStory && fromStory && scrollMemo[h] != null) ? scrollMemo[h] : 0;
+    window.scrollTo(0, target);
+    requestAnimationFrame(function () { window.scrollTo(0, target); });
+    if (!toStory) cameFromList = false;
+    prevHash = h;
   });
   refreshBtn.addEventListener("click", load);
   document.addEventListener("visibilitychange", function () {

@@ -25,6 +25,11 @@ Live: https://rserne.github.io/ai-bulletin/
       "tag": "Nvidia",
       "title": "Kop in het Nederlands",
       "summary": "Twee of drie zinnen samenvatting in eigen woorden.",
+      "body": [
+        "Eerste alinea voor de leespagina, in eigen woorden.",
+        "Tweede alinea met achtergrond of context."
+      ],
+      "why": "Eén zin over waarom het ertoe doet (optioneel, niet bij podcasts).",
       "source": "Naam van de bron",
       "url": "https://..."
     }
@@ -34,6 +39,7 @@ Live: https://rserne.github.io/ai-bulletin/
 
 - `cat` is een van `wereld`, `nederland`, `aireport`, `pom`.
 - `order` bepaalt de volgorde binnen een dag (hoger staat bovenaan).
+- `body` is de tekst op de leespagina: twee of drie alinea's in eigen woorden, nooit letterlijk overgenomen. Tik in de app op een kop of op Lees verder om hem te openen.
 - Berichten ouder dan 14 dagen gaan eruit; podcastafleveringen blijven 30 dagen staan.
 
 Verander je `index.html`, het manifest of de iconen, verhoog dan `VERSION` in `sw.js`, zodat geïnstalleerde apps de nieuwe versie ophalen.
