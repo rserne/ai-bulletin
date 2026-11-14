@@ -1,0 +1,247 @@
+{
+  "updatedAt": "2026-11-14T19:10:00Z",
+  "items": [
+    {
+      "id": "nvidia-huang-vertrek",
+      "date": "2026-11-14",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Jensen Huang weg bij Nvidia, cfo Kress neemt waar",
+      "summary": "Nvidia zit zonder vaste topman: Huang is per direct vertrokken als ceo en bestuurder. Financieel directeur Colette Kress leidt het bedrijf voorlopig, terwijl het bestuur binnen en buiten Nvidia een opvolger zoekt.",
+      "source": "Sam on AI",
+      "url": "https://samonai.substack.com/p/ai-brief-november-14-2026"
+    },
+    {
+      "id": "nvidia-opvolger-haas",
+      "date": "2026-11-14",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Arm-topman Rene Haas gepolst als opvolger bij Nvidia",
+      "summary": "In de zoektocht naar een nieuwe ceo valt de naam van Rene Haas, nu de baas van chipontwerper Arm. Het bestuur zou hem al hebben benaderd.",
+      "source": "note.com",
+      "url": "https://note.com/hirokimiyano/n/nfbe1c6a4d41a?hl=en"
+    },
+    {
+      "id": "openai-chatgpt-wallet",
+      "date": "2026-11-14",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "ChatGPT Wallet: de agent rekent af, jij keurt goed",
+      "summary": "Winkelen via ChatGPT krijgt een eigen betaallaag. Je bekijkt per aankoop de artikelen, het bedrag en de kaart en bevestigt met een beveiligingscheck; de agent ziet je kaartnummer niet. Voorlopig alleen voor Amerikaanse Pro-abonnees.",
+      "source": "Sam on AI",
+      "url": "https://samonai.substack.com/p/ai-brief-november-14-2026"
+    },
+    {
+      "id": "google-gemini-4-hydrogen",
+      "date": "2026-11-14",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Gemini 4 Hydrogen nu ook voor gratis gebruikers",
+      "summary": "Het nieuwe model van Google wordt wereldwijd uitgerold en belandt in de Gemini-app, de zoekmachine en de diensten voor ontwikkelaars.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht"
+    },
+    {
+      "id": "anthropic-beursgang",
+      "date": "2026-11-14",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic naar de beurs: prijs op 18 november, handel een dag later",
+      "summary": "De maker van Claude biedt 825 miljoen aandelen aan voor 70 tot 78 dollar per stuk, goed voor een opbrengst tot 64,4 miljard dollar. De notering op de Nasdaq krijgt de afkorting ANT.",
+      "source": "TNW",
+      "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+    },
+    {
+      "id": "witte-huis-aansprakelijkheid",
+      "date": "2026-11-14",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "VS",
+      "title": "Witte Huis wil soepelere aansprakelijkheid bij AI-incidenten",
+      "summary": "Minder strenge regels moeten AI-bedrijven ertoe bewegen ernstige incidenten te melden. Dat advies kregen Amerikaanse overheidsdiensten van de AI-taskforce van president Trump.",
+      "source": "Bloomberg",
+      "url": "https://bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure"
+    },
+    {
+      "id": "rechtszaak-nonprofits",
+      "date": "2026-11-14",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Rechtszaak",
+      "title": "Non-profits slepen grote AI-labs voor de rechter",
+      "summary": "OpenAI, Anthropic, Google, Meta en SpaceX krijgen een rechtszaak te verwerken. De inzet: een stop op de ontwikkeling van de meest geavanceerde AI.",
+      "source": "note.com",
+      "url": "https://note.com/gifted_ixora801/n/n624f48273f80?hl=en"
+    },
+    {
+      "id": "openai-roboticateam",
+      "date": "2026-11-14",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI heft zijn roboticateam op",
+      "summary": "Een apart team voor robots is er niet meer. OpenAI wil robots voortaan laten draaien op zijn algemene modellen.",
+      "source": "note.com",
+      "url": "https://note.com/hirokimiyano/n/nfbe1c6a4d41a?hl=en"
+    },
+    {
+      "id": "crowdstrike-noodknop",
+      "date": "2026-11-14",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Agents",
+      "title": "CrowdStrike bouwt een noodknop voor ontspoorde AI-agents",
+      "summary": "Beveiligingsteams kunnen een draaiende agent stilleggen, van het netwerk afsluiten en een herstart blokkeren. CrowdStrike neemt ook Fiddler AI over, dat agentgedrag bewaakt; naar verluidt voor zo'n 400 miljoen dollar.",
+      "source": "AI Agent Store",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    },
+    {
+      "id": "united-ai-agents",
+      "date": "2026-11-14",
+      "order": 55,
+      "cat": "wereld",
+      "tag": "Agents",
+      "title": "United Airlines weert ongevraagde AI-agents",
+      "summary": "Persoonlijke assistenten zonder toestemming van de luchtvaartmaatschappij komen het boekings- en reserveringssysteem niet meer in.",
+      "source": "AI Agent Store",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    },
+    {
+      "id": "cloudflare-kitesurf",
+      "date": "2026-11-14",
+      "order": 50,
+      "cat": "wereld",
+      "tag": "Agents",
+      "title": "Cloudflare geeft agentbrowser Kitesurf vrij",
+      "summary": "Kitesurf is een browser speciaal voor AI-agents en is nu open source. Hij verwerkt pagina's, voert scripts uit en maakt schermafbeeldingen zonder een volledige Chrome-installatie.",
+      "source": "This is not Average",
+      "url": "https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-14"
+    },
+    {
+      "id": "langchain-300-miljoen",
+      "date": "2026-11-14",
+      "order": 45,
+      "cat": "wereld",
+      "tag": "Investering",
+      "title": "LangChain haalt 300 miljoen dollar op",
+      "summary": "Investeerders onder aanvoering van CapitalG waarderen de maker van ontwikkeltools voor AI-agents op 3 miljard dollar.",
+      "source": "AI Agent Store",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    },
+    {
+      "id": "adobe-assistenten",
+      "date": "2026-11-14",
+      "order": 40,
+      "cat": "wereld",
+      "tag": "Adobe",
+      "title": "Adobe laat AI meewerken in Photoshop en Premiere",
+      "summary": "In Photoshop, Illustrator en Premiere komen assistenten die niet alleen nieuw beeld maken, maar ook in je bestaande projecten sleutelen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht"
+    },
+    {
+      "id": "corewell-verpleegkundigen",
+      "date": "2026-11-14",
+      "order": 35,
+      "cat": "wereld",
+      "tag": "Zorg",
+      "title": "Meeluisterende AI halveert schrijfwerk van verpleegkundigen",
+      "summary": "Bij het Amerikaanse Corewell Health waren verpleegkundigen in een proef van 90 dagen 52 procent minder tijd kwijt aan verslaglegging. Ze spreken hun zorg in en controleren daarna het concept.",
+      "source": "Rio Rundown",
+      "url": "https://riorundown.substack.com/p/ai-news-nov-14-2026-local-ai-ecosystem"
+    },
+    {
+      "id": "llama-cpp-1-0",
+      "date": "2026-11-14",
+      "order": 30,
+      "cat": "wereld",
+      "tag": "Open source",
+      "title": "Lokale AI: llama.cpp bereikt versie 1.0",
+      "summary": "De populaire software om modellen op je eigen computer te draaien krijgt zijn eerste volwaardige versie. Tegelijk zijn de gewichten van het model Inkling 2 Small vrijgegeven.",
+      "source": "Rio Rundown",
+      "url": "https://riorundown.substack.com/p/ai-news-nov-14-2026-local-ai-ecosystem"
+    },
+    {
+      "id": "eu-ai-top-dublin",
+      "date": "2026-11-14",
+      "order": 25,
+      "cat": "nederland",
+      "tag": "Europa",
+      "title": "Europese AI-top in Dublin: wie betaalt de rekenkracht?",
+      "summary": "EU-leiders bespraken de financiering van Europese AI-rekenkracht. Premier Jetten was er niet bij; Luxemburg voerde het woord namens Nederland.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht"
+    },
+    {
+      "id": "nebius-datacenters",
+      "date": "2026-11-14",
+      "order": 20,
+      "cat": "nederland",
+      "tag": "Infrastructuur",
+      "title": "Amsterdams Nebius kampt met vertraagde datacenters",
+      "summary": "Het bedrijf steekt miljarden in AI-infrastructuur, maar merkt hoe lastig het is om genoeg rekenkracht op tijd beschikbaar te krijgen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/goedemorgen-ai-nieuwe-gemini-maar-wie-bouwt-de-rekenkracht"
+    },
+    {
+      "id": "aireport-2026-11-12",
+      "date": "2026-11-12",
+      "order": 10,
+      "cat": "aireport",
+      "tag": "Podcast",
+      "title": "Fable 5.2 maakt software overbodig, Wietse bouwde 17 apps in twee dagen",
+      "summary": "Koop je software straks nog, of bouw je die zelf? Verder: het vertrek van Jensen Huang en een Coolblue-bestelling die Alexander volledig aan Grokbot overliet. Jeroen verwacht dat grote organisaties een leverancier willen houden die ze kunnen bellen.",
+      "source": "AI Report",
+      "url": "https://podcasts.apple.com/nl/podcast/ai-report/id1692318247"
+    },
+    {
+      "id": "pom-s12e11",
+      "date": "2026-11-11",
+      "order": 10,
+      "cat": "pom",
+      "tag": "S12E11",
+      "title": "AI frituurt je brein. Ernst heeft de oplossing",
+      "summary": "Alexander klapt om drie uur zijn laptop dicht, omdat het aansturen van agents te veel energie vreet. Ernst-Jan zweert bij notitieboekjes en laat Claude zijn handschrift ontcijferen. Plus een weddenschap: redt simpele software het nog, nu Wietse in één avond Calendly, DocuSign en Slack nabouwde?",
+      "source": "POM",
+      "url": "https://www.pom.show/p/ai-frituurt-je-brein-ernst-heeft"
+    },
+    {
+      "id": "kabinet-ai-visie",
+      "date": "2026-11-09",
+      "order": 10,
+      "cat": "nederland",
+      "tag": "Politiek",
+      "title": "Kabinet wil voor AI niet leunen op één land of bedrijf",
+      "summary": "De visie 'Kiezen voor AI voor iedereen' zoekt naast EU-landen ook partners als Canada, Japan en Zuid-Korea. Extra geld staat er niet in. In december volgt een advies over een eigen AI-veiligheidsinstituut.",
+      "source": "DataNorth",
+      "url": "https://datanorth.ai/nl/nieuws/kabinetsvisie-ai-minder-afhankelijk"
+    },
+    {
+      "id": "aireport-2026-11-05",
+      "date": "2026-11-05",
+      "order": 10,
+      "cat": "aireport",
+      "tag": "Podcast",
+      "title": "Hoe AI de Amerikaanse verkiezingen veranderde + daten in San Francisco met ChatGPT",
+      "summary": "Over de rol van AI bij de Amerikaanse verkiezingen. Alexander zweert bij een skill die je groter laat denken over je project en Wietse bouwt de standaardapps van zijn Mac na in zijn eigen stijl.",
+      "source": "AI Report",
+      "url": "https://podcasts.apple.com/nl/podcast/ai-report/id1692318247"
+    },
+    {
+      "id": "pom-s12e09",
+      "date": "2026-10-28",
+      "order": 10,
+      "cat": "pom",
+      "tag": "S12E09",
+      "title": "Lachen op NPO Start",
+      "summary": "Op NPO Start kijken makers terug naar hun eigen programma's. Verder gaat het over het einde van Buzz en een gehackte Jack van Gelder.",
+      "source": "POM",
+      "url": "https://www.pom.show/archive"
+    }
+  ]
+}

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-bulletin</title>
+<meta name="description" content="Dagelijks AI-nieuws uit de wereld en Nederland, plus de nieuwste afleveringen van AI Report en POM.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141619" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AI-bulletin">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* Layout: one quiet reading column (max 640px), hairline separators,
+     a sticky row of text tabs. One typeface; a soft tint per rubriek. */
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #1d2124;
+  --muted: #6b7277;
+  --line: #e1e5ec;
+  --accent: #2f62b0;
+  --c-wereld: #2f62b0;
+  --c-nederland: #c25a12;
+  --c-aireport: #7646c2;
+  --c-pom: #c0336a;
+  --f-ui: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141619;
+    --surface: #1c1f23;
+    --ink: #e6e8e9;
+    --muted: #979ea3;
+    --line: #2a2e33;
+    --accent: #8fb0ec;
+    --c-wereld: #8fb0ec;
+    --c-nederland: #f0a066;
+    --c-aireport: #b99cf0;
+    --c-pom: #f08cb3;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141619;
+  --surface: #1c1f23;
+  --ink: #e6e8e9;
+  --muted: #979ea3;
+  --line: #2a2e33;
+  --accent: #8fb0ec;
+  --c-wereld: #8fb0ec;
+  --c-nederland: #f0a066;
+  --c-aireport: #b99cf0;
+  --c-pom: #f08cb3;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-ui);
+  font-size: 16px;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+a { color: inherit; }
+button { font: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { max-width: 640px; margin-inline: auto; padding-inline: 20px; }
+
+/* Header */
+.top { padding-block: 32px 18px; }
+.top .date { margin: 0; font-size: 14px; color: var(--muted); }
+.top h1 {
+  margin: 4px 0 0;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  line-height: 1.15;
+}
+.top h1 .ai { color: var(--accent); }
+.statusrow { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; margin-top: 6px; }
+.status { margin: 0; font-size: 14px; color: var(--muted); }
+.status .warn { color: var(--c-nederland); font-weight: 500; }
+.textbtn {
+  display: inline-flex; align-items: center; gap: 5px;
+  min-height: 32px; padding: 0;
+  border: 0; background: none; cursor: pointer;
+  color: var(--accent); font-size: 14px; font-weight: 500;
+}
+.textbtn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.textbtn[disabled] { color: var(--muted); cursor: default; }
+.textbtn[disabled] svg { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+[hidden] { display: none !important; }
+
+.tip {
+  display: flex; gap: 12px; align-items: flex-start;
+  margin-top: 16px; padding: 14px 16px;
+  border: 1px solid var(--line); border-radius: 12px;
+  background: var(--surface);
+  font-size: 14px; color: var(--muted);
+}
+.tip p { margin: 0; flex: 1; }
+.tip strong { color: var(--ink); font-weight: 600; }
+.tip .close { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 2px 4px; font-size: 18px; line-height: 1; }
+
+/* Sticky tabs + search */
+.rail {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.rail-inner { display: flex; flex-direction: column; gap: 12px; padding-block: 12px 0; }
+.search { position: relative; display: block; }
+.search svg {
+  position: absolute; left: 12px; top: 50%;
+  width: 16px; height: 16px; transform: translateY(-50%);
+  color: var(--muted); pointer-events: none;
+}
+.search input {
+  width: 100%; height: 40px; padding: 0 12px 0 36px;
+  border: 1px solid var(--line); border-radius: 10px;
+  background: var(--surface); color: var(--ink);
+  font-family: var(--f-ui); font-size: 16px;
+}
+.search input::placeholder { color: var(--muted); }
+
+.tabs {
+  display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none;
+  margin-inline: -20px; padding-inline: 20px;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  --cat: var(--ink);
+  flex: none;
+  display: inline-flex; align-items: baseline; gap: 6px;
+  padding: 8px 0 10px;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font-size: 15px; font-weight: 500;
+  text-decoration: none; white-space: nowrap;
+  transition: color .15s, border-color .15s;
+}
+.tab[data-cat="wereld"] { --cat: var(--c-wereld); }
+.tab[data-cat="nederland"] { --cat: var(--c-nederland); }
+.tab[data-cat="aireport"] { --cat: var(--c-aireport); }
+.tab[data-cat="pom"] { --cat: var(--c-pom); }
+.tab .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cat); align-self: center; }
+.tab .n { font-size: 13px; font-weight: 400; opacity: .8; }
+.tab:hover { color: var(--ink); }
+.tab[aria-current="true"] { color: var(--ink); border-bottom-color: var(--cat); }
+
+/* Feed */
+.feed { padding-block: 8px 48px; }
+.day {
+  margin: 32px 0 0;
+  font-size: 13px; font-weight: 500;
+  color: var(--muted);
+}
+.day span { font-weight: 400; }
+
+.item { --cat: var(--accent); padding-block: 20px; }
+.item[data-cat="wereld"] { --cat: var(--c-wereld); }
+.item[data-cat="nederland"] { --cat: var(--c-nederland); }
+.item[data-cat="aireport"] { --cat: var(--c-aireport); }
+.item[data-cat="pom"] { --cat: var(--c-pom); }
+.item + .item { border-top: 1px solid var(--line); }
+.item .meta { margin: 0; display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+.item .meta .cat { display: inline-flex; align-items: center; gap: 6px; color: var(--cat); font-weight: 600; }
+.item .meta .cat::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.item h2 {
+  margin: 4px 0 0;
+  font-size: 19px; font-weight: 600;
+  line-height: 1.3; letter-spacing: -.01em;
+  text-wrap: balance;
+}
+.item h2 a { text-decoration: none; }
+.item h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.item .summary { margin: 6px 0 0; color: var(--muted); max-width: 62ch; overflow-wrap: anywhere; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 20px; margin-top: 10px; }
+.read, .save {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 36px; padding: 0;
+  font-size: 14px; font-weight: 500;
+}
+.read { color: var(--cat); text-decoration: none; }
+.read:hover { text-decoration: underline; text-underline-offset: 3px; }
+.save {
+  border: 0; background: none; cursor: pointer;
+  color: var(--muted);
+  transition: color .15s;
+}
+.save svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.save:hover { color: var(--ink); }
+.save[aria-pressed="true"] { color: var(--cat); }
+.save[aria-pressed="true"] svg { fill: currentColor; }
+
+.notice { margin-top: 32px; padding: 20px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.notice h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.notice p { margin: 4px 0 0; color: var(--muted); }
+
+.skeleton { margin-top: 32px; display: flex; flex-direction: column; gap: 28px; }
+.skeleton div { display: flex; flex-direction: column; gap: 10px; }
+.skeleton i { display: block; height: 12px; border-radius: 6px; background: var(--line); }
+.skeleton i:nth-child(1) { width: 30%; }
+.skeleton i:nth-child(2) { width: 85%; height: 16px; }
+.skeleton i:nth-child(3) { width: 65%; }
+
+footer.wrap {
+  padding-block: 20px 40px;
+  border-top: 1px solid var(--line);
+  font-size: 13px; color: var(--muted);
+}
+footer.wrap p { margin: 0; max-width: 62ch; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <p class="date" id="today"></p>
+  <h1><span class="ai">AI</span>-bulletin</h1>
+  <div class="statusrow">
+    <p class="status" id="statusline" aria-live="polite">Nieuws laden</p>
+    <button class="textbtn" id="refresh" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"></path><path d="M20 4v7h-7"></path></svg>
+      <span>Vernieuwen</span>
+    </button>
+    <button class="textbtn" id="install" type="button" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>
+      <span>Installeer app</span>
+    </button>
+  </div>
+  <div class="tip" id="iostip" hidden>
+    <p><strong>Zet het bulletin op je beginscherm.</strong> Tik onderin Safari op het deelicoon en kies <strong>Zet op beginscherm</strong>. Dan opent het als app, ook zonder internet.</p>
+    <button class="close" id="iostip-close" type="button" aria-label="Tip sluiten">&times;</button>
+  </div>
+</header>
+
+<div class="rail">
+  <div class="wrap rail-inner">
+    <label class="search" for="q">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      <input id="q" type="search" placeholder="Zoeken" autocomplete="off" aria-label="Zoek in het nieuws">
+    </label>
+    <nav class="tabs" id="tabs" aria-label="Rubrieken"></nav>
+  </div>
+</div>
+
+<main class="wrap feed" id="feed"></main>
+
+<footer class="wrap">
+  <p>Elke ochtend samengesteld door Claude uit openbare bronnen, waaronder AI Report en POM. Samenvattingen in eigen woorden; tik door voor het origineel.</p>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var CATS = { wereld: "Wereld", nederland: "Nederland", aireport: "AI Report", pom: "POM" };
+  var VIEWS = [
+    { id: "alles", label: "Alles" },
+    { id: "wereld", label: "Wereld", cat: "wereld" },
+    { id: "nederland", label: "Nederland", cat: "nederland" },
+    { id: "ai-report", label: "AI Report", cat: "aireport" },
+    { id: "pom", label: "POM", cat: "pom" },
+    { id: "bewaard", label: "Bewaard" }
+  ];
+  var TZ = "Europe/Amsterdam";
+  var SAVED_KEY = "ai-bulletin-bewaard";
+  var TIP_KEY = "ai-bulletin-tip-gezien";
+  var REFRESH_AFTER = 15 * 60 * 1000;
+
+  var items = [];
+  var updatedAt = null;
+  var status = "loading"; // loading | ready | offline-empty
+  var offline = false;
+  var loading = false;
+  var lastLoad = 0;
+  var query = "";
+  var saved = new Set();
+
+  var feedEl = document.getElementById("feed");
+  var tabsEl = document.getElementById("tabs");
+  var statusEl = document.getElementById("statusline");
+  var qEl = document.getElementById("q");
+  var refreshBtn = document.getElementById("refresh");
+  var installBtn = document.getElementById("install");
+
+  try {
+    var raw = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
+    if (Array.isArray(raw)) saved = new Set(raw.filter(function (x) { return typeof x === "string"; }));
+  } catch (e) {}
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function svg(markup) {
+    var t = document.createElement("template");
+    t.innerHTML = markup;
+    return t.content.firstChild;
+  }
+  function str(v, max) { return typeof v === "string" ? v.slice(0, max) : ""; }
+  function safeUrl(v) { return typeof v === "string" && /^https:\/\/[^\s]+$/i.test(v) ? v : ""; }
+  function normalize(d, i) {
+    if (!d || typeof d !== "object") return null;
+    var title = str(d.title, 200);
+    var date = str(d.date, 10);
+    if (!title || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
+    return {
+      id: str(d.id, 120) || ("item-" + i),
+      title: title,
+      summary: str(d.summary, 600),
+      cat: Object.prototype.hasOwnProperty.call(CATS, d.cat) ? d.cat : "wereld",
+      source: str(d.source, 60),
+      tag: str(d.tag, 40),
+      url: safeUrl(d.url),
+      date: date,
+      order: typeof d.order === "number" ? d.order : 0
+    };
+  }
+  function sortItems(a, b) {
+    if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+    if (a.order !== b.order) return b.order - a.order;
+    return a.title < b.title ? -1 : 1;
+  }
+
+  function currentView() {
+    var h = (location.hash || "").replace(/^#/, "");
+    for (var i = 0; i < VIEWS.length; i++) if (VIEWS[i].id === h) return VIEWS[i];
+    return VIEWS[0];
+  }
+  function ymd(date) {
+    return new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+  }
+  function dayLabel(d) {
+    var today = ymd(new Date());
+    var yesterday = ymd(new Date(Date.now() - 864e5));
+    var p = d.split("-");
+    var noon = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12));
+    var long = new Intl.DateTimeFormat("nl-NL", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" }).format(noon);
+    if (d === today) return { lead: "Vandaag", rest: long };
+    if (d === yesterday) return { lead: "Gisteren", rest: long };
+    return { lead: long.charAt(0).toUpperCase() + long.slice(1), rest: "" };
+  }
+
+  function matches(it, view) {
+    if (view.cat && it.cat !== view.cat) return false;
+    if (view.id === "bewaard" && !saved.has(it.id)) return false;
+    if (query) {
+      var hay = (it.title + " " + it.summary + " " + it.source + " " + it.tag + " " + CATS[it.cat]).toLowerCase();
+      var words = query.toLowerCase().split(/\s+/);
+      for (var i = 0; i < words.length; i++) if (words[i] && hay.indexOf(words[i]) === -1) return false;
+    }
+    return true;
+  }
+
+  function renderTabs() {
+    var view = currentView();
+    tabsEl.textContent = "";
+    VIEWS.forEach(function (v) {
+      var a = el("a", "tab");
+      a.href = "#" + v.id;
+      if (v.cat) a.dataset.cat = v.cat;
+      if (v.id === view.id) a.setAttribute("aria-current", "true");
+      if (v.cat) a.appendChild(el("span", "dot"));
+      a.appendChild(el("span", null, v.label));
+      if (status === "ready") {
+        var n = v.id === "alles" ? items.length
+          : v.id === "bewaard" ? items.filter(function (it) { return saved.has(it.id); }).length
+          : items.filter(function (it) { return it.cat === v.cat; }).length;
+        a.appendChild(el("span", "n", String(n)));
+      }
+      tabsEl.appendChild(a);
+    });
+  }
+
+  function renderStatus() {
+    statusEl.textContent = "";
+    refreshBtn.disabled = loading;
+    refreshBtn.querySelector("span").textContent = loading ? "Bezig met vernieuwen" : "Vernieuwen";
+    if (status === "loading") { statusEl.textContent = "Nieuws laden"; return; }
+    if (status === "offline-empty") { statusEl.appendChild(el("span", "warn", "Geen verbinding")); return; }
+    var parts = [items.length + (items.length === 1 ? " bericht" : " berichten")];
+    var at = updatedAt ? new Date(updatedAt) : null;
+    if (at && !isNaN(at)) {
+      parts.push("bijgewerkt " + new Intl.DateTimeFormat("nl-NL", { timeZone: TZ, weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(at));
+    }
+    statusEl.appendChild(document.createTextNode(parts.join(" · ")));
+    if (offline) {
+      statusEl.appendChild(document.createTextNode(" · "));
+      statusEl.appendChild(el("span", "warn", "offline"));
+    }
+  }
+
+  function notice(title, body) {
+    var box = el("section", "notice");
+    box.appendChild(el("h2", null, title));
+    box.appendChild(el("p", null, body));
+    return box;
+  }
+
+  function renderItem(it) {
+    var art = el("article", "item");
+    art.dataset.cat = it.cat;
+
+    var m = el("p", "meta");
+    m.appendChild(el("span", "cat", CATS[it.cat]));
+    if (it.tag) m.appendChild(el("span", null, "· " + it.tag));
+    art.appendChild(m);
+
+    var h = el("h2");
+    if (it.url) {
+      var ha = el("a", null, it.title);
+      ha.href = it.url; ha.target = "_blank"; ha.rel = "noopener noreferrer";
+      h.appendChild(ha);
+    } else {
+      h.textContent = it.title;
+    }
+    art.appendChild(h);
+    if (it.summary) art.appendChild(el("p", "summary", it.summary));
+
+    var act = el("div", "actions");
+    if (it.url) {
+      var a = el("a", "read");
+      a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      var verb = it.cat === "aireport" || it.cat === "pom" ? "Luister bij " : "Lees bij ";
+      a.textContent = verb + (it.source || "de bron") + " ↗";
+      act.appendChild(a);
+    }
+    var on = saved.has(it.id);
+    var b = el("button", "save");
+    b.type = "button";
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.appendChild(svg('<svg viewBox="0 0 24 24" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 4h11v16.5L12 16.5l-5.5 4z"></path></svg>'));
+    b.appendChild(el("span", null, on ? "Bewaard" : "Bewaar"));
+    b.addEventListener("click", function () { toggleSaved(it.id); });
+    act.appendChild(b);
+    art.appendChild(act);
+    return art;
+  }
+
+  function renderFeed() {
+    var view = currentView();
+    feedEl.textContent = "";
+
+    if (status === "loading") {
+      var sk = el("div", "skeleton");
+      sk.setAttribute("aria-hidden", "true");
+      for (var i = 0; i < 4; i++) {
+        var row = el("div");
+        row.appendChild(el("i")); row.appendChild(el("i")); row.appendChild(el("i"));
+        sk.appendChild(row);
+      }
+      feedEl.appendChild(sk);
+      return;
+    }
+    if (status === "offline-empty") {
+      feedEl.appendChild(notice("Het nieuws is nu niet bereikbaar", "Er is geen internetverbinding en er staat nog geen eerder nieuws op dit apparaat. Probeer het opnieuw zodra je weer online bent."));
+      return;
+    }
+    if (!items.length) {
+      feedEl.appendChild(notice("Nog geen berichten", "Het bulletin wordt elke ochtend gevuld. Kom straks terug."));
+      return;
+    }
+
+    var list = items.filter(function (it) { return matches(it, view); });
+    if (!list.length) {
+      if (view.id === "bewaard" && !query) {
+        feedEl.appendChild(notice("Je hebt nog niets bewaard", "Tik bij een bericht op Bewaar om het hier terug te vinden."));
+      } else {
+        feedEl.appendChild(notice("Niets gevonden", query ? "Geen bericht bevat “" + query + "”. Probeer een ander woord of kies een andere rubriek." : "In deze rubriek staat nog geen nieuws."));
+      }
+      return;
+    }
+
+    var lastDay = "";
+    var group = null;
+    list.forEach(function (it) {
+      if (it.date !== lastDay) {
+        lastDay = it.date;
+        var lab = dayLabel(it.date);
+        var d = el("h3", "day", lab.lead);
+        if (lab.rest) d.appendChild(el("span", null, " · " + lab.rest));
+        feedEl.appendChild(d);
+        group = el("section");
+        feedEl.appendChild(group);
+      }
+      group.appendChild(renderItem(it));
+    });
+  }
+
+  function render() {
+    renderTabs();
+    renderStatus();
+    renderFeed();
+  }
+
+  function toggleSaved(id) {
+    if (saved.has(id)) saved.delete(id); else saved.add(id);
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify(Array.from(saved))); } catch (e) {}
+    render();
+  }
+
+  function setToday() {
+    var t = new Intl.DateTimeFormat("nl-NL", { timeZone: TZ, weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(new Date());
+    document.getElementById("today").textContent = t.charAt(0).toUpperCase() + t.slice(1);
+  }
+
+  async function load() {
+    if (loading) return;
+    loading = true;
+    renderStatus();
+    try {
+      var res = await fetch("news.json?t=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      var data = await res.json();
+      var list = Array.isArray(data && data.items) ? data.items : [];
+      items = list.map(normalize).filter(Boolean).sort(sortItems);
+      updatedAt = data && typeof data.updatedAt === "string" ? data.updatedAt : null;
+      offline = res.headers.get("X-From-Cache") === "1" || !navigator.onLine;
+      status = "ready";
+      lastLoad = Date.now();
+    } catch (e) {
+      if (status !== "ready") status = "offline-empty";
+      offline = true;
+    }
+    loading = false;
+    setToday();
+    render();
+  }
+
+  qEl.addEventListener("input", function () {
+    query = qEl.value.trim();
+    renderFeed();
+  });
+  window.addEventListener("hashchange", function () {
+    render();
+    window.scrollTo(0, 0);
+  });
+  refreshBtn.addEventListener("click", load);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible" && Date.now() - lastLoad > REFRESH_AFTER) load();
+  });
+  window.addEventListener("online", load);
+
+  /* Install: Android/desktop Chrome prompt, iOS tip */
+  var deferredPrompt = null;
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault();
+    deferredPrompt = e;
+    installBtn.hidden = false;
+  });
+  installBtn.addEventListener("click", async function () {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    try { await deferredPrompt.userChoice; } catch (e) {}
+    deferredPrompt = null;
+    installBtn.hidden = true;
+  });
+  window.addEventListener("appinstalled", function () { installBtn.hidden = true; });
+
+  var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  var standalone = window.navigator.standalone === true || window.matchMedia("(display-mode: standalone)").matches;
+  var tipSeen = false;
+  try { tipSeen = localStorage.getItem(TIP_KEY) === "1"; } catch (e) {}
+  if (isIOS && !standalone && !tipSeen) document.getElementById("iostip").hidden = false;
+  document.getElementById("iostip-close").addEventListener("click", function () {
+    document.getElementById("iostip").hidden = true;
+    try { localStorage.setItem(TIP_KEY, "1"); } catch (e) {}
+  });
+
+  /* Service worker: offline support; reload once when a new version takes over */
+  if ("serviceWorker" in navigator) {
+    var hadController = !!navigator.serviceWorker.controller;
+    var reloaded = false;
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (hadController && !reloaded) { reloaded = true; location.reload(); }
+    });
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").catch(function () {});
+    });
+  }
+
+  setToday();
+  render();
+  load();
+})();
+</script>
+</body>
+</html>
