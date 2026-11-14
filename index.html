@@ -285,16 +285,16 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       </button>
       <button class="textbtn label" id="install" type="button" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>
-        <span>Installeer</span>
+        <span>Installeer app</span>
       </button>
     </div>
   </div>
   <label class="search" for="q">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
-    <input id="q" type="search" placeholder="Zoek in het bulletin" autocomplete="off" aria-label="Zoek in het nieuws">
+    <input id="q" type="search" placeholder="Zoek in het bulletin" autocomplete="off" aria-label="Zoek in het bulletin">
   </label>
   <div class="tip" id="iostip" hidden>
-    <p><strong>Zet het bulletin op je beginscherm.</strong> Tik onderin Safari op het deelicoon en kies <strong>Zet op beginscherm</strong>. Dan opent het als app, ook zonder internet.</p>
+    <p><strong>Zet het bulletin op je beginscherm.</strong> Tik in Safari op het deelicoon (vierkant met pijl omhoog) en kies <strong>Zet op beginscherm</strong>. Het bulletin opent dan als app en werkt ook zonder internet.</p>
     <button class="close" id="iostip-close" type="button" aria-label="Tip sluiten">&times;</button>
   </div>
 </div>
@@ -303,7 +303,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <footer class="wrap">
-  <p>Elke ochtend samengesteld door Claude uit openbare bronnen, waaronder AI Report en POM. Samenvattingen in eigen woorden; tik door voor het origineel.</p>
+  <p>Claude stelt dit bulletin elke ochtend samen uit openbare bronnen, waaronder AI Report en POM. De teksten zijn in eigen woorden; tik door voor het origineel.</p>
 </footer>
 
 <script>
@@ -571,7 +571,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       front.slice(5).forEach(function (it) { feedEl.appendChild(renderRow(it)); });
     }
     if (nl.length) {
-      feedEl.appendChild(sectionHead("Binnenland"));
+      feedEl.appendChild(sectionHead("Nederland"));
       nl.forEach(function (it) { feedEl.appendChild(renderRow(it, { date: true })); });
     }
     if (pods.length) {
@@ -620,7 +620,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   function renderStatus() {
     statusEl.textContent = "";
     refreshBtn.disabled = loading;
-    refreshBtn.querySelector("span").textContent = loading ? "Bezig" : "Vernieuwen";
+    refreshBtn.querySelector("span").textContent = loading ? "Ophalen…" : "Vernieuwen";
     if (status === "loading") { statusEl.textContent = "Nieuws laden"; return; }
     if (status === "offline-empty") { statusEl.appendChild(el("span", "warn", "Geen verbinding")); return; }
     var parts = [items.length + (items.length === 1 ? " bericht" : " berichten")];
@@ -696,18 +696,18 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       return;
     }
     if (status === "offline-empty") {
-      feedEl.appendChild(notice("Het nieuws is nu niet bereikbaar", "Er is geen internetverbinding en er staat nog geen eerder nieuws op dit apparaat. Probeer het opnieuw zodra je weer online bent."));
+      feedEl.appendChild(notice("Geen verbinding", "Je hebt geen internet en er staat nog geen nieuws op dit apparaat. Maak verbinding en tik op Vernieuwen."));
       return;
     }
     if (!items.length) {
-      feedEl.appendChild(notice("Nog geen berichten", "Het bulletin wordt elke ochtend gevuld. Kom straks terug."));
+      feedEl.appendChild(notice("Nog geen berichten", "Elke ochtend rond 06:47 verschijnt hier vers nieuws."));
       return;
     }
 
     var list = items.filter(function (it) { return matches(it, view); });
     if (!list.length) {
       if (view.id === "nieuw" && !query) {
-        feedEl.appendChild(notice("Je bent bij", "Er is geen nieuw nieuws sinds je vorige bezoek. Morgenochtend staat er weer vers nieuws klaar."));
+        feedEl.appendChild(notice("Je bent bij", "Er zijn geen nieuwe berichten sinds je vorige bezoek. Morgen rond 06:47 verschijnt er vers nieuws."));
       } else if (view.id === "bewaard" && !query) {
         feedEl.appendChild(notice("Je hebt nog niets bewaard", "Tik bij een bericht op Bewaar om het hier terug te vinden."));
       } else {
@@ -785,7 +785,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     } else if (hadData && added > 0) {
       toast(added === 1 ? "1 nieuw bericht opgehaald" : added + " nieuwe berichten opgehaald");
     } else if (manual && hadData && updatedAt !== prevUpdated) {
-      toast("Nieuws bijgewerkt");
+      toast("Berichten bijgewerkt");
     } else if (manual) {
       toast("Je bent bij. Vers nieuws komt " + nextUpdateText() + ".");
     }
