@@ -104,7 +104,7 @@ button { font: inherit; }
   color: var(--ink); text-decoration: none; white-space: nowrap;
 }
 .nav a .n { color: var(--muted); font-weight: 500; margin-left: 4px; }
-.nav a[aria-current="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.nav a[aria-current="true"] { color: var(--accent); }
 
 /* Status + search */
 .tools { display: flex; flex-direction: column; gap: 10px; padding-block: 12px 4px; }
@@ -156,6 +156,7 @@ button { font: inherit; }
   color: var(--ink); text-decoration: none;
 }
 .read:hover { color: var(--accent); }
+.read svg { width: 10px; height: 10px; margin-left: 5px; flex: none; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
 .save {
   display: inline-flex; align-items: center; gap: 5px; min-height: 34px; padding: 0;
   border: 0; background: none; cursor: pointer;
@@ -403,7 +404,8 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     if (it.url) {
       var a = el("a", "read");
       a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.textContent = compact ? (it.source || "Bron") + " ↗" : (isPod(it) ? "Luister bij " : "Lees bij ") + (it.source || "de bron") + " ↗";
+      a.appendChild(document.createTextNode(compact ? (it.source || "Bron") : (isPod(it) ? "Luister bij " : "Lees bij ") + (it.source || "de bron")));
+      a.appendChild(svg('<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9L9 3M4.5 3H9v4.5"></path></svg>'));
       act.appendChild(a);
     }
     var on = saved.has(it.id);
