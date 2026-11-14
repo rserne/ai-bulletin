@@ -707,7 +707,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     var list = items.filter(function (it) { return matches(it, view); });
     if (!list.length) {
       if (view.id === "nieuw" && !query) {
-        feedEl.appendChild(notice("Je bent bij", "Er zijn geen nieuwe berichten sinds je vorige bezoek. Morgen rond 06:47 verschijnt er vers nieuws."));
+        feedEl.appendChild(notice("Geen nieuwe berichten", "Sinds je vorige bezoek is er niets bijgekomen. Morgen rond 06:47 verschijnt er vers nieuws."));
       } else if (view.id === "bewaard" && !query) {
         feedEl.appendChild(notice("Je hebt nog niets bewaard", "Tik bij een bericht op Bewaar om het hier terug te vinden."));
       } else {
@@ -787,7 +787,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     } else if (manual && hadData && updatedAt !== prevUpdated) {
       toast("Berichten bijgewerkt");
     } else if (manual) {
-      toast("Je bent bij. Vers nieuws komt " + nextUpdateText() + ".");
+      toast("Geen nieuwe berichten. Vers nieuws komt " + nextUpdateText() + ".");
     }
     setToday();
     render();
