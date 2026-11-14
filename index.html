@@ -146,6 +146,7 @@ button { font: inherit; }
 /* Feed */
 .feed { padding-block: 8px 48px; }
 .kicker { color: var(--accent); }
+.badge { display: inline-block; margin-right: 8px; padding: 1px 6px 0; background: var(--accent); color: var(--paper); letter-spacing: .1em; }
 .kicker .date { color: var(--muted); }
 .meta-src { font-family: var(--f-label); font-size: 12.5px; font-weight: 500; color: var(--muted); }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 18px; margin-top: 8px; }
@@ -298,6 +299,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   var CATS = { wereld: "Wereld", nederland: "Nederland", aireport: "AI Report", pom: "POM" };
   var VIEWS = [
     { id: "alles", label: "Voorpagina" },
+    { id: "nieuw", label: "Nieuw" },
     { id: "wereld", label: "Wereld", cat: "wereld" },
     { id: "nederland", label: "Nederland", cat: "nederland" },
     { id: "ai-report", label: "AI Report", cat: "aireport" },
@@ -307,6 +309,8 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   var TZ = "Europe/Amsterdam";
   var SAVED_KEY = "ai-bulletin-bewaard";
   var TIP_KEY = "ai-bulletin-tip-gezien";
+  var SEEN_KEY = "ai-bulletin-gezien";
+  var NEW_KEY = "ai-bulletin-nieuw";
   var REFRESH_AFTER = 15 * 60 * 1000;
 
   var items = [];
@@ -317,6 +321,28 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   var lastLoad = 0;
   var query = "";
   var saved = new Set();
+  var newIds = new Set();
+  try {
+    var rawNew = JSON.parse(sessionStorage.getItem(NEW_KEY) || "[]");
+    if (Array.isArray(rawNew)) newIds = new Set(rawNew.filter(function (x) { return typeof x === "string"; }));
+  } catch (e) {}
+  function storeNew() {
+    try { sessionStorage.setItem(NEW_KEY, JSON.stringify(Array.from(newIds))); } catch (e) {}
+  }
+  /* Everything not seen on an earlier visit counts as new for this visit. */
+  function markNew() {
+    var current = new Set(items.map(function (it) { return it.id; }));
+    var seenRaw = null;
+    try { seenRaw = localStorage.getItem(SEEN_KEY); } catch (e) {}
+    if (seenRaw !== null) {
+      var seen = new Set();
+      try { var arr = JSON.parse(seenRaw); if (Array.isArray(arr)) seen = new Set(arr); } catch (e) {}
+      items.forEach(function (it) { if (!seen.has(it.id)) newIds.add(it.id); });
+    }
+    newIds.forEach(function (id) { if (!current.has(id)) newIds.delete(id); });
+    try { localStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(current))); } catch (e) {}
+    storeNew();
+  }
 
   var feedEl = document.getElementById("feed");
   var navEl = document.getElementById("nav");
@@ -403,6 +429,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   function matches(it, view) {
     if (view.cat && it.cat !== view.cat) return false;
     if (view.id === "bewaard" && !saved.has(it.id)) return false;
+    if (view.id === "nieuw" && !newIds.has(it.id)) return false;
     if (query) {
       var hay = (it.title + " " + it.summary + " " + it.source + " " + it.tag + " " + CATS[it.cat]).toLowerCase();
       var words = query.toLowerCase().split(/\s+/);
@@ -414,10 +441,11 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   /* ---------- pieces ---------- */
   function kicker(it, opts) {
     var k = el("span", "label kicker");
+    if (newIds.has(it.id) && !(opts && opts.noBadge)) k.appendChild(el("span", "badge", "Nieuw"));
     var parts = [];
     if (opts && opts.cat) parts.push(CATS[it.cat]);
     if (it.tag) parts.push(it.tag);
-    k.textContent = parts.join(" · ") || CATS[it.cat];
+    k.appendChild(document.createTextNode(parts.join(" · ") || CATS[it.cat]));
     if (opts && opts.date) {
       k.appendChild(el("span", "date", " · " + dayShort(it.date)));
     }
@@ -485,6 +513,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
   function renderPod(it) {
     var art = el("article", "pod");
     var side = el("div", "label side");
+    if (newIds.has(it.id)) { var nb = el("span", "badge", "Nieuw"); nb.style.marginBottom = "4px"; side.appendChild(nb); }
     side.appendChild(el("b", null, CATS[it.cat]));
     side.appendChild(document.createTextNode(dayShort(it.date)));
     art.appendChild(side);
@@ -560,6 +589,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     var view = currentView();
     navEl.textContent = "";
     VIEWS.forEach(function (v) {
+      if (v.id === "nieuw" && !newIds.size && view.id !== "nieuw") return;
       var a = el("a", "label");
       a.href = "#" + v.id;
       if (v.id === view.id) a.setAttribute("aria-current", "true");
@@ -568,6 +598,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
         var n = items.filter(function (it) { return saved.has(it.id); }).length;
         if (n) a.appendChild(el("span", "n", String(n)));
       }
+      if (v.id === "nieuw" && newIds.size) a.appendChild(el("span", "n", String(newIds.size)));
       navEl.appendChild(a);
     });
   }
@@ -584,6 +615,10 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       parts.push("bijgewerkt " + new Intl.DateTimeFormat("nl-NL", { timeZone: TZ, weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(at));
     }
     statusEl.appendChild(document.createTextNode(parts.join(" · ")));
+    if (newIds.size) {
+      statusEl.appendChild(document.createTextNode(" · "));
+      statusEl.appendChild(el("span", "warn", newIds.size + " nieuw"));
+    }
     if (offline) {
       statusEl.appendChild(document.createTextNode(" · "));
       statusEl.appendChild(el("span", "warn", "offline"));
@@ -605,8 +640,9 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       feedEl.appendChild(notice("Bericht niet gevonden", "Dit bericht staat niet meer in het bulletin. Oudere berichten verdwijnen na twee weken."));
       return;
     }
+    if (newIds.delete(it.id)) storeNew();
     var art = el("article", "story");
-    art.appendChild(kicker(it, { cat: true }));
+    art.appendChild(kicker(it, { cat: true, noBadge: true }));
     var h = el("h1", null, it.title);
     art.appendChild(h);
     if (it.summary) art.appendChild(el("p", "standfirst", it.summary));
@@ -656,7 +692,9 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
 
     var list = items.filter(function (it) { return matches(it, view); });
     if (!list.length) {
-      if (view.id === "bewaard" && !query) {
+      if (view.id === "nieuw" && !query) {
+        feedEl.appendChild(notice("Je bent bij", "Er is geen nieuw nieuws sinds je vorige bezoek. Morgenochtend staat er weer vers nieuws klaar."));
+      } else if (view.id === "bewaard" && !query) {
         feedEl.appendChild(notice("Je hebt nog niets bewaard", "Tik bij een bericht op Bewaar om het hier terug te vinden."));
       } else {
         feedEl.appendChild(notice("Niets gevonden", query ? "Geen bericht bevat “" + query + "”. Probeer een ander woord of kies een andere rubriek." : "In deze rubriek staat nog geen nieuws."));
@@ -665,7 +703,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
     }
 
     if (view.id === "alles" && !query) renderFront(list);
-    else renderList(list, view.id === "alles" || view.id === "bewaard");
+    else renderList(list, view.id === "alles" || view.id === "bewaard" || view.id === "nieuw");
   }
 
   function render() {
@@ -699,6 +737,7 @@ footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--mut
       offline = res.headers.get("X-From-Cache") === "1" || !navigator.onLine;
       status = "ready";
       lastLoad = Date.now();
+      markNew();
     } catch (e) {
       if (status !== "ready") status = "offline-empty";
       offline = true;
