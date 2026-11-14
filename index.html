@@ -6,8 +6,8 @@
 <title>AI-bulletin</title>
 <meta name="description" content="Dagelijks AI-nieuws uit de wereld en Nederland, plus de nieuwste afleveringen van AI Report en POM.">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141619" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,50 +16,43 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans+Condensed:wght@500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  /* Layout: one quiet reading column (max 640px), hairline separators,
-     a sticky row of text tabs. One typeface; a soft tint per rubriek. */
-  --bg: #f4f6f9;
-  --surface: #ffffff;
-  --ink: #1d2124;
-  --muted: #6b7277;
-  --line: #e1e5ec;
-  --accent: #2f62b0;
-  --c-wereld: #2f62b0;
-  --c-nederland: #c25a12;
-  --c-aireport: #7646c2;
-  --c-pom: #c0336a;
-  --f-ui: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* Layout: a newspaper front page in one 640px column. Centred masthead with
+     a double rule, condensed small-caps kickers in one red, serif heads.
+     Alles: lead story, two-column briefs, then Binnenland, podcasts, Eerder. */
+  --paper: #ffffff;
+  --ink: #141414;
+  --body: #333333;
+  --muted: #5b5b5b;
+  --hair: #d9d9d9;
+  --accent: #a3122b;
+  --tint: #f5f5f3;
+  --f-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --f-label: "IBM Plex Sans Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #141619;
-    --surface: #1c1f23;
-    --ink: #e6e8e9;
-    --muted: #979ea3;
-    --line: #2a2e33;
-    --accent: #8fb0ec;
-    --c-wereld: #8fb0ec;
-    --c-nederland: #f0a066;
-    --c-aireport: #b99cf0;
-    --c-pom: #f08cb3;
+    --paper: #121212;
+    --ink: #ededed;
+    --body: #cfcfcf;
+    --muted: #a0a0a0;
+    --hair: #333333;
+    --accent: #ff7b8c;
+    --tint: #1c1c1c;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #141619;
-  --surface: #1c1f23;
-  --ink: #e6e8e9;
-  --muted: #979ea3;
-  --line: #2a2e33;
-  --accent: #8fb0ec;
-  --c-wereld: #8fb0ec;
-  --c-nederland: #f0a066;
-  --c-aireport: #b99cf0;
-  --c-pom: #f08cb3;
+  --paper: #121212;
+  --ink: #ededed;
+  --body: #cfcfcf;
+  --muted: #a0a0a0;
+  --hair: #333333;
+  --accent: #ff7b8c;
+  --tint: #1c1c1c;
   color-scheme: dark;
 }
 
@@ -67,166 +60,161 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--paper);
   color: var(--ink);
-  font-family: var(--f-ui);
-  font-size: 16px;
-  line-height: 1.55;
-  font-variant-numeric: tabular-nums;
+  font-family: var(--f-serif);
+  font-size: 17px;
+  line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
 a { color: inherit; }
 button { font: inherit; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+[hidden] { display: none !important; }
 
 .wrap { max-width: 640px; margin-inline: auto; padding-inline: 20px; }
-
-/* Header */
-.top { padding-block: 32px 18px; }
-.top .date { margin: 0; font-size: 14px; color: var(--muted); }
-.top h1 {
-  margin: 4px 0 0;
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: -.02em;
-  line-height: 1.15;
+.label {
+  font-family: var(--f-label);
+  font-size: 12px; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase;
 }
-.top h1 .ai { color: var(--accent); }
-.statusrow { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; margin-top: 6px; }
-.status { margin: 0; font-size: 14px; color: var(--muted); }
-.status .warn { color: var(--c-nederland); font-weight: 500; }
+
+/* Masthead */
+.mast { padding-block: 24px 0; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.mast .date { color: var(--muted); letter-spacing: .14em; font-size: 11px; }
+.mast h1 {
+  margin: 0;
+  font-size: clamp(42px, 13vw, 60px);
+  font-weight: 700; letter-spacing: -.02em; line-height: 1;
+}
+.double { align-self: stretch; height: 5px; margin-top: 8px; border-top: 3px solid var(--ink); border-bottom: 1px solid var(--ink); }
+
+/* Section nav (sticky) */
+.navbar { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--ink); }
+.nav {
+  display: flex; gap: 20px; overflow-x: auto; scrollbar-width: none;
+  margin-inline: -20px; padding-inline: 20px;
+}
+.nav::-webkit-scrollbar { display: none; }
+.nav a {
+  flex: none;
+  padding: 11px 0 9px;
+  border-bottom: 2px solid transparent;
+  color: var(--ink); text-decoration: none; white-space: nowrap;
+}
+.nav a .n { color: var(--muted); font-weight: 500; margin-left: 4px; }
+.nav a[aria-current="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Status + search */
+.tools { display: flex; flex-direction: column; gap: 10px; padding-block: 12px 4px; }
+.statusrow { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 14px; }
+.status { margin: 0; font-family: var(--f-label); font-size: 12.5px; font-weight: 500; color: var(--muted); }
+.status .warn { color: var(--accent); font-weight: 600; }
+.btns { display: flex; gap: 16px; }
 .textbtn {
   display: inline-flex; align-items: center; gap: 5px;
   min-height: 32px; padding: 0;
   border: 0; background: none; cursor: pointer;
-  color: var(--accent); font-size: 14px; font-weight: 500;
+  color: var(--ink);
 }
-.textbtn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.textbtn svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 .textbtn[disabled] { color: var(--muted); cursor: default; }
 .textbtn[disabled] svg { animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
-[hidden] { display: none !important; }
+.search { position: relative; display: block; }
+.search svg { position: absolute; left: 0; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search input {
+  width: 100%; height: 40px; padding: 0 0 0 26px;
+  border: 0; border-bottom: 1px solid var(--hair); border-radius: 0;
+  background: transparent; color: var(--ink);
+  font-family: var(--f-serif); font-style: italic; font-size: 17px;
+}
+.search input::placeholder { color: var(--muted); }
+.search input:focus { outline: none; border-bottom-color: var(--ink); }
 
 .tip {
   display: flex; gap: 12px; align-items: flex-start;
-  margin-top: 16px; padding: 14px 16px;
-  border: 1px solid var(--line); border-radius: 12px;
-  background: var(--surface);
-  font-size: 14px; color: var(--muted);
+  margin-top: 4px; padding: 12px 14px;
+  border: 1px solid var(--ink);
+  font-size: 15px; color: var(--body);
 }
 .tip p { margin: 0; flex: 1; }
-.tip strong { color: var(--ink); font-weight: 600; }
-.tip .close { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 2px 4px; font-size: 18px; line-height: 1; }
-
-/* Sticky tabs + search */
-.rail {
-  position: sticky; top: 0; z-index: 5;
-  background: var(--bg);
-  border-bottom: 1px solid var(--line);
-}
-.rail-inner { display: flex; flex-direction: column; gap: 12px; padding-block: 12px 0; }
-.search { position: relative; display: block; }
-.search svg {
-  position: absolute; left: 12px; top: 50%;
-  width: 16px; height: 16px; transform: translateY(-50%);
-  color: var(--muted); pointer-events: none;
-}
-.search input {
-  width: 100%; height: 40px; padding: 0 12px 0 36px;
-  border: 1px solid var(--line); border-radius: 10px;
-  background: var(--surface); color: var(--ink);
-  font-family: var(--f-ui); font-size: 16px;
-}
-.search input::placeholder { color: var(--muted); }
-
-.tabs {
-  display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none;
-  margin-inline: -20px; padding-inline: 20px;
-}
-.tabs::-webkit-scrollbar { display: none; }
-.tab {
-  --cat: var(--ink);
-  flex: none;
-  display: inline-flex; align-items: baseline; gap: 6px;
-  padding: 8px 0 10px;
-  border-bottom: 2px solid transparent;
-  color: var(--muted);
-  font-size: 15px; font-weight: 500;
-  text-decoration: none; white-space: nowrap;
-  transition: color .15s, border-color .15s;
-}
-.tab[data-cat="wereld"] { --cat: var(--c-wereld); }
-.tab[data-cat="nederland"] { --cat: var(--c-nederland); }
-.tab[data-cat="aireport"] { --cat: var(--c-aireport); }
-.tab[data-cat="pom"] { --cat: var(--c-pom); }
-.tab .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cat); align-self: center; }
-.tab .n { font-size: 13px; font-weight: 400; opacity: .8; }
-.tab:hover { color: var(--ink); }
-.tab[aria-current="true"] { color: var(--ink); border-bottom-color: var(--cat); }
+.tip strong { color: var(--ink); }
+.tip .close { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 0 2px; font-size: 20px; line-height: 1; }
 
 /* Feed */
 .feed { padding-block: 8px 48px; }
-.day {
-  margin: 32px 0 0;
-  font-size: 13px; font-weight: 500;
-  color: var(--muted);
+.kicker { color: var(--accent); }
+.kicker .date { color: var(--muted); }
+.meta-src { font-family: var(--f-label); font-size: 12.5px; font-weight: 500; color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 18px; margin-top: 8px; }
+.read {
+  display: inline-flex; align-items: center; min-height: 34px;
+  font-family: var(--f-label); font-size: 12.5px; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none;
 }
-.day span { font-weight: 400; }
-
-.item { --cat: var(--accent); padding-block: 20px; }
-.item[data-cat="wereld"] { --cat: var(--c-wereld); }
-.item[data-cat="nederland"] { --cat: var(--c-nederland); }
-.item[data-cat="aireport"] { --cat: var(--c-aireport); }
-.item[data-cat="pom"] { --cat: var(--c-pom); }
-.item + .item { border-top: 1px solid var(--line); }
-.item .meta { margin: 0; display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
-.item .meta .cat { display: inline-flex; align-items: center; gap: 6px; color: var(--cat); font-weight: 600; }
-.item .meta .cat::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-.item h2 {
-  margin: 4px 0 0;
-  font-size: 19px; font-weight: 600;
-  line-height: 1.3; letter-spacing: -.01em;
-  text-wrap: balance;
-}
-.item h2 a { text-decoration: none; }
-.item h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-.item .summary { margin: 6px 0 0; color: var(--muted); max-width: 62ch; overflow-wrap: anywhere; }
-.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 20px; margin-top: 10px; }
-.read, .save {
-  display: inline-flex; align-items: center; gap: 6px;
-  min-height: 36px; padding: 0;
-  font-size: 14px; font-weight: 500;
-}
-.read { color: var(--cat); text-decoration: none; }
-.read:hover { text-decoration: underline; text-underline-offset: 3px; }
+.read:hover { color: var(--accent); }
 .save {
+  display: inline-flex; align-items: center; gap: 5px; min-height: 34px; padding: 0;
   border: 0; background: none; cursor: pointer;
+  font-family: var(--f-label); font-size: 12.5px; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase;
   color: var(--muted);
-  transition: color .15s;
 }
-.save svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.save svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
 .save:hover { color: var(--ink); }
-.save[aria-pressed="true"] { color: var(--cat); }
+.save[aria-pressed="true"] { color: var(--accent); }
 .save[aria-pressed="true"] svg { fill: currentColor; }
+.save.icon-only span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-.notice { margin-top: 32px; padding: 20px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
-.notice h2 { margin: 0; font-size: 16px; font-weight: 600; }
-.notice p { margin: 4px 0 0; color: var(--muted); }
+.lead { padding-block: 20px 22px; border-bottom: 1px solid var(--ink); }
+.lead h2 { margin: 6px 0 0; font-size: clamp(30px, 8.4vw, 40px); font-weight: 700; line-height: 1.07; letter-spacing: -.015em; text-wrap: balance; }
+.lead h2 a, .brief h3 a, .row h3 a, .pod h3 a { text-decoration: none; }
+.lead h2 a:hover, .brief h3 a:hover, .row h3 a:hover, .pod h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.lead .standfirst { margin: 10px 0 0; font-style: italic; font-weight: 500; font-size: 18.5px; line-height: 1.4; color: var(--body); max-width: 60ch; }
+.lead .meta-src { margin-top: 10px; display: block; }
 
-.skeleton { margin-top: 32px; display: flex; flex-direction: column; gap: 28px; }
+.briefs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding-block: 18px; border-bottom: 1px solid var(--ink); row-gap: 18px; }
+.brief { display: flex; flex-direction: column; min-width: 0; padding-right: 14px; }
+.brief:nth-child(2n) { padding-right: 0; padding-left: 14px; border-left: 1px solid var(--hair); }
+.brief h3 { margin: 4px 0 0; font-size: 19px; font-weight: 600; line-height: 1.18; text-wrap: balance; }
+.brief p { margin: 6px 0 0; font-size: 15px; line-height: 1.4; color: var(--body); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.brief .actions { margin-top: auto; padding-top: 4px; gap: 2px 12px; }
+.brief .read { font-size: 11.5px; }
+
+.section-head { display: flex; align-items: center; gap: 10px; margin-top: 28px; }
+.section-head span { letter-spacing: .14em; }
+.section-head::after { content: ""; flex: 1; border-top: 1px solid var(--ink); }
+.subday { margin: 18px 0 0; color: var(--muted); font-size: 11px; letter-spacing: .14em; }
+
+.row { padding-block: 16px; }
+.row + .row { border-top: 1px solid var(--hair); }
+.row h3 { margin: 4px 0 0; font-size: 22px; font-weight: 700; line-height: 1.15; letter-spacing: -.005em; text-wrap: balance; }
+.row p { margin: 6px 0 0; font-size: 16.5px; line-height: 1.45; color: var(--body); max-width: 62ch; overflow-wrap: anywhere; }
+
+.pod { display: flex; gap: 14px; padding-block: 14px; }
+.pod + .pod { border-top: 1px solid var(--hair); }
+.pod .side { flex: none; width: 64px; color: var(--muted); font-size: 11px; line-height: 1.5; padding-top: 4px; }
+.pod .side b { display: block; color: var(--ink); font-weight: 600; }
+.pod .main { min-width: 0; }
+.pod h3 { margin: 0; font-size: 19px; font-weight: 600; line-height: 1.22; text-wrap: balance; }
+.pod p { margin: 6px 0 0; font-size: 15.5px; line-height: 1.42; color: var(--body); }
+
+.notice { margin-top: 28px; padding: 18px; border: 1px solid var(--ink); }
+.notice h2 { margin: 0; font-size: 20px; font-weight: 700; }
+.notice p { margin: 4px 0 0; color: var(--body); }
+
+.skeleton { margin-top: 24px; display: flex; flex-direction: column; gap: 26px; }
 .skeleton div { display: flex; flex-direction: column; gap: 10px; }
-.skeleton i { display: block; height: 12px; border-radius: 6px; background: var(--line); }
-.skeleton i:nth-child(1) { width: 30%; }
-.skeleton i:nth-child(2) { width: 85%; height: 16px; }
-.skeleton i:nth-child(3) { width: 65%; }
+.skeleton i { display: block; height: 12px; background: var(--tint); }
+.skeleton i:nth-child(1) { width: 22%; }
+.skeleton i:nth-child(2) { width: 92%; height: 24px; }
+.skeleton i:nth-child(3) { width: 70%; }
 
-footer.wrap {
-  padding-block: 20px 40px;
-  border-top: 1px solid var(--line);
-  font-size: 13px; color: var(--muted);
-}
-footer.wrap p { margin: 0; max-width: 62ch; }
+footer.wrap { padding-block: 18px 40px; border-top: 3px double var(--ink); }
+footer.wrap p { margin: 0; font-size: 14px; font-style: italic; color: var(--muted); max-width: 62ch; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
@@ -234,33 +222,39 @@ footer.wrap p { margin: 0; max-width: 62ch; }
 </style>
 </head>
 <body>
-<header class="wrap top">
-  <p class="date" id="today"></p>
-  <h1><span class="ai">AI</span>-bulletin</h1>
+<header class="wrap mast">
+  <span class="label date" id="today"></span>
+  <h1>AI-bulletin</h1>
+  <div class="double"></div>
+</header>
+
+<div class="navbar">
+  <div class="wrap">
+    <nav class="nav" id="nav" aria-label="Rubrieken"></nav>
+  </div>
+</div>
+
+<div class="wrap tools">
   <div class="statusrow">
     <p class="status" id="statusline" aria-live="polite">Nieuws laden</p>
-    <button class="textbtn" id="refresh" type="button">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"></path><path d="M20 4v7h-7"></path></svg>
-      <span>Vernieuwen</span>
-    </button>
-    <button class="textbtn" id="install" type="button" hidden>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>
-      <span>Installeer app</span>
-    </button>
+    <div class="btns">
+      <button class="textbtn label" id="refresh" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"></path><path d="M20 4v7h-7"></path></svg>
+        <span>Vernieuwen</span>
+      </button>
+      <button class="textbtn label" id="install" type="button" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>
+        <span>Installeer</span>
+      </button>
+    </div>
   </div>
+  <label class="search" for="q">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+    <input id="q" type="search" placeholder="Zoek in het bulletin" autocomplete="off" aria-label="Zoek in het nieuws">
+  </label>
   <div class="tip" id="iostip" hidden>
     <p><strong>Zet het bulletin op je beginscherm.</strong> Tik onderin Safari op het deelicoon en kies <strong>Zet op beginscherm</strong>. Dan opent het als app, ook zonder internet.</p>
     <button class="close" id="iostip-close" type="button" aria-label="Tip sluiten">&times;</button>
-  </div>
-</header>
-
-<div class="rail">
-  <div class="wrap rail-inner">
-    <label class="search" for="q">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
-      <input id="q" type="search" placeholder="Zoeken" autocomplete="off" aria-label="Zoek in het nieuws">
-    </label>
-    <nav class="tabs" id="tabs" aria-label="Rubrieken"></nav>
   </div>
 </div>
 
@@ -276,7 +270,7 @@ footer.wrap p { margin: 0; max-width: 62ch; }
 
   var CATS = { wereld: "Wereld", nederland: "Nederland", aireport: "AI Report", pom: "POM" };
   var VIEWS = [
-    { id: "alles", label: "Alles" },
+    { id: "alles", label: "Voorpagina" },
     { id: "wereld", label: "Wereld", cat: "wereld" },
     { id: "nederland", label: "Nederland", cat: "nederland" },
     { id: "ai-report", label: "AI Report", cat: "aireport" },
@@ -298,7 +292,7 @@ footer.wrap p { margin: 0; max-width: 62ch; }
   var saved = new Set();
 
   var feedEl = document.getElementById("feed");
-  var tabsEl = document.getElementById("tabs");
+  var navEl = document.getElementById("nav");
   var statusEl = document.getElementById("statusline");
   var qEl = document.getElementById("q");
   var refreshBtn = document.getElementById("refresh");
@@ -322,6 +316,7 @@ footer.wrap p { margin: 0; max-width: 62ch; }
   }
   function str(v, max) { return typeof v === "string" ? v.slice(0, max) : ""; }
   function safeUrl(v) { return typeof v === "string" && /^https:\/\/[^\s]+$/i.test(v) ? v : ""; }
+  function isPod(it) { return it.cat === "aireport" || it.cat === "pom"; }
   function normalize(d, i) {
     if (!d || typeof d !== "object") return null;
     var title = str(d.title, 200);
@@ -353,15 +348,20 @@ footer.wrap p { margin: 0; max-width: 62ch; }
   function ymd(date) {
     return new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
   }
-  function dayLabel(d) {
+  function noonOf(d) {
+    var p = d.split("-");
+    return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12));
+  }
+  function dayLong(d) {
     var today = ymd(new Date());
     var yesterday = ymd(new Date(Date.now() - 864e5));
-    var p = d.split("-");
-    var noon = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12));
-    var long = new Intl.DateTimeFormat("nl-NL", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" }).format(noon);
-    if (d === today) return { lead: "Vandaag", rest: long };
-    if (d === yesterday) return { lead: "Gisteren", rest: long };
-    return { lead: long.charAt(0).toUpperCase() + long.slice(1), rest: "" };
+    var long = new Intl.DateTimeFormat("nl-NL", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" }).format(noonOf(d));
+    if (d === today) return "Vandaag, " + long;
+    if (d === yesterday) return "Gisteren, " + long;
+    return long;
+  }
+  function dayShort(d) {
+    return new Intl.DateTimeFormat("nl-NL", { timeZone: "UTC", day: "numeric", month: "short" }).format(noonOf(d)).replace(".", "");
   }
 
   function matches(it, view) {
@@ -375,30 +375,167 @@ footer.wrap p { margin: 0; max-width: 62ch; }
     return true;
   }
 
-  function renderTabs() {
-    var view = currentView();
-    tabsEl.textContent = "";
-    VIEWS.forEach(function (v) {
-      var a = el("a", "tab");
-      a.href = "#" + v.id;
-      if (v.cat) a.dataset.cat = v.cat;
-      if (v.id === view.id) a.setAttribute("aria-current", "true");
-      if (v.cat) a.appendChild(el("span", "dot"));
-      a.appendChild(el("span", null, v.label));
-      if (status === "ready") {
-        var n = v.id === "alles" ? items.length
-          : v.id === "bewaard" ? items.filter(function (it) { return saved.has(it.id); }).length
-          : items.filter(function (it) { return it.cat === v.cat; }).length;
-        a.appendChild(el("span", "n", String(n)));
+  /* ---------- pieces ---------- */
+  function kicker(it, opts) {
+    var k = el("span", "label kicker");
+    var parts = [];
+    if (opts && opts.cat) parts.push(CATS[it.cat]);
+    if (it.tag) parts.push(it.tag);
+    k.textContent = parts.join(" · ") || CATS[it.cat];
+    if (opts && opts.date) {
+      k.appendChild(el("span", "date", " · " + dayShort(it.date)));
+    }
+    return k;
+  }
+  function titleLink(tag, cls, it) {
+    var h = el(tag, cls);
+    if (it.url) {
+      var a = el("a", null, it.title);
+      a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      h.appendChild(a);
+    } else {
+      h.textContent = it.title;
+    }
+    return h;
+  }
+  function actions(it, compact) {
+    var act = el("div", "actions");
+    if (it.url) {
+      var a = el("a", "read");
+      a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = compact ? (it.source || "Bron") + " ↗" : (isPod(it) ? "Luister bij " : "Lees bij ") + (it.source || "de bron") + " ↗";
+      act.appendChild(a);
+    }
+    var on = saved.has(it.id);
+    var b = el("button", "save" + (compact ? " icon-only" : ""));
+    b.type = "button";
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.appendChild(svg('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16.5L12 16.5l-5.5 4z"></path></svg>'));
+    b.appendChild(el("span", null, on ? "Bewaard" : "Bewaar"));
+    if (compact) b.setAttribute("aria-label", on ? "Bewaard: " + it.title : "Bewaar: " + it.title);
+    b.addEventListener("click", function () { toggleSaved(it.id); });
+    act.appendChild(b);
+    return act;
+  }
+
+  function renderLead(it) {
+    var art = el("article", "lead");
+    art.appendChild(kicker(it));
+    art.appendChild(titleLink("h2", null, it));
+    if (it.summary) art.appendChild(el("p", "standfirst", it.summary));
+    art.appendChild(actions(it));
+    return art;
+  }
+  function renderBrief(it) {
+    var art = el("article", "brief");
+    art.appendChild(kicker(it));
+    art.appendChild(titleLink("h3", null, it));
+    if (it.summary) art.appendChild(el("p", null, it.summary));
+    art.appendChild(actions(it, true));
+    return art;
+  }
+  function renderRow(it, opts) {
+    var art = el("article", "row");
+    art.appendChild(kicker(it, opts));
+    art.appendChild(titleLink("h3", null, it));
+    if (it.summary) art.appendChild(el("p", null, it.summary));
+    art.appendChild(actions(it));
+    return art;
+  }
+  function renderPod(it) {
+    var art = el("article", "pod");
+    var side = el("div", "label side");
+    side.appendChild(el("b", null, CATS[it.cat]));
+    side.appendChild(document.createTextNode(dayShort(it.date)));
+    art.appendChild(side);
+    var main = el("div", "main");
+    main.appendChild(titleLink("h3", null, it));
+    if (it.summary) main.appendChild(el("p", null, it.summary));
+    main.appendChild(actions(it));
+    art.appendChild(main);
+    return art;
+  }
+  function sectionHead(text) {
+    var h = el("h2", "section-head");
+    h.style.margin = "28px 0 0";
+    h.appendChild(el("span", "label", text));
+    return h;
+  }
+  function notice(title, body) {
+    var box = el("section", "notice");
+    box.appendChild(el("h2", null, title));
+    box.appendChild(el("p", null, body));
+    return box;
+  }
+
+  /* ---------- views ---------- */
+  function renderFront(list) {
+    var news = list.filter(function (it) { return it.cat === "wereld"; });
+    var nl = list.filter(function (it) { return it.cat === "nederland"; });
+    var pods = list.filter(isPod);
+    var latest = news.length ? news[0].date : null;
+    var front = news.filter(function (it) { return it.date === latest; });
+    var older = news.filter(function (it) { return it.date !== latest; });
+
+    if (front.length) {
+      feedEl.appendChild(renderLead(front[0]));
+      var briefs = front.slice(1, 5);
+      if (briefs.length) {
+        var grid = el("div", "briefs");
+        briefs.forEach(function (it) { grid.appendChild(renderBrief(it)); });
+        feedEl.appendChild(grid);
       }
-      tabsEl.appendChild(a);
+      front.slice(5).forEach(function (it) { feedEl.appendChild(renderRow(it)); });
+    }
+    if (nl.length) {
+      feedEl.appendChild(sectionHead("Binnenland"));
+      nl.forEach(function (it) { feedEl.appendChild(renderRow(it, { date: true })); });
+    }
+    if (pods.length) {
+      feedEl.appendChild(sectionHead("Op de koptelefoon"));
+      pods.forEach(function (it) { feedEl.appendChild(renderPod(it)); });
+    }
+    if (older.length) {
+      feedEl.appendChild(sectionHead("Eerder"));
+      var last = "";
+      older.forEach(function (it) {
+        if (it.date !== last) { last = it.date; feedEl.appendChild(el("p", "label subday", dayLong(it.date))); }
+        feedEl.appendChild(renderRow(it));
+      });
+    }
+  }
+
+  function renderList(list, showCat) {
+    var last = "";
+    list.forEach(function (it) {
+      if (it.date !== last) {
+        last = it.date;
+        feedEl.appendChild(sectionHead(dayLong(it.date)));
+      }
+      feedEl.appendChild(isPod(it) && !showCat ? renderPod(it) : renderRow(it, { cat: showCat }));
+    });
+  }
+
+  function renderNav() {
+    var view = currentView();
+    navEl.textContent = "";
+    VIEWS.forEach(function (v) {
+      var a = el("a", "label");
+      a.href = "#" + v.id;
+      if (v.id === view.id) a.setAttribute("aria-current", "true");
+      a.appendChild(document.createTextNode(v.label));
+      if (v.id === "bewaard" && status === "ready") {
+        var n = items.filter(function (it) { return saved.has(it.id); }).length;
+        if (n) a.appendChild(el("span", "n", String(n)));
+      }
+      navEl.appendChild(a);
     });
   }
 
   function renderStatus() {
     statusEl.textContent = "";
     refreshBtn.disabled = loading;
-    refreshBtn.querySelector("span").textContent = loading ? "Bezig met vernieuwen" : "Vernieuwen";
+    refreshBtn.querySelector("span").textContent = loading ? "Bezig" : "Vernieuwen";
     if (status === "loading") { statusEl.textContent = "Nieuws laden"; return; }
     if (status === "offline-empty") { statusEl.appendChild(el("span", "warn", "Geen verbinding")); return; }
     var parts = [items.length + (items.length === 1 ? " bericht" : " berichten")];
@@ -411,53 +548,6 @@ footer.wrap p { margin: 0; max-width: 62ch; }
       statusEl.appendChild(document.createTextNode(" · "));
       statusEl.appendChild(el("span", "warn", "offline"));
     }
-  }
-
-  function notice(title, body) {
-    var box = el("section", "notice");
-    box.appendChild(el("h2", null, title));
-    box.appendChild(el("p", null, body));
-    return box;
-  }
-
-  function renderItem(it) {
-    var art = el("article", "item");
-    art.dataset.cat = it.cat;
-
-    var m = el("p", "meta");
-    m.appendChild(el("span", "cat", CATS[it.cat]));
-    if (it.tag) m.appendChild(el("span", null, "· " + it.tag));
-    art.appendChild(m);
-
-    var h = el("h2");
-    if (it.url) {
-      var ha = el("a", null, it.title);
-      ha.href = it.url; ha.target = "_blank"; ha.rel = "noopener noreferrer";
-      h.appendChild(ha);
-    } else {
-      h.textContent = it.title;
-    }
-    art.appendChild(h);
-    if (it.summary) art.appendChild(el("p", "summary", it.summary));
-
-    var act = el("div", "actions");
-    if (it.url) {
-      var a = el("a", "read");
-      a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-      var verb = it.cat === "aireport" || it.cat === "pom" ? "Luister bij " : "Lees bij ";
-      a.textContent = verb + (it.source || "de bron") + " ↗";
-      act.appendChild(a);
-    }
-    var on = saved.has(it.id);
-    var b = el("button", "save");
-    b.type = "button";
-    b.setAttribute("aria-pressed", on ? "true" : "false");
-    b.appendChild(svg('<svg viewBox="0 0 24 24" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 4h11v16.5L12 16.5l-5.5 4z"></path></svg>'));
-    b.appendChild(el("span", null, on ? "Bewaard" : "Bewaar"));
-    b.addEventListener("click", function () { toggleSaved(it.id); });
-    act.appendChild(b);
-    art.appendChild(act);
-    return art;
   }
 
   function renderFeed() {
@@ -494,24 +584,12 @@ footer.wrap p { margin: 0; max-width: 62ch; }
       return;
     }
 
-    var lastDay = "";
-    var group = null;
-    list.forEach(function (it) {
-      if (it.date !== lastDay) {
-        lastDay = it.date;
-        var lab = dayLabel(it.date);
-        var d = el("h3", "day", lab.lead);
-        if (lab.rest) d.appendChild(el("span", null, " · " + lab.rest));
-        feedEl.appendChild(d);
-        group = el("section");
-        feedEl.appendChild(group);
-      }
-      group.appendChild(renderItem(it));
-    });
+    if (view.id === "alles" && !query) renderFront(list);
+    else renderList(list, view.id === "alles" || view.id === "bewaard");
   }
 
   function render() {
-    renderTabs();
+    renderNav();
     renderStatus();
     renderFeed();
   }
@@ -523,8 +601,8 @@ footer.wrap p { margin: 0; max-width: 62ch; }
   }
 
   function setToday() {
-    var t = new Intl.DateTimeFormat("nl-NL", { timeZone: TZ, weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(new Date());
-    document.getElementById("today").textContent = t.charAt(0).toUpperCase() + t.slice(1);
+    document.getElementById("today").textContent =
+      new Intl.DateTimeFormat("nl-NL", { timeZone: TZ, weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(new Date());
   }
 
   async function load() {
