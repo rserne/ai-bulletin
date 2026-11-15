@@ -1,6 +1,100 @@
 {
-  "updatedAt": "2026-11-14T19:10:00Z",
+  "updatedAt": "2026-11-15T05:58:00Z",
   "items": [
+    {
+      "id": "claude-godel-notitieboeken",
+      "date": "2026-11-15",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Claude ontcijfert honderden stellingen in notitieboeken van Gödel",
+      "summary": "Claude heeft in een paar dagen 663 mogelijke stellingen gevonden in de notitieboeken van wiskundige Kurt Gödel. Een logicus uit Helsinki had het model zijn uitwerkingen gegeven van ruim duizend pagina's in een verouderd steno.",
+      "body": [
+        "Het gaat om 1009 pagina's. Met de hand vorderde het werk ongeveer een pagina per week; het model leverde de kandidaat-stellingen binnen enkele dagen aan.",
+        "Daarna ging een automatische bewijscontrole over de resultaten. Die bevestigde er ongeveer 400, wist er zo'n 200 te herstellen en wees er ongeveer 50 aan als onjuist. The Guardian bracht het verhaal op 13 november naar buiten."
+      ],
+      "why": "Het laat zien hoe AI historisch archiefwerk dat decennia zou kosten kan versnellen, met een automatische controle als vangnet voor fouten.",
+      "source": "Daily AI Caffeine",
+      "url": "https://dailyaicaffeinenobs.substack.com/p/todays-real-ai-news-15-nov-26"
+    },
+    {
+      "id": "faa-vliegstop-smart",
+      "date": "2026-11-15",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Luchtvaart",
+      "title": "Landelijke vliegstop in de VS zet AI-systeem van de FAA in de schijnwerpers",
+      "summary": "Vrijdag mocht in de Verenigde Staten ruim vier uur lang geen enkel vliegtuig vertrekken. Volgens de regering lag het aan verouderde telecomapparatuur, niet aan het nieuwe AI-systeem voor de luchtverkeersleiding.",
+      "body": [
+        "Het was de eerste landelijke vliegstop sinds januari 2023; minstens 827 vluchten moesten uitwijken. Volgens de autoriteiten raakten switches en routers in oude telecomsystemen overbelast. Minister van Transport Sean Duffy noemde het uitgesloten dat SMART, het AI-systeem van luchtvaartautoriteit FAA, er iets mee te maken had: het doet verkeersleiders alleen voorstellen.",
+        "Toch lopen er onderzoeken van de FAA en het ministerie van Binnenlandse Veiligheid. SMART is gebouwd door Air Space Intelligence onder een contract van 875 miljoen dollar; dat bedrijf ontkent dat zijn software de storing veroorzaakte. Het systeem draait sinds 21 september bij drie vliegvelden rond Washington, en in oktober vroegen ruim twintig Congresleden de FAA al om het gebruik te pauzeren tot er meer bekend is over veiligheidstests en de training van verkeersleiders."
+      ],
+      "why": "Hoe dan ook de oorzaak blijkt: de discussie over AI in de luchtverkeersleiding laait door deze storing verder op.",
+      "source": "Daily AI Caffeine",
+      "url": "https://dailyaicaffeinenobs.substack.com/p/todays-real-ai-news-15-nov-26"
+    },
+    {
+      "id": "azie-oplichting-ai",
+      "date": "2026-11-15",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Oplichting",
+      "title": "Oplichters in Azië maken 136,5 miljard dollar buit, steeds vaker met AI",
+      "summary": "Slachtoffers in dertien Aziatische landen verloren het afgelopen jaar naar schatting 136,5 miljard dollar aan oplichters. Volgens de Global Anti-Scam Alliance zetten criminelen AI in bij elke stap van hun werk.",
+      "body": [
+        "De cijfers komen uit een onderzoek van de alliantie met de Taiwanese maker van de app Whoscall, gepresenteerd op een top in Bangkok. Van de ondervraagde volwassenen kwam 71 procent een poging tot oplichting tegen; een kwart van wie erop inging, raakte geld kwijt. Telefoontjes, sms'jes en chatapps zijn de belangrijkste kanalen.",
+        "Berichten die door AI zijn geschreven, misleiden volgens de alliantie vijf keer zo vaak als handgeschreven teksten. Bendes klonen ook de stemmen van directeuren en familieleden. Na invallen in onder meer Cambodja zijn de groepen uiteengevallen in kleinere cellen in het Midden-Oosten, Mexico en Oost-Europa."
+      ],
+      "why": "AI maakt oplichting goedkoper en overtuigender, waardoor de schade sneller groeit dan politie en platforms kunnen bijhouden.",
+      "source": "The Thaiger",
+      "url": "https://thethaiger.com/news/national/asia-scam-losses-hit-us136-5-billion-as-gangs-turn-to-ai"
+    },
+    {
+      "id": "artex-aanvallen-webwinkels",
+      "date": "2026-11-15",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Cybercrime",
+      "title": "Zelfstandige AI-aanvallers bestoken grote Europese webwinkelorganisatie",
+      "summary": "Een grote Europese e-commerceorganisatie wordt al dagen aangevallen met ARTEX, een systeem waarin meerdere AI-agents tegelijk en zelfstandig werken. Er zijn sterke aanwijzingen dat ook andere webwinkels wereldwijd doelwit zijn.",
+      "body": [
+        "De agents zouden hun aanpak aanpassen aan de verdediging die ze tegenkomen. Welke organisatie getroffen is en wie erachter zit, is niet bekend.",
+        "ARTEX is een Chinees open-sourceprogramma, oorspronkelijk bedoeld om met toestemming de beveiliging van systemen te testen. Beveiligingsbedrijf Check Point meldde begin november al dat criminelen het grootschalig gebruiken; het vond ruim 1600 bereikbare installaties. Nadat het programma was ingezet tegen Zuid-Koreaanse banken, sloot de maker de code af, maar kopieën blijven in omloop."
+      ],
+      "why": "Als aanvallen grotendeels zonder menselijke sturing verlopen, kunnen kleine criminele groepen op grote schaal toeslaan.",
+      "source": "Cloud Expo",
+      "url": "https://cloudexpo.nl/nieuws/al-dagen-cyberaanvallen-met-autonoom-ai-framework-op-grote-europese-webwinkelorganisatie"
+    },
+    {
+      "id": "tesla-cybercab-particulieren",
+      "date": "2026-11-15",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Tesla",
+      "title": "Particulieren kunnen de zelfrijdende Cybercab van Tesla reserveren",
+      "summary": "Tesla neemt voorbestellingen aan voor de Cybercab, een robotauto zonder stuur en pedalen. Particulieren betalen 299 dollar per maand voor een abonnement.",
+      "body": [
+        "Leveringen beginnen pas als lokale toezichthouders definitief toestemming geven voor zulke voertuigen. Waar de eerste auto's rijden en wanneer Europa aan de beurt is, maakte Tesla niet bekend."
+      ],
+      "why": "Tesla verschuift de robotauto van een taxidienst naar iets wat consumenten zelf in huis halen, al bepalen toezichthouders het tempo.",
+      "source": "The State of Tech",
+      "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-15-november"
+    },
+    {
+      "id": "stanford-lasersimulatie",
+      "date": "2026-11-15",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Wetenschap",
+      "title": "AI rekent lasersimulaties 250 keer sneller door",
+      "summary": "Onderzoekers van Stanford en een Amerikaans versnellerlaboratorium bouwden een AI-model dat in milliseconden voorspelt hoe krachtig laserlicht zich in bepaalde kristallen gedraagt, vrijwel zonder verlies aan nauwkeurigheid.",
+      "body": [
+        "Het model is bedoeld voor röntgenlaserfaciliteiten, waar onderzoekers experimenten dan tijdens de meting kunnen voorspellen en bijsturen. Het blijft wel een benadering: of het even goed werkt voor andere kristallen en proeven, is nog niet getest."
+      ],
+      "why": "Snellere simulaties maken dure meettijd bij grote onderzoeksinstallaties efficiënter.",
+      "source": "The State of Tech",
+      "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-15-november"
+    },
     {
       "id": "nvidia-huang-vertrek",
       "date": "2026-11-14",
@@ -224,6 +318,54 @@
       "why": "Administratie is een van de grootste tijdvreters in de zorg; dit soort resultaten maakt de stap naar bredere invoering waarschijnlijker."
     },
     {
+      "id": "gemini-carbon-matharena",
+      "date": "2026-11-14",
+      "order": 34,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Gemini 4 Carbon verovert de top van wiskundetest MathArena",
+      "summary": "Het nieuwste topmodel van Google scoort het best op MathArena, een ranglijst voor wiskundig redeneren. Daarmee staat er voor het eerst in lange tijd geen model van OpenAI bovenaan.",
+      "body": [
+        "Zowel Gemini 4 Carbon als Claude Fable 5.2 van Anthropic stoten GPT-6.1 Sol van OpenAI van de eerste plaats. Die winst heeft wel een prijs: voor de test was Carbon vijftien keer zo duur als het model van OpenAI.",
+        "Google bracht Carbon op 10 november uit voor abonnees van AI Ultra en voor ontwikkelaars. Via de API kost het tot eind november 2 dollar per miljoen tokens invoer en 10 dollar voor uitvoer; op 1 december verdubbelen beide tarieven."
+      ],
+      "why": "De strijd om het slimste model draait steeds meer om de vraag wat een paar procent extra prestatie mag kosten.",
+      "source": "LLM Stats",
+      "url": "https://llm-stats.com/ai-news"
+    },
+    {
+      "id": "cisco-recordkwartaal",
+      "date": "2026-11-14",
+      "order": 33,
+      "cat": "wereld",
+      "tag": "Cisco",
+      "title": "Vraag naar AI-netwerken bezorgt Cisco recordkwartaal",
+      "summary": "Cisco zette in het eerste kwartaal van zijn boekjaar 18,5 miljard dollar om, 24 procent meer dan een jaar eerder. Dat is de snelste groei in ruim vijftien jaar.",
+      "body": [
+        "Het bedrijf verwacht dit boekjaar 9 miljard dollar te verdienen aan AI-infrastructuur voor de grootste cloudbedrijven, tegen 4 miljard vorig jaar. De jaarverwachting gaat omhoog naar ongeveer 75 miljard dollar. In augustus mikte Cisco nog op 72,2 tot 73,4 miljard en op een kwartaalomzet van hooguit 18,2 miljard.",
+        "Topman Chuck Robbins wijst op de enorme vraag naar switches, routers en optische chips voor datacenters."
+      ],
+      "why": "Niet alleen chipmakers profiteren van de AI-bouwwoede: ook de netwerken die al die rekenkracht verbinden, worden een groeimarkt.",
+      "source": "The State of Tech",
+      "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zaterdag-14"
+    },
+    {
+      "id": "vn-ai-klimaatdesinformatie",
+      "date": "2026-11-14",
+      "order": 32,
+      "cat": "wereld",
+      "tag": "VN",
+      "title": "VN willen AI-desinformatie over klimaat aan banden leggen",
+      "summary": "De Verenigde Naties, UNESCO en Brazilië presenteerden op een klimaattop in Turkije richtlijnen tegen klimaatdesinformatie die met AI is gemaakt. Ook de milieubelasting van AI zelf komt erin aan bod.",
+      "body": [
+        "De aanleiding is een waarschuwing van een wetenschappelijk AI-panel van de VN over verzonnen milieugegevens. Techbedrijven wordt gevraagd openheid te geven over de uitstoot en het water- en stroomverbruik van hun AI-datacenters. Adverteerders en platforms moeten stoppen met het financieren van klimaatdesinformatie die AI verspreidt.",
+        "De richtlijnen zijn niet bindend: niemand is verplicht ze op te volgen."
+      ],
+      "why": "Het is een van de eerste internationale pogingen om AI zowel als bron van klimaatdesinformatie als als vervuiler aan te spreken.",
+      "source": "The State of Tech",
+      "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zaterdag-14"
+    },
+    {
       "id": "llama-cpp-1-0",
       "date": "2026-11-14",
       "order": 30,
@@ -255,6 +397,22 @@
       "why": "Zonder eigen rekenkracht blijft Europa voor de ontwikkeling van AI afhankelijk van bedrijven buiten de EU."
     },
     {
+      "id": "kabinet-rekenkracht-markt",
+      "date": "2026-11-14",
+      "order": 22,
+      "cat": "nederland",
+      "tag": "Kabinet",
+      "title": "Kabinet: AI-rekenkracht moet vooral uit de markt komen",
+      "summary": "Nederlandse AI-infrastructuur moet vooral door de markt worden betaald, schrijft het kabinet aan de Tweede Kamer. De overheid wil de voorwaarden verbeteren en kan als eerste klant optreden.",
+      "body": [
+        "Meer eigen rekenkracht moet komen van de AI-fabriek in Groningen, deelname aan Europese supercomputerprogramma's en Europese AI-gigafabrieken. Ook steunt het kabinet een ambitieuze Europese wet voor cloud en AI. Als grootste veiligheidsrisico's noemt het misbruik van AI bij cyberaanvallen, systemen die niet doen wat mensen bedoelen en de macht van grote techbedrijven.",
+        "De Europese AI-top in Dublin, die premier Jetten miste vanwege de crisis rond het Belastingplan, eindigde zonder formele besluiten. Voorzitter Costa wil AI in 2027 opnieuw agenderen. Hoogleraar Rob de Wijk vindt dat Nederland door de afwezigheid een kans liet liggen om de Europese koers te beïnvloeden. Het kabinet informeert de Kamer in het eerste kwartaal van 2027 over zijn aanpak."
+      ],
+      "why": "Wie de rekenkracht betaalt, bepaalt hoe snel Nederland minder afhankelijk wordt van buitenlandse AI-aanbieders.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/jetten-mist-europese-ai-top-in-dublin-luxemburg-spreekt-namens-nederland"
+    },
+    {
       "id": "nebius-datacenters",
       "date": "2026-11-14",
       "order": 20,
@@ -268,6 +426,22 @@
         "Nebius verhuurt rekenkracht aan bedrijven die AI-modellen trainen en draaien. De vertragingen laten zien dat zelfs een partij met veel kapitaal moeite heeft om op tijd genoeg capaciteit te leveren."
       ],
       "why": "Nebius is een van de weinige grote Europese aanbieders van AI-rekenkracht; vertraging daar raakt ook Europese ambities."
+    },
+    {
+      "id": "uber-fireworks-datalek",
+      "date": "2026-11-13",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Beveiliging",
+      "title": "Hack bij AI-leverancier Fireworks treft rijbewijsgegevens van Uber-chauffeurs",
+      "summary": "Uber waarschuwt duizenden chauffeurs dat hun persoonsgegevens en rijbewijsgegevens zijn gestolen. De hackers kwamen binnen via Fireworks AI, een platform dat ontwikkelaars toegang geeft tot open AI-modellen.",
+      "body": [
+        "Uit meldingen bij Amerikaanse staten blijkt dat het gaat om zeker 2567 mensen in Massachusetts, 3430 in South Carolina en 1873 in Rhode Island. Ook chauffeurs in Californië en Illinois zijn getroffen; hoeveel, is nog onduidelijk, en het totaal zal naar verwachting oplopen. Ook Notion bevestigde dat er gegevens zijn buitgemaakt.",
+        "Fireworks hoorde begin oktober dat interne inloggegevens waren gestolen. Later bleek de schade groter: via een getroffen cloudleverancier kwamen de aanvallers op ontwikkelmachines terecht en kregen ze toegang tot factuurgegevens, sommige datasets van klanten en onvoltooide modellen. Het bedrijf wijst een financieel gedreven groep aan die gestolen toegang tot taalmodellen doorverkoopt. Voor Uber is het al het tweede bekende datalek dit jaar."
+      ],
+      "why": "Bedrijven die hun data aan AI-leveranciers toevertrouwen, lopen mee met elk beveiligingslek bij die partij.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
     },
     {
       "id": "aireport-2026-11-12",
