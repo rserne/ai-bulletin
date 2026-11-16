@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-11-15T05:58:00Z",
+  "updatedAt": "2026-11-16T06:04:57Z",
   "items": [
+    {
+      "id": "sk-hynix-toeleveranciers",
+      "date": "2026-11-16",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "SK Hynix",
+      "title": "SK Hynix steekt ruim een miljard dollar in Koreaanse toeleveranciers",
+      "summary": "Geheugenchipmaker SK Hynix trekt in vijf jaar 1,4 biljoen won (ongeveer 1,05 miljard dollar) uit voor Zuid-Koreaanse leveranciers van materialen, onderdelen en machines. Het bedrijf wil zo zijn productie van geheugen voor AI-chips beter beschermen.",
+      "body": [
+        "Het hart van het plan is Trinity Fab, een testfabriek van 874,6 miljard won in het chipcomplex in Yongin. Leveranciers kunnen daar hun onderdelen op 12-inchwafers uitproberen met machines die gelijk zijn aan die in de echte productie. SK Hynix betaalt ruim de helft, de rest komt van de nationale en lokale overheid. Over de opening lopen de berichten uiteen: februari of mei 2027.",
+        "SK Hynix schiet daarnaast tot de helft van de ontwikkelkosten van leveranciers voor en compenseert hen als een project zijn doelen niet haalt. Samen met banken komt er ook nog 2 biljoen won aan leningen."
+      ],
+      "why": "Het geheugen van SK Hynix zit in vrijwel elke AI-chip van Nvidia, dus een haperende toeleveringsketen raakt de hele sector.",
+      "source": "AI Weekly (Reuters)",
+      "url": "https://aiweekly.co/alerts/sk-hynix-pledges-105b-to-shore-up-korean-chip-supplier-base"
+    },
+    {
+      "id": "huawei-datacenter-epoch",
+      "date": "2026-11-16",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Huawei",
+      "title": "Grootste AI-datacenter van Huawei is klein naast Amerikaanse reuzen",
+      "summary": "Het grootste AI-datacenter van Huawei, in Binnen-Mongolië, haalt maar zo'n 7 procent van de rekenkracht van Colossus 2, het datacenter van SpaceX in Tennessee. Dat schat onderzoeksinstituut Epoch AI.",
+      "body": [
+        "Het complex in Horinger gebruikt ongeveer 286 megawatt en draait op naar schatting 105.000 Ascend 910C- en 8000 910B-chips, samen goed voor zo'n 81.000 Nvidia H100's. Met een geplande uitbreiding van ruim 70 procent komt het begin 2028 op ongeveer 141.000.",
+        "Amerikaanse concurrenten bouwen intussen toe naar 1,8 miljoen H100-equivalenten. Bovendien halen Amerikaanse datacenters per watt ongeveer tweeënhalf keer zoveel rekenkracht uit hun stroom."
+      ],
+      "why": "De schatting laat zien hoe groot de achterstand van China in rekenkracht nog is door de Amerikaanse exportbeperkingen op chips.",
+      "source": "Epoch AI",
+      "url": "https://epochai.substack.com/p/what-huaweis-horinger-data-center"
+    },
+    {
+      "id": "hyundai-ai-teleshopping",
+      "date": "2026-11-16",
+      "order": 50,
+      "cat": "wereld",
+      "tag": "Hyundai",
+      "title": "Koreaans teleshoppingkanaal zendt uit zonder presentatoren en camera's",
+      "summary": "Hyundai Home Shopping begint met verkoopuitzendingen die volledig door AI worden gemaakt, inclusief stem en beeld. De eerste vaste uitzending verkoopt kiwi's van het eiland Jeju.",
+      "body": [
+        "Het systeem heet AI-REAL. In proefuitzendingen haalde de omroep 120 procent van het verkoopdoel, en leveranciers waren 80 procent minder kwijt aan monsters en videoproductie. De uitzendingen lopen op het kanaal Plus Shop.",
+        "Hyundai begint met landbouw-, vlees- en visproducten; bewerkte levensmiddelen en huishoudelijke artikelen moeten later volgen."
+      ],
+      "why": "Als een hele uitzending zonder mensen kan worden gemaakt, verandert het verdienmodel van televisieverkoop ingrijpend.",
+      "source": "The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10937399"
+    },
+    {
+      "id": "bessent-nvidia-topman-buiten",
+      "date": "2026-11-15",
+      "order": 110,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Bessent: Nvidia moet nieuwe topman buiten het bedrijf zoeken",
+      "summary": "De Amerikaanse minister van Financiën Scott Bessent wil een grondige schoonmaak bij Nvidia, met een opvolger van Jensen Huang van buiten het bedrijf. Het bestuur moet binnen tien dagen vragen beantwoorden over de naleving van exportregels.",
+      "body": [
+        "Bessent zei dat zondag in het Fox News-programma Sunday Morning Futures. Volgens hem gaat het verhaal tot nu toe te veel over Huangs privéleven, terwijl de echte vraag is of Nvidia via Singaporese tussenbedrijven chips aan Chinese klanten heeft verkocht. Ook de externe advocaten die het bestuur heeft ingeschakeld, moeten antwoord geven.",
+        "De minister richtte zijn kritiek ook op collega Howard Lutnick van Handel. Financiën, Defensie, Buitenlandse Zaken en de handelsvertegenwoordiger wilden het Singaporese Megaspeed al maanden op de Amerikaanse zwarte lijst zetten, maar Handel hield dat volgens Bessent tegen. Lutnick reist deze week toch met president Trump mee naar China.",
+        "Huang stapte donderdag onverwacht op. Financieel directeur Colette Kress leidt Nvidia voorlopig; volgens de Financial Times polste het bestuur Arm-topman Rene Haas als opvolger."
+      ],
+      "why": "Als de regering zich zo openlijk met de opvolging bemoeit, wordt de leiding van de belangrijkste AI-chipmaker een politieke kwestie.",
+      "source": "The Star (Reuters)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/16/bessent-says-nvidia-must-039go-outside-the-company039-to-find-new-ceo"
+    },
+    {
+      "id": "huang-terugkeer-campagne",
+      "date": "2026-11-15",
+      "order": 104,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Huang en bondgenoten voeren campagne voor zijn terugkeer bij Nvidia",
+      "summary": "Jensen Huang praat met vertrouwelingen over een mogelijke terugkeer als topman van Nvidia, meldt de Financial Times. Een bondgenoot zegt dat ze een team van techbestuurders samenstellen om het bestuur en het Witte Huis te bewerken.",
+      "body": [
+        "De gesprekken vinden plaats vier dagen na Huangs plotselinge vertrek. Een open brief met de oproep hem terug te halen is ondertekend door onder anderen Elon Musk, Tim Sweeney van Epic en duizenden Nvidia-medewerkers. Volgens een andere nieuwsbrief zette ook een petitie van werknemers meer dan 150.000 handtekeningen neer, al is dat aantal niet onafhankelijk bevestigd.",
+        "De campagne botst met de lijn van minister Bessent, die juist een buitenstaander aan het roer wil. Nvidia publiceert op 17 november zijn kwartaalcijfers; het bedrijf rekent op een omzet van ongeveer 108 miljard dollar."
+      ],
+      "why": "Een strijd om de top kan Nvidia maandenlang verlammen, juist nu klanten steeds vaker eigen chips ontwikkelen.",
+      "source": "AI Weekly (Financial Times)",
+      "url": "https://aiweekly.co/alerts/ft-jensen-huang-builds-war-room-of-silicon-valley-allies-to-lobby-for-return-as"
+    },
     {
       "id": "claude-godel-notitieboeken",
       "date": "2026-11-15",
@@ -16,6 +97,22 @@
       "why": "Het laat zien hoe AI historisch archiefwerk dat decennia zou kosten kan versnellen, met een automatische controle als vangnet voor fouten.",
       "source": "Daily AI Caffeine",
       "url": "https://dailyaicaffeinenobs.substack.com/p/todays-real-ai-news-15-nov-26"
+    },
+    {
+      "id": "apple-openevidence-gezondheidsstudie",
+      "date": "2026-11-15",
+      "order": 98,
+      "cat": "wereld",
+      "tag": "Apple",
+      "title": "Apple onderzoekt hoe mensen AI gebruiken voor gezondheidsvragen",
+      "summary": "Apple zoekt tot 200.000 Amerikaanse iPhone-gebruikers voor een studie naar het gebruik van AI bij gezondheidsvragen. Het bedrijf werkt daarvoor samen met OpenEvidence, een AI-dienst voor artsen.",
+      "body": [
+        "Deelnemers moeten ouder zijn dan 21 en minstens een iPhone 15 met iOS 26 en Apple Intelligence hebben. Ruim een jaar lang stellen ze vragen in een aparte app, beoordelen ze de antwoorden op juistheid en volledigheid en vullen ze maandelijks een vragenlijst in. De antwoorden steunen op vakbladen als NEJM, JAMA en Nature.",
+        "Wie wil, kan ook gegevens uit de Gezondheid-app delen, zoals hartslag in rust, beweging, slaap en labuitslagen. Apple anonimiseert de data voordat ze naar een externe cloud gaan en gebruikt ze niet om modellen te trainen; OpenEvidence wist vragen en antwoorden binnen 24 uur. Ter vergelijking: OpenAI zegt wekelijks 300 miljoen gezondheidsvragen via ChatGPT te krijgen."
+      ],
+      "why": "Apple legt hiermee wetenschappelijke grond onder medische AI-antwoorden, voordat het die mogelijk in Siri of de Gezondheid-app inbouwt.",
+      "source": "AI Weekly (TechCrunch)",
+      "url": "https://aiweekly.co/alerts/apple-and-openevidence-launch-health-ai-usage-study-targeting-200000-us-iphone"
     },
     {
       "id": "faa-vliegstop-smart",
@@ -50,6 +147,22 @@
       "url": "https://thethaiger.com/news/national/asia-scam-losses-hit-us136-5-billion-as-gangs-turn-to-ai"
     },
     {
+      "id": "nvidia-taiwan-smokkelzaak",
+      "date": "2026-11-15",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Nvidia drong in Taiwan aan op sparen van verdachte manager",
+      "summary": "Vertegenwoordigers van Nvidia benaderden Taiwanese politici om te pleiten tegen de vervolging van een manager in een zaak over chipsmokkel naar China, meldt Bloomberg. De politici antwoordden dat ze in die zaak geen rol hebben.",
+      "body": [
+        "De manager, met de achternaam Chang, werd in juli aangehouden en in augustus aangeklaagd voor valsheid in geschrifte en trouwbreuk. Het Openbaar Ministerie in Keelung eist vijf jaar cel en noemt hem de spil van een netwerk dat 74 servers met Nvidia-chips naar China verscheepte. De kustwacht onderschepte in mei nog eens 56 servers; ook twee medewerkers van Super Micro zijn aangeklaagd.",
+        "Nvidia zegt geen aanwijzing te hebben dat zijn werknemer van de omleiding wist. Het bedrijf vroeg ook TSMC om advies, maar de chipfabrikant wilde zich er niet mee bemoeien. Het parket zegt niets te weten van contacten tussen Nvidia en de overheid."
+      ],
+      "why": "Het verhaal komt op het moment dat Washington Nvidia's omgang met exportregels al onder een vergrootglas legt.",
+      "source": "AI Weekly (Bloomberg)",
+      "url": "https://aiweekly.co/alerts/nvidia-lobbied-taipei-over-indicted-chip-smuggling-manager"
+    },
+    {
       "id": "artex-aanvallen-webwinkels",
       "date": "2026-11-15",
       "order": 85,
@@ -64,6 +177,22 @@
       "why": "Als aanvallen grotendeels zonder menselijke sturing verlopen, kunnen kleine criminele groepen op grote schaal toeslaan.",
       "source": "Cloud Expo",
       "url": "https://cloudexpo.nl/nieuws/al-dagen-cyberaanvallen-met-autonoom-ai-framework-op-grote-europese-webwinkelorganisatie"
+    },
+    {
+      "id": "megaspeed-alice-huang",
+      "date": "2026-11-15",
+      "order": 84,
+      "cat": "wereld",
+      "tag": "Megaspeed",
+      "title": "Megaspeed: Alice Huang vertrok al in 2025",
+      "summary": "Het Singaporese cloudbedrijf Megaspeed zegt dat Alice Huang er sinds eind augustus 2025 niet meer werkt. Het bedrijf laat externe advocaten de berichten over zijn toeleveringsketen onderzoeken.",
+      "body": [
+        "Megaspeed is sinds 2023 officiële cloudpartner van Nvidia en kocht volgens CNBC in ongeveer twee jaar voor ruim 4,8 miljard dollar aan Nvidia-chips. Het bedrijf wordt ervan verdacht Chinese klanten te helpen chips voor Zuidoost-Aziatische datacenters door te sluizen naar China. Megaspeed zegt zich aan de Amerikaanse exportregels te houden en wil daar intern opnieuw naar kijken.",
+        "Over het privéleven van Huang doet het bedrijf geen uitspraken. Het Singaporese ministerie van Binnenlandse Zaken zei tegen The Wall Street Journal dat er geen onderzoek naar haar loopt, in tegenspraak met eerdere berichten over banden met de Chinese inlichtingendienst."
+      ],
+      "why": "Megaspeed staat in het middelpunt van het schandaal dat Nvidia zijn topman kostte en de vraag oproept hoe lek de Amerikaanse exportregels zijn.",
+      "source": "AI Weekly (CNBC)",
+      "url": "https://aiweekly.co/alerts/megaspeed-says-alice-huang-exited-aug-2025-opens-outside-probe"
     },
     {
       "id": "tesla-cybercab-particulieren",
@@ -81,6 +210,22 @@
       "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-15-november"
     },
     {
+      "id": "noord-korea-deepfakegesprekken",
+      "date": "2026-11-15",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Cybercrime",
+      "title": "VS leggen Noord-Koreaanse oplichting met nepvideogesprekken stil",
+      "summary": "Amerikaanse autoriteiten hebben de servers in beslag genomen achter FaceStealer, een Noord-Koreaanse campagne met nagespeelde videogesprekken. De daders buitten in anderhalf jaar ruim 400 miljoen dollar aan cryptomunten.",
+      "body": [
+        "Slachtoffers werden in nepvergaderingen op Zoom of Teams gelokt, waar vooraf opgenomen camerabeelden van bekenden werden afgespeeld. De FBI vond meer dan 900 heimelijk opgenomen fragmenten. Beveiliger Arctic Wolf telde 677 doelwitten in 58 landen; ruim 80 procent was oprichter of bestuurder.",
+        "De campagne wordt toegeschreven aan BlueNoroff, een hackersgroep die al langer met nepvideogesprekken werkt. Justitie bevroor daarnaast 2,7 miljard dollar die te maken heeft met een roof van 6,4 miljard bij Binance, en wil nog eens 1,2 miljard in beslag nemen."
+      ],
+      "why": "Een vertrouwd gezicht in beeld bewijst niets meer, en juist bestuurders met toegang tot geld zijn het doelwit.",
+      "source": "AI Weekly (BleepingComputer)",
+      "url": "https://aiweekly.co/alerts/doj-disrupts-north-koreas-facestealer-deepfake-call-scheme-after-400m-crypto"
+    },
+    {
       "id": "stanford-lasersimulatie",
       "date": "2026-11-15",
       "order": 75,
@@ -94,6 +239,54 @@
       "why": "Snellere simulaties maken dure meettijd bij grote onderzoeksinstallaties efficiënter.",
       "source": "The State of Tech",
       "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-15-november"
+    },
+    {
+      "id": "samsung-sds-anthropic-openai",
+      "date": "2026-11-15",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Samsung",
+      "title": "Samsung SDS wil Anthropic en OpenAI als huurder in Koreaanse datacenters",
+      "summary": "Samsung SDS voert verkennende gesprekken met Anthropic en OpenAI over ruimte in nieuwe AI-datacenters in Zuid-Korea, meldt de Financial Times. Voorwaarden en capaciteit zijn nog niet bekend, en geen van de drie bedrijven bevestigt de gesprekken.",
+      "body": [
+        "Samsung wil alles uit één hand leveren: zusterbedrijf Samsung C&T bouwt de gebouwen en energiecentrales, Samsung SDS ontwerpt en beheert de datacenters. Begin november ging in Gumi de eerste schop in de grond voor een datacenter dat alleen voor AI bedoeld is, met eerst 60 en later 120 megawatt.",
+        "Analisten verwachten dat de datacenteromzet van Samsung SDS in 2031 rond 6,6 biljoen won (4,9 miljard dollar) ligt, ongeveer zes keer zoveel als nu."
+      ],
+      "why": "AI-labs zoeken wereldwijd naar rekenkracht, en Zuid-Korea wil daar met zijn chip- en bouwbedrijven van profiteren.",
+      "source": "AI Weekly (Financial Times)",
+      "url": "https://aiweekly.co/alerts/samsung-sds-courts-anthropic-openai-for-korea-data-centres"
+    },
+    {
+      "id": "bland-tofu-1-spraakmodel",
+      "date": "2026-11-15",
+      "order": 62,
+      "cat": "wereld",
+      "tag": "Bland",
+      "title": "Bland toont spraakmodel voor telefoongesprekken met veel lawaai",
+      "summary": "Het bedrijf Bland heeft Tofu-1 voorgesteld, een model dat tegelijk luistert, nadenkt en praat. Het verwerkt geluid rechtstreeks, zonder eerst een uitgeschreven tekst te maken.",
+      "body": [
+        "Bland zegt dat Tofu-1 de stem van de beller kan scheiden van een televisie, een huilend kind, verkeer of toetstonen, en om herhaling vraagt als de beller onverstaanbaar is. Het model is bedoeld voor gesprekken vanuit auto's en ziekenhuiskamers. Onafhankelijke metingen, de omvang van het model en prijzen zijn nog niet gepubliceerd.",
+        "Voorlopig krijgt alleen een beperkt aantal bedrijven in bankwezen, zorg, verzekeringen en overheid toegang. Bredere beschikbaarheid staat gepland voor januari; Tofu-1 is het eerste model uit een geplande reeks."
+      ],
+      "why": "Spraakassistenten struikelen vaak over achtergrondgeluid; lukt dat beter, dan kunnen ze meer klantgesprekken overnemen.",
+      "source": "AI Weekly (MarkTechPost)",
+      "url": "https://aiweekly.co/alerts/bland-ai-unveils-tofu-1-a-full-duplex-speech-to-speech-model-built-for-noisy"
+    },
+    {
+      "id": "san-francisco-verklaring-nederland",
+      "date": "2026-11-15",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "Buitenlandse Zaken",
+      "title": "Nederland tekent naar verwachting volgende week Amerikaanse AI-verklaring",
+      "summary": "De VS en een groep bondgenoten hebben zondag de Verklaring van San Francisco getekend, die AI-toeleveringsketens moet beschermen tegen Chinese invloed. Nederland, Duitsland, Zweden en de Europese Commissie zetten er volgens de Amerikaanse onderminister Jacob Helberg volgende week hun handtekening onder.",
+      "body": [
+        "Volgens het Amerikaanse ministerie van Buitenlandse Zaken tekenden Australië, India, Israël, Japan, Zuid-Korea, Qatar, Singapore, de Verenigde Arabische Emiraten en het Verenigd Koninkrijk. De landen stellen samen een lijst op van kwetsbare technologieën en schakels, van chips en kritieke grondstoffen tot energie, transport en logistiek. Werkgroepen gaan aan de slag met innovatie, AI-gebruik en veiligheid.",
+        "De verklaring valt onder Pax Silica, het Amerikaanse bondgenootschap voor chips en AI waar Nederland zich in juni bij aansloot. Minister Sjoerdsma van Buitenlandse Handel tekende toen in Washington. De nieuwe stap komt vlak voor de ontmoeting van president Trump met Xi Jinping op de APEC-top in Shenzhen."
+      ],
+      "why": "Met ASML zit Nederland midden in de chipketen, en elke Amerikaanse afspraak over die keten raakt de Nederlandse economie direct.",
+      "source": "The Tribune (ANI)",
+      "url": "https://www.tribuneindia.com/news/usa-news/india-signs-us-led-declaration-to-safeguard-ai-supply-chains-report"
     },
     {
       "id": "nvidia-huang-vertrek",
@@ -380,6 +573,69 @@
         "Op sociale media groeit intussen de belangstelling om open modellen lokaal te bewaren, uit vrees dat ze in de toekomst lastiger verkrijgbaar worden."
       ],
       "why": "Wie AI op eigen hardware draait, is niet afhankelijk van een clouddienst en houdt zijn gegevens in eigen hand."
+    },
+    {
+      "id": "foundation-robots-salaris",
+      "date": "2026-11-14",
+      "order": 29,
+      "cat": "wereld",
+      "tag": "Foundation",
+      "title": "Maker van gevechtsrobots betaalt personeel niet meer uit",
+      "summary": "Foundation, een start-up uit San Francisco die humanoïde robots aan het Pentagon wil verkopen, heeft sinds 30 oktober geen salarissen meer betaald. Dat blijkt uit onderzoek van The San Francisco Standard.",
+      "body": [
+        "General Motors noemt een order van 300 miljoen dollar, die Foundation bij investeerders aanprees, verzonnen. Federale registers tonen dit jaar geen enkel Pentagon-contract voor het bedrijf, ondanks eerdere berichten over 24 miljoen dollar. Het Navy-contract van 24,8 miljoen hoort bij partner IHMC; dochterbedrijf Boardwalk Robotics heeft vier contracten van samen 3,22 miljoen.",
+        "Foundation trok eerder aandacht met tests in Oekraïne en met Eric Trump als strategisch adviseur. Een inmiddels verwijderde presentatie noemde 73 miljoen dollar aan defensiecontracten en 100 miljoen omzet per jaar; dat kon de krant niet bevestigen."
+      ],
+      "why": "Het geval laat zien hoe makkelijk opgeblazen beloftes rond AI-robots investeerders en overheden bereiken.",
+      "source": "The San Francisco Standard",
+      "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
+    },
+    {
+      "id": "alpha-school-rekendoel",
+      "date": "2026-11-14",
+      "order": 28,
+      "cat": "wereld",
+      "tag": "Onderwijs",
+      "title": "Helft van leerlingen op dure AI-school haalt rekendoel niet",
+      "summary": "Ongeveer de helft van de leerlingen op Alpha School, waar AI het lesgeven grotendeels overneemt, leerde minder snel rekenen dan de school belooft. Dat blijkt uit interne cijfers die The New York Times inzag.",
+      "body": [
+        "De school vraagt 75.000 dollar per jaar en belooft dat kinderen twee keer zo snel leren. Bij lezen haalde ongeveer een op de vijf leerlingen het doel niet, en slechts 42 procent haalde het voor rekenen én lezen. Leraren zijn er vervangen door begeleiders en een AI-bijlesprogramma dat TimeBack heet."
+      ],
+      "why": "Alpha School geldt als proeftuin voor AI-onderwijs, dus tegenvallende resultaten zetten de grote beloftes in perspectief.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/"
+    },
+    {
+      "id": "google-antigravity-weil",
+      "date": "2026-11-14",
+      "order": 27,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Samenwerkende AI-agents van Google formaliseren beroemde wiskundestellingen",
+      "summary": "Met de teamfunctie in Antigravity hebben AI-agents van Google de vermoedens van Weil en het tiende probleem van Hilbert volledig uitgeschreven in de bewijstaal Lean. Een computer kan die bewijzen nu stap voor stap controleren.",
+      "body": [
+        "Voor de vermoedens van Weil ging het om ongeveer 1,8 miljoen regels Lean-code en 28.800 aanroepen van subagents; het bewijs voor Hilbert telt zo'n 919.000 regels. Daarnaast zetten de agents de videodecoder libgav1 over naar de programmeertaal Rust, met een versie die 20 tot 30 procent sneller is.",
+        "Antigravity is Googles programmeeromgeving waarin agents zelfstandig werken. Eerder dit jaar claimde Google al dat de teamfunctie zeven open problemen in wiskunde en informatica had opgelost."
+      ],
+      "why": "Machinaal gecontroleerde bewijzen op deze schaal laten zien dat AI-agents lang, foutgevoelig precisiewerk kunnen volhouden.",
+      "source": "Google Research",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    },
+    {
+      "id": "stanford-memorilla",
+      "date": "2026-11-14",
+      "order": 26,
+      "cat": "wereld",
+      "tag": "Onderzoek",
+      "title": "Stanford perst hele documentverzamelingen samen tot 16 tokens",
+      "summary": "Onderzoekers van Stanford hebben Memorilla vrijgegeven, een geheugenmodule die documenten samenvat in precies 16 geheugentokens voor een taalmodel. Het model zelf hoeft daarvoor niet opnieuw te worden getraind.",
+      "body": [
+        "De module heeft 194 miljoen parameters en werkt met Qwen3-8B. Op de feitentest FactKG haalt de combinatie 84,3 procent, met 108 keer minder documenttekst dan wanneer alles in de prompt gaat en een 27 keer kortere wachttijd. Op de medische test PubMedQA blijft Memorilla met 59 procent wel achter bij het compressieprogramma LLMLingua-2, dat 69 procent haalt.",
+        "De training kostte ongeveer 19 uur op vier H100-chips. Code en trainingsrecept zijn openbaar onder een Apache-licentie."
+      ],
+      "why": "Kleinere invoer betekent goedkopere en snellere AI-toepassingen die met veel documenten tegelijk werken.",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens"
     },
     {
       "id": "eu-ai-top-dublin",
