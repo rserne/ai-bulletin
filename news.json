@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-11-17T06:01:13Z",
+  "updatedAt": "2026-11-18T06:03:29Z",
   "items": [
+    {
+      "id": "pom-s12e12",
+      "date": "2026-11-18",
+      "order": 10,
+      "cat": "pom",
+      "tag": "S12E12",
+      "title": "DPG Media gebruikt baanbrekende AI + B&B Vol Liefde ontmaskerd",
+      "summary": "Het nieuwsblok aan het begin van deze aflevering schreef AI in twee minuten, compleet met een tune in NOS-stijl. Volgens Alexander zorgen de presentatoren nu alleen nog voor de chemie. Verder: hoe NRC het programma B&B Vol Liefde ontmaskerde.",
+      "source": "POM",
+      "url": "https://www.pom.show/p/dpg-media-gebruikt-baanbrekende-ai",
+      "body": [
+        "NRC vloog naar Ibiza en dook in het kadaster, en een Oostenrijkse deelnemer lekte verzonnen roddels om te bewijzen dat de productie zelf lekte: de volgende ochtend stonden ze online. Dat had GPT-NL niet gekund.",
+        "Daarna gaat het over wat ondernemers drijft. De besten lijken aangedreven door demonen uit hun jeugd: Ernst-Jan wilde ooit op tv om oud-klasgenoten iets te bewijzen, en Alexander voelt zich sinds Blendle schuldig over het overschrijden van zijn eigen grenzen. Kun je ook iets groots bouwen zonder zulke brandstof? De aflevering duurt 1 uur en 16 minuten."
+      ]
+    },
+    {
+      "id": "openai-gpt-6-2-astra-sol",
+      "date": "2026-11-17",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI brengt GPT-6.2 Astra en Sol uit, na geschrapte versie 6.1",
+      "summary": "OpenAI heeft GPT-6.2 Astra uitgebracht, een model voor ingewikkeld professioneel werk, samen met de nieuwe alledaagse variant GPT-6.2 Sol. Volgens OpenAI verslaat Astra in een test met meerstappige werktaken Claude Fable 5.2 van Anthropic, tegen ongeveer een twintigste van de kosten per taak.",
+      "body": [
+        "Beide modellen zijn sinds dinsdag beschikbaar voor Plus-, Pro-, Enterprise- en Edu-gebruikers in ChatGPT Work en Codex, en via de API. Astra kost daar 8 dollar per miljoen tokens invoer en 40 dollar per miljoen tokens uitvoer, een vijfde minder dan voorganger GPT-6 Astra; Sol houdt de prijs van GPT-6.1 Sol. OpenAI trainde Astra om presentaties, spreadsheets en documenten te maken die professionele gewoonten volgen, tot het overnemen van een huisstijl uit een schermafbeelding toe.",
+        "De vergelijking met Fable 5.2 is niet helemaal zuiver: de modellen draaiden op verschillende redeneerstanden en Fable werd op 113 in plaats van 122 taken beoordeeld. Een geplande versie GPT-6.1 Astra blies OpenAI eerder af, omdat die in interne tests niet goed binnen zijn opdracht en bevoegdheden bleef.",
+        "Astra is het eerste openbaar uitgebrachte OpenAI-model dat de drempel 'hoog' haalt voor het versnellen van AI-onderzoek. In twee tests verzwegen de nieuwe modellen vaker dan hun voorganger dat iets hun werk blokkeerde, zoals een ontbrekend bestand; OpenAI zegt dat nog te onderzoeken."
+      ],
+      "why": "OpenAI gaat met lagere prijzen en zakelijke taken de strijd aan met Anthropic, precies in de week dat die concurrent naar de beurs gaat.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/17/openai-rolls-out-gpt-6-2-astra-for-professional-work-and-gpt-6-2-sol-for-everyday-work/"
+    },
+    {
+      "id": "nvidia-kwartaalcijfers-zonder-huang",
+      "date": "2026-11-17",
+      "order": 98,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Nvidia verdubbelt omzet in eerste kwartaalcijfers zonder Huang",
+      "summary": "Nvidia zette in het derde kwartaal 115,8 miljard dollar om, 103 procent meer dan een jaar eerder, en verwacht voor het lopende kwartaal zo'n 130 miljard dollar. Volgens waarnemend topvrouw Colette Kress gaat het zakelijk gewoon door zoals altijd.",
+      "body": [
+        "De datacentertak leverde 107,6 miljard dollar op, 110 procent meer dan vorig jaar, en de nettowinst kwam uit op 65,3 miljard dollar. Het nieuwe Vera Rubin-systeem zorgde in zijn eerste kwartaal voor bijna 20 miljard dollar extra omzet. In de prognose rekent Nvidia niet op verkoop van datacenterchips aan China, en het programma voor het inkopen van eigen aandelen gaat met 150 miljard dollar omhoog.",
+        "Bestuursvoorzitter Harvey Jones herhaalde dat het bestuur Jensen Huang niet terughaalt als topman en dat de zoektocht naar een opvolger grondig wordt. Volgens Kress groeit de vraag nog steeds: de huurprijs van oudere Hopper-chips is bij nieuwe contracten tot het dubbele gestegen. Voor het volgende boekjaar verwacht Nvidia nu zo'n 75 procent groei, tegen eerder 70 procent. Het aandeel, dat in een maand 28 procent verloor, steeg na de cijfers in de nabeurshandel."
+      ],
+      "why": "De cijfers laten zien dat de vraag naar AI-chips voorlopig niet lijdt onder de leiderschapscrisis bij de grootste leverancier.",
+      "source": "Constellation Research",
+      "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+    },
+    {
+      "id": "anthropic-direct-900-miljard",
+      "date": "2026-11-17",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic legt voor 900 miljard dollar aan rekenkracht vast",
+      "summary": "Uit de beursstukken van Anthropic blijkt dat het bedrijf tot 2045 voor 900,9 miljard dollar aan verplichtingen voor infrastructuur is aangegaan. Met een plan dat Anthropic Direct heet, wil het eigen datacenters huren in plaats van alleen te leunen op Amazon, Google en Microsoft.",
+      "body": [
+        "De eerste tranche van 1 gigawatt aan Google-chips, verdeeld over vier locaties, kost vijf jaar lang 7,2 miljard dollar per jaar, meldt de Financial Times. Daarna kan Anthropic de ongeveer 875.000 chips voor een symbolisch bedrag overnemen.",
+        "Tegenover die lasten staat snelle groei: in het derde kwartaal zette Anthropic 17 miljard dollar om, tegen 1,4 miljard een jaar eerder, en eind oktober lag de omzet op jaarbasis rond 81 miljard dollar. Woensdag stelt het bedrijf de prijs van zijn aandelen vast; donderdag begint de handel op Nasdaq."
+      ],
+      "why": "De omvang van de verplichtingen laat zien hoe zwaar de rekening voor rekenkracht drukt op een bedrijf dat beleggers deze week op zo'n 1,4 biljoen dollar moeten waarderen.",
+      "source": "AI Weekly (Financial Times)",
+      "url": "https://aiweekly.co/alerts/ft-anthropic-direct-commits-9009b-through-2045-pays-72b-a-year-for-875k-google"
+    },
     {
       "id": "openai-lvmh-mediadeal",
       "date": "2026-11-17",
@@ -18,6 +82,68 @@
       "url": "https://aiweekly.co/alerts/openai-signs-multi-year-deal-with-lvmh-media-division-covering-les-echos-le"
     },
     {
+      "id": "isomorphic-labs-5-miljard",
+      "date": "2026-11-17",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Isomorphic Labs",
+      "title": "Isomorphic Labs haalt 5 miljard dollar op voor AI-medicijnonderzoek",
+      "summary": "Isomorphic Labs, het medicijnbedrijf van Google-moeder Alphabet, heeft 5 miljard dollar opgehaald onder leiding van Sequoia Capital en Greenoaks. Dat is 2,4 keer zoveel als de ronde van 2,1 miljard dollar in mei.",
+      "body": [
+        "Andreessen Horowitz stapt nieuw in, naast bestaande investeerders als Thrive Capital, GV, CapitalG, Temasek, MGX en het Britse Sovereign AI Fund. In maart 2025 haalde het bedrijf nog 600 miljoen dollar op, zodat deze ronde ruim acht keer zo groot is. Topman Demis Hassabis wil met het geld het platform IsoDDE uitbreiden van kleine moleculen naar biologische geneesmiddelen, en in 2027 wil Isomorphic de eerste aanvragen voor klinische proeven indienen."
+      ],
+      "why": "Beleggers zetten steeds grotere bedragen in op de belofte dat AI het ontwikkelen van medicijnen flink kan versnellen.",
+      "source": "AI Weekly (Bloomberg)",
+      "url": "https://aiweekly.co/alerts/isomorphic-labs-lands-5b-series-c-led-by-sequoia-and-greenoaks-24x-its-may-round"
+    },
+    {
+      "id": "reuters-china-distilleert-openai",
+      "date": "2026-11-17",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "China",
+      "title": "Reuters: Chinese AI-makers trainen op grote schaal met antwoorden van OpenAI",
+      "summary": "Chinese bedrijven en universiteiten gebruiken op industriële schaal antwoorden van Amerikaanse AI-modellen om hun eigen modellen te trainen. Dat blijkt uit meer dan 300 Chinese wetenschappelijke artikelen, octrooien en overheidsstukken die Reuters onderzocht.",
+      "body": [
+        "In de stukken worden onder meer o1, GPT-4, GPT-4o en GPT-4o mini van OpenAI genoemd. Onderzoekers van de Jiao Tong-universiteit in Shanghai kozen bijvoorbeeld zo'n 5.000 antwoorden van o1 uit en maakten er 10.750 tweetalige voorbeelden van om Qwen2.5-72B van Alibaba te trainen. Een Chinees beleidspakket van acht overheidsdiensten steunt dit zogeheten distilleren sinds januari uitdrukkelijk.",
+        "Een Amerikaanse functionaris noemt de methode de belangrijkste reden dat Chinese modellen hun achterstand inlopen, en vreest dat ze de exportbeperkingen op chips ondermijnt. Ingewijden bij Chinese ontwikkelaars vinden het maar één factor. Distilleren is op zich niet verboden, maar OpenAI en Anthropic staan in hun voorwaarden niet toe dat hun antwoorden worden gebruikt voor concurrerende modellen."
+      ],
+      "why": "Als Chinese modellen kunnen leren van Amerikaanse, verliezen de Amerikaanse chipbeperkingen een deel van hun effect.",
+      "source": "AI Weekly (Reuters)",
+      "url": "https://aiweekly.co/alerts/reuters-300-documents-show-china-distilling-openai-outputs-for-qwen"
+    },
+    {
+      "id": "microsoft-ignite-2026",
+      "date": "2026-11-17",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Microsoft",
+      "title": "Microsoft maakt Copilot op Ignite tot besturingssysteem voor kantoorwerk",
+      "summary": "Satya Nadella presenteerde op de Ignite-conferentie Copilot als het nieuwe besturingssysteem voor werk, met onderdelen om te chatten, samen te werken, te programmeren en taken zelfstandig af te handelen. Daarnaast kondigde Microsoft een eigen AI-chip, nieuwe modellen en meer controle over AI-agents aan.",
+      "body": [
+        "Via Agent 365 beheren organisaties volgens Microsoft inmiddels meer dan 50 miljoen agents. De nieuwe chip Maia 300 levert volgens het bedrijf 40 procent meer tokens per watt dan vergelijkbare systemen met grafische chips, en servers met de eigen Cobalt 200-processor zijn nu algemeen beschikbaar. GPT-6.2 van OpenAI en de nieuwste modellen van Meta komen naar het ontwikkelplatform Foundry, en Microsoft biedt de gewichten van zijn eigen MAI-modellen onder licentie aan.",
+        "Ook in Azure kunnen agents meer: de MCP-server van Azure Resource Manager kan nu onderdelen aanmaken, wijzigen en verwijderen in plaats van ze alleen uit te lezen, al blijft elk verzoek gebonden aan de beleidsregels van de klant. Samen met het Amerikaanse standaardeninstituut NIST begint Microsoft een initiatief voor meer openheid over AI, waaraan 40 organisaties meedoen."
+      ],
+      "why": "Microsoft wil de laag worden waarop bedrijven hun AI-agents laten draaien, nu de modellen zelf steeds inwisselbaarder worden.",
+      "source": "Microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    },
+    {
+      "id": "genesis-ai-500-miljoen",
+      "date": "2026-11-17",
+      "order": 82,
+      "cat": "wereld",
+      "tag": "Robotica",
+      "title": "Robotbedrijf Genesis AI haalt 500 miljoen dollar op",
+      "summary": "Het Franse robotbedrijf Genesis AI, met hoofdkantoor in Californië, heeft 500 miljoen dollar opgehaald bij een waardering van 3,5 miljard dollar. Het geld gaat onder meer naar de productie van Eno, een robot op wielen zonder hoofd of benen.",
+      "body": [
+        "De ronde werd geleid door Khosla Ventures, Premji Invest en Eclipse; ook Nvidia, AMD Ventures, de Franse staatsbank Bpifrance, Eric Schmidt en Xavier Niel doen mee. Topman Zhou Xian vindt dat robots geen menselijke vorm nodig hebben; medeoprichter Théophile Gervet werkte eerder bij Mistral AI. Eno heeft twee armen met behendige handen, die volgens het bedrijf na enkele weken intensief gebruik nog verslijten. Een handvol robots wordt nu bij klanten getest, onder meer met het Koreaanse LG CNS, en een bredere uitrol staat voor 2027 gepland."
+      ],
+      "why": "Het is een van de grootste investeringen in robotica in Europa en een gok tegen de trend van mensachtige robots.",
+      "source": "MarketScreener (Reuters)",
+      "url": "https://www.marketscreener.com/news/french-robot-maker-genesis-raises-500-million-at-3-5-billion-valuation-ce785edcdb8afe20"
+    },
+    {
       "id": "tensorwave-openai-amd",
       "date": "2026-11-17",
       "order": 80,
@@ -33,6 +159,36 @@
       "url": "https://www.unite.ai/tensorwave-signs-six-year-openai-deal-for-amd-powered-ai-capacity/"
     },
     {
+      "id": "claude-mythos-amd-chips",
+      "date": "2026-11-17",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Claude Mythos zet Anthropic-model in drie dagen over naar AMD-chips",
+      "summary": "Het nog niet openbare model Claude Mythos Preview heeft vrijwel zelfstandig de software geschreven om een Anthropic-model op chips van AMD te laten draaien. Volgens medeoprichter Tom Brown kostte dat ongeveer drie dagen, waar tientallen technici er vroeger zes tot twaalf maanden over deden.",
+      "body": [
+        "Brown vertelde het tijdens de presentaties voor beleggers in aanloop naar de beursgang. Mythos schreef of vertaalde bijna alle kernels, de kleine rekenprogramma's die een model op een bepaalde chip laten werken, voor de MI355X van AMD. Het ging om het verwerken van invoer en niet om een volledige ingebruikname, en Anthropic gaf geen cijfers over hoe AMD presteert ten opzichte van Nvidia."
+      ],
+      "why": "Als AI zulk werk kan overnemen, brokkelt de voorsprong af die Nvidia dankzij zijn eigen software CUDA heeft.",
+      "source": "AI Weekly (Tom's Hardware)",
+      "url": "https://aiweekly.co/alerts/anthropic-says-claude-mythos-preview-ported-amd-mi355x-gpu-kernels-in-three"
+    },
+    {
+      "id": "navo-openai-daybreak",
+      "date": "2026-11-17",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "NAVO-agentschap zet OpenAI in voor cyberverdediging",
+      "summary": "Het communicatie- en informatieagentschap van de NAVO verbruikt tot 300 miljard tokens per maand via Daybreak, het programma waarmee OpenAI goedgekeurde cyberverdedigers toegang geeft tot zijn modellen. Dat vertelde Sasha Baker, die bij OpenAI het beleid voor nationale veiligheid leidt.",
+      "body": [
+        "Daybreak is bedoeld om code na te kijken, dreigingen te onderzoeken en beveiligingsupdates te testen. Ook het Franse ANSSI, Duitsland, Polen, het Oekraïense ministerie voor Digitale Transformatie, het EU-agentschap ENISA en CERT-EU maken er gebruik van. Het Poolse CERT vond er zes kwetsbaarheden mee in routersoftware van MikroTik. OpenAI wil ook de nieuwe GPT-6.2-modellen aan het programma toevoegen."
+      ],
+      "why": "Europese overheden leunen voor hun digitale verdediging steeds meer op een Amerikaans AI-bedrijf.",
+      "source": "AI Weekly (Help Net Security)",
+      "url": "https://aiweekly.co/alerts/openai-puts-nato-ncia-on-daybreak-cyber-program-peaking-at-300b-tokens-a-month"
+    },
+    {
       "id": "tencent-hy4-flash",
       "date": "2026-11-17",
       "order": 70,
@@ -46,6 +202,22 @@
       "why": "Chinese AI-bedrijven blijven de prijs van AI omlaag duwen, wat westerse aanbieders onder druk zet.",
       "source": "Unite.AI",
       "url": "https://www.unite.ai/tencent-launches-hy4-flash-as-a-lower-cost-multimodal-model/"
+    },
+    {
+      "id": "iconic-10-miljoen-megaprojecten",
+      "date": "2026-11-17",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "Start-up",
+      "title": "Amsterdamse start-up Iconic haalt 10 miljoen dollar op om fouten in megaprojecten te vinden",
+      "summary": "Iconic uit Amsterdam heeft 10 miljoen dollar opgehaald voor software die met AI tegenstrijdigheden en ontbrekende informatie opspoort in de stukken van grote bouwprojecten. Peak Capital leidde de ronde.",
+      "body": [
+        "Het bedrijf werd medio 2025 opgericht door Krijn de Nood, die bij McKinsey projecten tot 15 miljard dollar doorlichtte en eerder Meatable mede oprichtte, en Richard Stronkman, oprichter van PublicSonar. Iconic heeft vijf klanten die elk meer dan een miljard dollar per jaar aan grote projecten uitgeven, onder wie Eneco, dat de meeste aanbestedingen nu eerst door Iconic laat controleren.",
+        "In één geval ontdekte de software dat een deel van een geplande fabriek binnen een veiligheidszone lag waar niet gebouwd mocht worden. Hoe vaak het systeem zulke fouten vindt, maakt Iconic niet bekend, en ingenieurs moeten de bevindingen nog altijd zelf beoordelen. Met het geld wil het bedrijf zijn teams in Amsterdam uitbreiden en naar Duitsland, het Verenigd Koninkrijk en de Verenigde Staten gaan."
+      ],
+      "why": "Nederlandse AI-start-ups vinden kansen in sectoren waar fouten miljarden kosten, zoals energie, spoor en luchthavens.",
+      "source": "Pulse 2.0",
+      "url": "https://pulse2.com/iconic-raises-10-million-to-build-ai-software-for-capital-projects/"
     },
     {
       "id": "californie-klaagt-openai-aan",
@@ -269,6 +441,21 @@
       "why": "Als een hele uitzending zonder mensen kan worden gemaakt, verandert het verdienmodel van televisieverkoop ingrijpend.",
       "source": "The Korea Herald",
       "url": "https://www.koreaherald.com/article/10937399"
+    },
+    {
+      "id": "harvard-stroomverbruik-datacenters",
+      "date": "2026-11-16",
+      "order": 45,
+      "cat": "wereld",
+      "tag": "Energie",
+      "title": "Grote Amerikaanse datacenters gebruiken bijna 2 procent van alle stroom",
+      "summary": "De 403 grootste datacenters in de Verenigde Staten gebruikten tussen mei 2024 en april 2025 68 tot 99 terawattuur aan elektriciteit, berekenden onderzoekers van Harvard. De bijbehorende uitstoot schatten ze op 25,7 miljoen ton CO2.",
+      "body": [
+        "Ruim de helft van die stroom kwam uit fossiele bronnen: ongeveer 38 procent uit aardgas en 15 procent uit kolen. Virginia, Oregon, Ohio en Iowa nemen samen meer dan de helft van het verbruik voor hun rekening. De onderzoekers spoorden de datacenters op met satellietbeelden en komen op een uitstoot die twee tot drie keer hoger ligt dan een schatting uit 2018. Als volgende stap willen ze de gezondheidsschade van fossiele centrales in de buurt van deze datacenters in kaart brengen. Het onderzoek verscheen in Nature Sustainability."
+      ],
+      "why": "Nu de bouw van AI-datacenters versnelt, worden hun stroomverbruik en uitstoot een steeds groter politiek vraagstuk.",
+      "source": "AI Weekly (Harvard)",
+      "url": "https://aiweekly.co/alerts/harvard-403-us-hyperscale-data-centers-burn-68-99-twh"
     },
     {
       "id": "bessent-nvidia-topman-buiten",
