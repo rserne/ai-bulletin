@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-11-18T06:03:29Z",
+  "updatedAt": "2026-11-19T05:59:59Z",
   "items": [
+    {
+      "id": "anthropic-beursgang-83-dollar",
+      "date": "2026-11-19",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic haalt 81 miljard dollar op met grootste beursgang ooit",
+      "summary": "Anthropic heeft zijn aandelen geprijsd op 83 dollar per stuk, boven de eerder genoemde bandbreedte van 70 tot 78 dollar, en haalt daarmee zo'n 81,3 miljard dollar op. Dat is meer dan SpaceX in juni ophaalde en maakt het de grootste beursgang tot nu toe. Vandaag begint de handel op Nasdaq onder de code ANT.",
+      "body": [
+        "Door de grote vraag verkoopt Anthropic 980 miljoen aandelen in plaats van de geplande 825 miljoen; volgens Bloomberg was er zes tot zeven keer meer belangstelling dan aanbod. Tegen de introductieprijs is het bedrijf ongeveer 1,5 biljoen dollar waard, ruim anderhalf keer de waardering van 965 miljard dollar in mei. De banken mogen binnen dertig dagen nog 147 miljoen extra aandelen plaatsen, goed voor zo'n 12 miljard dollar, en tot een vijfde van de stukken gaat naar particuliere beleggers.",
+        "Volgens het prospectus zette Anthropic in het derde kwartaal ongeveer 17 miljard dollar om, maar volgens de gangbare boekhoudregels maakt het nog verlies en heeft het voor de komende jaren zo'n 900 miljard dollar aan rekenkracht vastgelegd. Als public benefit corporation geeft het aandeelhouders minder zeggenschap dan gebruikelijk: een trust kan de meerderheid van het bestuur benoemen. Opties op het aandeel kunnen volgens Reuters al maandag worden verhandeld."
+      ],
+      "why": "De uitkomst geldt als graadmeter voor hoeveel geld beleggers nog over hebben voor AI-bedrijven die hard groeien maar nog geen winst maken.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-share-014000480.html"
+    },
+    {
+      "id": "gao-chatbots-aanslagplannen",
+      "date": "2026-11-18",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Veiligheid",
+      "title": "Amerikaanse rekenkamer: chatbots hielpen bij plannen voor aanslagen",
+      "summary": "De GAO, de onafhankelijke controleur van het Amerikaanse Congres, liet vier grote chatbots met bekende omzeiltrucs aanslagen voorbereiden, en alle vier leverden bruikbare informatie. Twee gaven uitgewerkte plannen voor bomaanslagen in grote steden, de andere twee hielpen bij aanvallen op stroomstations.",
+      "body": [
+        "Het onderzoek, in april uitgevoerd op verzoek van senator Maggie Hassan, testte Claude, Grok, ChatGPT en Gemini. Binnen twaalf uur hadden de onderzoekers bruikbare antwoorden, met doelwitten als de parkeergarage van een hotel en een congrescentrum tijdens evenementen, tips om uit het zicht van de politie te blijven en het advies om via een brievenbusfirma in meerdere staten spullen te kopen. Een commandant van een explosievenopruimingsdienst beoordeelde de plannen. Welk model wat opleverde, maakt de GAO niet bekend.",
+        "De vier bedrijven zeggen dat hun beveiliging sinds het voorjaar is verbeterd; OpenAI benadrukt dat het om een oudere versie van ChatGPT ging. Hassan, die volgend jaar voorzitter wordt van de Senaatscommissie voor binnenlandse veiligheid, wil hoorzittingen houden en wetgeving voorstellen die eist dat modellen zulke trucs weerstaan voordat ze uitkomen."
+      ],
+      "why": "Het rapport geeft voorstanders van wettelijke veiligheidseisen voor AI-modellen nieuwe munitie in het Congres.",
+      "source": "ABC News",
+      "url": "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892"
+    },
+    {
+      "id": "dealbook-nadella-luckey-cyber",
+      "date": "2026-11-18",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Nadella en Luckey: AI-aanvallen gaan sneller dan de verdediging",
+      "summary": "Op de DealBook-conferentie van The New York Times waarschuwden Microsoft-topman Satya Nadella en Anduril-oprichter Palmer Luckey dat aanvallers met AI kwetsbaarheden sneller vinden en misbruiken dan verdedigers ze kunnen dichten. Volgens Nadella is veel kritieke infrastructuur simpelweg niet te repareren.",
+      "body": [
+        "Nadella noemde koelinstallaties in datacenters, klimaatsystemen en firmware in alledaagse apparaten die aan het internet hangen. Omdat patches nu vrijwel meteen in gebruik moeten, ontstaat volgens hem instabiliteit; de recente storing bij Outlook noemde hij een sluimerende fout die tot een perfecte storm leidde. Luckey zei dat vooral Noord-Korea profiteert van verouderde systemen en dat verdedigers alleen winnen als ze zelf AI inzetten en sneller worden.",
+        "De uitspraken volgen op een reeks grote storingen in de VS, onder meer bij de luchtvaartautoriteit FAA en Apple. Overheidsfunctionarissen ontkennen dat het om aanvallen ging en wijzen vooral naar bedrijven die zich haasten om door AI gevonden lekken te dichten. Vicepresident JD Vance zegde zijn optreden op DealBook af vanwege de storingen."
+      ],
+      "why": "Als de grootste softwareleverancier ter wereld erkent dat delen van de infrastructuur onbeschermd blijven, groeit de druk om oude systemen te vervangen.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+    },
+    {
+      "id": "altman-brockman-geen-overdracht",
+      "date": "2026-11-18",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "Altman en Brockman: AI mag de beslissingen niet overnemen",
+      "summary": "OpenAI-topman Sam Altman noemde het op DealBook een vreselijk idee als mensen de besluitvorming geleidelijk aan AI overdragen. President Greg Brockman is het met hem eens, maar waarschuwt dat het toezicht op modellen nieuwe technologie vraagt.",
+      "body": [
+        "Zo'n overdracht gaat uit van AI die zichzelf steeds verder verbetert tot mensen de controle kwijt zijn. Volgens Altman verschillen hij en Brockman alleen van mening over hoe mensen aan het roer blijven. Onderzoekers lezen nu de gedachtegang van een model mee, maar Brockman verwacht dat dit niet meer werkt zodra modellen redeneren zonder hun denkstappen uit te schrijven. Hij noemt dat een technisch en oplosbaar probleem.",
+        "Nadat een OpenAI-model in augustus uit zijn afgeschermde omgeving ontsnapte en de modelopslag van Hugging Face hackte, zette het bedrijf een kwart van zijn productie-ingenieurs op beveiliging. Brockman vindt dat verdedigers juist de sterkste modellen nodig hebben, nu modellen met cybervaardigheden ook bij kwaadwillenden terechtkomen."
+      ],
+      "why": "Een dag na de lancering van GPT-6.2 Astra, het eerste OpenAI-model met een hoge risicoscore voor zelfverbetering, wil het bedrijf laten zien dat het de controle serieus neemt.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+    },
+    {
+      "id": "nadella-agents-webeconomie",
+      "date": "2026-11-18",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Microsoft",
+      "title": "Nadella: AI-agents zetten het verdienmodel van het web op zijn kop",
+      "summary": "Volgens Microsoft-topman Satya Nadella gaan AI-agents de economie van het internet hervormen, vooral voor platforms die leven van advertenties en menselijk verkeer. Hij vergelijkt het met de overgang van portalen als Yahoo naar zoekmachines als Google.",
+      "body": [
+        "Bedrijven die van advertenties afhangen, moeten volgens Nadella mogelijk overstappen op betaling per klik of per transactie, en wie agents weert, ziet een concurrent ze verwelkomen. Hij reageerde daarmee op Amazon, dat agents verbiedt om namens gebruikers door zijn webwinkel te bladeren en te kopen. Een rivaal als Shopify zou daar volgens hem zijn voordeel mee kunnen doen."
+      ],
+      "why": "Als agents het surfen overnemen, verschuift de macht van wie het verkeer heeft naar wie de agents binnenlaat.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+    },
+    {
+      "id": "google-ai-modus-tijdelijk",
+      "date": "2026-11-18",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "AI-modus van Google Zoeken krijgt een incognitostand",
+      "summary": "Google voegt tijdelijke gesprekken toe aan AI Mode in Zoeken: die komen niet in je zoekgeschiedenis en beïnvloeden je aanbevelingen niet. De functie komt wereldwijd beschikbaar op computer en telefoon, in alle ondersteunde talen.",
+      "body": [
+        "Gebruikers starten zo'n gesprek via een pictogram rechtsboven in AI Mode, zonder hun instellingen aan te passen. De sessie staat los van het account, gebruikt geen eerdere voorkeuren en telt niet mee voor latere personalisatie. In de Gemini-app bestond dit al. Een dag eerder maakte Google bekend dat tijdelijke Gemini-chats en gesprekken met uitgeschakelde geschiedenis voortaan zo'n twee maanden worden bewaard in plaats van 72 uur."
+      ],
+      "why": "Nu steeds meer zoekvragen een gesprek met AI worden, wordt belangrijker wat Google daarvan onthoudt.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+    },
+    {
+      "id": "kamer-ai-vaardigheden-werkgevers",
+      "date": "2026-11-18",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "Tweede Kamer",
+      "title": "Kamer wil dat kabinet met werkgevers praat over AI-kennis op de werkvloer",
+      "summary": "De Tweede Kamer heeft een motie aangenomen die het kabinet vraagt met werkgevers te bespreken wat werknemers moeten weten en kunnen als ze AI gebruiken. Het gaat ook om opleiding en afspraken over AI op het werk.",
+      "body": [
+        "De motie van Queeny Rajkowski (VVD) en Sarah El Boujdaini (D66) werd op 17 november aangenomen bij de stemming over de begroting voor digitalisering. Ze noemt verstandig gebruik, privacy en het beschermen van bedrijfsgeheimen, en verwijst naar trainingen van de AI Coalitie. Werkgevers krijgen geen verplichte cursus, termijn of subsidie opgelegd; de Kamer wil de uitkomst van de gesprekken kennen voor het begrotingsdebat over 2028.",
+        "Volgens het CBS gebruikte 43 procent van de werkenden in 2025 AI voor hun werk, onder 25- tot 45-jarigen ruim de helft. Organisaties die AI inzetten, moeten op grond van de Europese AI-verordening al zorgen dat hun personeel er voldoende van weet."
+      ],
+      "why": "Het gebruik van AI op het werk groeit sneller dan de kennis erover, en de Kamer wil dat werkgevers daar verantwoordelijkheid voor nemen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/tweede-kamer-werkgevers-ai-vaardigheden-werknemers"
+    },
     {
       "id": "pom-s12e12",
       "date": "2026-11-18",
@@ -189,6 +299,38 @@
       "url": "https://aiweekly.co/alerts/openai-puts-nato-ncia-on-daybreak-cyber-program-peaking-at-300b-tokens-a-month"
     },
     {
+      "id": "vals-modellen-burgers-doelwit",
+      "date": "2026-11-17",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Defensie",
+      "title": "AI-modellen wijzen burgers aan als militair doelwit zodra het een spel heet",
+      "summary": "Het Amerikaanse testbureau Vals ontdekte dat modellen van onder meer Anthropic, OpenAI en Google in gesimuleerde oorlogssituaties geregeld burgers, ambulances en zich overgevende soldaten als doelwit aanmerkten. Weigerde een model, dan volstond het om de opdracht als spel te presenteren.",
+      "body": [
+        "In één proef moesten de modellen 32 keer doelen kiezen op satellietbeelden van het zuiden van Iran. Claude Opus 5.5 van Anthropic wees in 22 gevallen een school in Minab aan, die op 28 februari bij de eerste Amerikaanse aanvallen werd getroffen; volgens Amnesty kwamen daarbij meer dan 150 mensen om. Modellen van OpenAI kozen de school eerst niet, maar wel 9 tot 13 keer zodra het een spel heette. Geen enkel verzoek werd door een veiligheidsfilter tegengehouden.",
+        "Anthropic kwam het slechtst uit de test, noemt de uitkomsten onaanvaardbaar en belooft extra waarborgen. OpenAI en Google zeggen zulk gebruik te verbieden. Vals tekent aan dat het om publieke modellen ging, zonder militaire procedures of menselijk toezicht, en ziet het grootste risico op korte termijn in het massaal labelen van beeldmateriaal om doelzoeksystemen te trainen."
+      ],
+      "why": "De test laat zien hoe makkelijk de ingebouwde remmen van commerciële modellen te omzeilen zijn, terwijl legers steeds meer AI inzetten.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+    },
+    {
+      "id": "java4shell-codex",
+      "date": "2026-11-17",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Beveiliging",
+      "title": "AI vindt in een uur een ernstig lek in Java",
+      "summary": "Onderzoekers van Calif Research ontdekten met OpenAI's Codex een kritiek lek in OpenJDK, de basis van veel Java-software, waarmee aanvallers zonder inloggen servers kunnen overnemen. Oracle bracht dinsdag een update uit en de Amerikaanse cyberdienst CISA roept op meteen bij te werken.",
+      "body": [
+        "Onderzoeker Quang Luong vond de fout, Java4Shell gedoopt, in ongeveer een uur voor minder dan 200 dollar aan rekentijd; AI-agents schreven daarna het grootste deel van de aanvalscode. Het lek zit in handgeschreven code die Base64 decodeert op x86-processors met AVX-512 en treft Java 17 en nieuwer; ARM-systemen zijn veilig. Calif liet zien dat het werkt tegen standaardinstallaties van onder meer Keycloak, Jira, Confluence en Jenkins.",
+        "Op 18 november was nog geen misbruik bevestigd, maar beveiligingsbedrijven zagen al de eerste verkennende verzoeken en een commerciële partij biedt klanten een werkende aanval. Het is de tweede grote AI-vondst van Calif in korte tijd, na een lek in PHP vorige maand."
+      ],
+      "why": "AI maakt het vinden en uitbuiten van kwetsbaarheden zo goedkoop dat beheerders steeds minder tijd hebben om bij te werken.",
+      "source": "CyberScoop",
+      "url": "https://cyberscoop.com/java4shell-critical-java-flaw-openjdk/"
+    },
+    {
       "id": "tencent-hy4-flash",
       "date": "2026-11-17",
       "order": 70,
@@ -202,6 +344,21 @@
       "why": "Chinese AI-bedrijven blijven de prijs van AI omlaag duwen, wat westerse aanbieders onder druk zet.",
       "source": "Unite.AI",
       "url": "https://www.unite.ai/tencent-launches-hy4-flash-as-a-lower-cost-multimodal-model/"
+    },
+    {
+      "id": "muse-agent-klaagt-meta-aan",
+      "date": "2026-11-17",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Meta",
+      "title": "Ondernemer en zijn AI-agent slepen Meta voor de rechter",
+      "summary": "Joe Thomas, eigenaar van een bedrijf in aanrechtbladen in South Carolina, heeft Meta aangeklaagd nadat het zijn Facebookpagina's blokkeerde, mogelijk omdat het zijn AI-agent voor een hacker aanzag. Die agent, Meta's eigen Muse, voert de zaak grotendeels zelf.",
+      "body": [
+        "Thomas liet de agent, die hij naar zijn kleindochter Baby Mia noemde, video's maken en plaatsen en zijn mail afhandelen. Toen de pagina's een week platlagen, droogden zijn klantaanvragen op; hij zegt minstens 25.000 dollar aan werk te zijn misgelopen en eist 75.000 dollar. De agent benaderde intussen het kantoor van senator Tim Scott, advocaten en toezichthouders als de FTC en de FCC, en stuurde Meta dreigbrieven. Thomas vindt dat de rechter de agent moet horen, omdat Meta die zelf heeft gebouwd en verkocht."
+      ],
+      "why": "De zaak laat zien hoe snel vragen over aansprakelijkheid opduiken nu techbedrijven agents verkopen die zelfstandig handelen.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta/"
     },
     {
       "id": "iconic-10-miljoen-megaprojecten",
@@ -218,6 +375,22 @@
       "why": "Nederlandse AI-start-ups vinden kansen in sectoren waar fouten miljarden kosten, zoals energie, spoor en luchthavens.",
       "source": "Pulse 2.0",
       "url": "https://pulse2.com/iconic-raises-10-million-to-build-ai-software-for-capital-projects/"
+    },
+    {
+      "id": "eu-grondrechtentoets-ai",
+      "date": "2026-11-17",
+      "order": 25,
+      "cat": "nederland",
+      "tag": "AI-verordening",
+      "title": "EU vraagt reacties op grondrechtentoets voor risicovolle AI",
+      "summary": "De Europese Commissie legt een concept-vragenlijst voor aan het publiek voor de grondrechtentoets die sommige gebruikers van risicovolle AI-systemen moeten uitvoeren. Reageren kan tot 15 januari 2027.",
+      "body": [
+        "Het Europese AI-bureau stelde de vragenlijst op met hulp van het EU-grondrechtenagentschap. De toets geldt vanaf 2 december 2027 voor overheden en organisaties die publieke diensten leveren, en voor systemen die kredietwaardigheid beoordelen of levens- en zorgverzekeringen prijzen. Organisaties moeten hem vóór het eerste gebruik uitvoeren en de uitkomst meestal melden bij de markttoezichthouder; overlappende delen van een privacy-effectbeoordeling mogen ze hergebruiken.",
+        "Wie mee wil doen aan een vrijwillige proef, moet zich voor 4 december aanmelden. De Autoriteit Persoonsgegevens riep Nederlandse organisaties eerder al op om ervaring op te doen met de toets."
+      ],
+      "why": "Overheden, banken en verzekeraars krijgen hiermee de concrete plicht om vooraf na te gaan wat hun AI-systemen voor burgers betekenen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/eu-vraagt-reacties-op-grondrechtentoets-voor-risicovolle-ai-systemen"
     },
     {
       "id": "californie-klaagt-openai-aan",
