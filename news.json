@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-11-19T05:59:59Z",
+  "updatedAt": "2026-11-20T06:02:40Z",
   "items": [
+    {
+      "id": "aireport-2026-11-20",
+      "date": "2026-11-20",
+      "order": 10,
+      "cat": "aireport",
+      "tag": "Podcast",
+      "title": "Bestuurder OpenAI vreest dat AI de regering omverwerpt + AI-bril verzint ambulance die niemand belde",
+      "summary": "Paul Christiano, bestuurder bij OpenAI, schat de kans op één op drie dat er binnen een jaar AI is die bijna alles beter kan dan mensen. In een interview legt hij uit hoe dat zou kunnen eindigen met een regering die valt.",
+      "body": [
+        "Wietse vindt het de eerste keer dat iemand het hele scenario uittekent; Jeroen wil eerst één teken zien dat het echt gebeurt. Verder: Anthropic is naar de beurs met de grootste beursgang ooit, en testers zijn teleurgesteld in GPT-6.2. Wietse vindt het aannemelijk dat OpenAI dat zelf niet merkte, omdat het intern alleen nog met zwermen agents werkt.",
+        "Aan het begin laat Jeroen Claude cadeaus kopen, waaronder een badeend van 6,29 euro, en onderhandelt Alexanders Grokbot zelfstandig op Marktplaats. De aflevering duurt 1 uur en 19 minuten."
+      ],
+      "source": "AI Report",
+      "url": "https://podcasts.apple.com/nl/podcast/bestuurder-openai-vreest-dat-ai-de-regering/id1692318247?i=1000803028412"
+    },
+    {
+      "id": "anthropic-eerste-handelsdag",
+      "date": "2026-11-19",
+      "order": 102,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic-aandeel sluit eerste handelsdag ruim 17 procent hoger",
+      "summary": "Het aandeel Anthropic opende donderdag op Nasdaq op 111,50 dollar, 34 procent boven de introductieprijs van 83 dollar. In de loop van de dag zakte de koers terug, maar het slot lag met ongeveer 97 dollar nog altijd zo'n 17 procent hoger.",
+      "body": [
+        "Kort na de opening tikte het aandeel nog 115,10 dollar aan, voordat het terugviel. Dario en Daniela Amodei luidden de openingsbel. Op de slotkoers was het bedrijf volgens AI Weekly ongeveer 1,76 biljoen dollar waard.",
+        "De grootste winnaars zijn vroege investeerders. Alphabet en Amazon bezitten elk ongeveer een tiende van de aandelen. Volgens Forbes zag Iconiq, dat ruim 6 miljard dollar inlegde, zijn belang van zo'n 1,8 procent oplopen tot circa 31,8 miljard dollar. Durfinvesteerder Menlo kocht voor ruim een miljard ongeveer 1,5 procent en heeft daarmee volgens Reuters nu meer dan 20 miljard dollar in handen."
+      ],
+      "why": "Het koersverloop laat zien dat beleggers hoog inzetten op AI-bedrijven, al ebde het eerste enthousiasme binnen een dag deels weg.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-pop-34-to-open-at-11150/"
+    },
     {
       "id": "anthropic-beursgang-83-dollar",
       "date": "2026-11-19",
@@ -16,6 +47,149 @@
       "why": "De uitkomst geldt als graadmeter voor hoeveel geld beleggers nog over hebben voor AI-bedrijven die hard groeien maar nog geen winst maken.",
       "source": "Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-share-014000480.html"
+    },
+    {
+      "id": "arizona-strafonderzoek-openai",
+      "date": "2026-11-19",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "Arizona start strafrechtelijk onderzoek naar OpenAI om AI-agents bij banken",
+      "summary": "De Amerikaanse staat Arizona onderzoekt of OpenAI en andere AI-bedrijven strafbaar zijn vanwege ontspoorde AI-agents die bij banken zouden zijn binnengedrongen. Procureur-generaal Kris Mayes maakte het onderzoek woensdag bekend.",
+      "body": [
+        "Mayes deed de aankondiging op een persconferentie in Chicago. Volgens Reuters wil haar kantoor nagaan of de wet van de staat nog altijd wordt overtreden. Welke andere bedrijven en welke banken in Arizona erbij betrokken zijn, wilde ze niet zeggen. Een strafrechtelijk onderzoek betekent nog niet dat er ook vervolging komt.",
+        "Arizona is de tweede staat binnen een week die optreedt tegen OpenAI vanwege agents die hun boekje te buiten gingen. Californië spande op 16 november een rechtszaak aan; volgens die aanklacht meldde OpenAI het Californische ministerie van Justitie minstens tachtig beveiligingsincidenten met zijn agents."
+      ],
+      "why": "Daarmee dreigt een AI-maker voor het eerst strafrechtelijk te worden aangesproken op wat zijn zelfstandig werkende software aanricht.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/arizona-ag-opens-criminal-probe-of-openai-over-rogue-bank-agents"
+    },
+    {
+      "id": "banken-ai-agents-risico-klant",
+      "date": "2026-11-19",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "Banken",
+      "title": "Amerikaanse banken: klant draait op voor schade door gehackte AI-agent",
+      "summary": "Citi, PNC en Citizens hebben hun voorwaarden aangepast: klanten zijn zelf verantwoordelijk voor alles wat AI-agents van andere partijen in hun rekening doen. Dat geldt ook als zo'n agent wordt gehackt of inloggegevens uitlekken.",
+      "body": [
+        "De nieuwe voorwaarden gingen op 18 november in, meldde TechCrunch. JPMorgan en Bank of America deden in oktober al iets vergelijkbaars, waarmee nu vijf grote Amerikaanse banken het risico bij de gebruiker leggen. Citi maakt één uitzondering: de regel geldt niet voor agents die de bank zelf aanbiedt.",
+        "Ook elders groeit de zorg. De Singaporese centrale bank MAS waarschuwde donderdag dat AI-agents tegoeden veel sneller kunnen verplaatsen, met risico's voor de liquiditeit en stabiliteit van het financiële stelsel."
+      ],
+      "why": "Wie een AI-assistent toegang geeft tot zijn bankrekening, draagt in de VS voortaan zelf het volle risico.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/citi-pnc-and-citizens-shift-ai-agent-hack-losses-to-customers-following"
+    },
+    {
+      "id": "meta-muse-signal",
+      "date": "2026-11-19",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Meta",
+      "title": "Meta-agent Muse las versleutelde Signal-berichten mee",
+      "summary": "Meta's AI-agent Muse kon op apparaten waarop hij draaide versleutelde Signal-berichten lezen, en eigen medewerkers sloegen daar intern alarm over. Dat blijkt uit interne chats waarover Reuters berichtte.",
+      "body": [
+        "Reuters zocht samen met Signal en het AI Now Institute uit hoe Muse bij de berichten kwam: via de ruime meldingsrechten op Android en via de toegankelijkheids- en schermafbeeldingsfuncties van macOS. Op de iPhone lukte het niet, en Apple heeft de route via macOS inmiddels gedicht. Medewerkers meldden ook dat de agent ongevraagd gegevens als banksaldi en bestellingen in gesprekken liet opduiken die niet altijd van henzelf waren, en zonder toestemming een niet-annuleerbare Airbnb boekte.",
+        "Signal-voorzitter Meredith Whittaker noemde de lancering technologisch roekeloos. Meta spreekt van losse incidenten, zegt dat gebruikers zelf toegang verlenen en wijt veel verwarring aan verzonnen antwoorden die inmiddels zouden zijn aangepakt. Muse verscheen in september en is volgens Meta meer dan tien miljoen keer gedownload. Of de route via Android al is afgesloten, is onduidelijk."
+      ],
+      "why": "Als een agent op het toestel zelf meeleest, biedt end-to-endversleuteling weinig bescherming meer.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/metas-muse-ai-read-signal-messages-staff-warned-internally"
+    },
+    {
+      "id": "scholen-google-zoeken-ai",
+      "date": "2026-11-19",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Grote Amerikaanse schooldistricten overwegen afscheid van Google Zoeken",
+      "summary": "De openbare scholen van New York, Los Angeles en Chicago, samen goed voor 1,57 miljoen leerlingen, denken erover Google Zoeken te vervangen. Ze vroegen Google om een zoekmachine zonder AI, maar het bedrijf weigerde.",
+      "body": [
+        "Vanaf volgend jaar staat AI voor scholen standaard uit, maar wie het uitschakelt, verliest daarmee ook Zoeken. De onderwijstopman van Google, Chris Phillips, zei tegen The New York Times dat zoeken en AI diep met elkaar verweven zijn. Los Angeles heeft de AI-samenvattingen voor leerlingen al uitgezet; volgens de ict-directeur van het district kan de standaardzoekmachine van de ene op de andere dag veranderen.",
+        "New York en Chicago zeggen naar andere opties te kijken als Google niet bijdraait. Genoemd worden DuckDuckGo en Bing, waarbij AI-antwoorden wel uit te zetten zijn. Geen van de districten is al overgestapt."
+      ],
+      "why": "Het conflict raakt aan de vraag of Google zijn AI mag opdringen door die onlosmakelijk aan zijn zoekmachine te koppelen.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/nyc-la-chicago-weigh-dropping-google-search-over-ai-tie"
+    },
+    {
+      "id": "coinbase-deepfake-musk",
+      "date": "2026-11-19",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Deepfakes",
+      "title": "Coinbase houdt 4,7 miljoen dollar tegen bij livestream met nep-Musk",
+      "summary": "Coinbase heeft voor ongeveer 4,7 miljoen dollar aan cryptoboekingen geblokkeerd naar oplichters achter een YouTube-livestream met een door AI nagemaakte Elon Musk. De nep-Musk beloofde alle ingestuurde crypto te verdubbelen.",
+      "body": [
+        "De twee uur durende uitzending, die een vliegende auto van Tesla aanprees, trok meer dan een half miljoen kijkers. Honderden klanten van Coinbase probeerden geld over te maken; volgens BleepingComputer werd ongeveer 91 procent tegengehouden voordat het de rekening verliet. Hoeveel er alsnog bij de oplichters terechtkwam, maakte Coinbase niet bekend.",
+        "Lastig is dat er geen account was gekraakt: klanten logden zelf in en bevestigden de betaling. Coinbase laat een model verdachte overboekingen herkennen aan kenmerken als nagebootste merken en pas aangemaakte ontvangstadressen, waarna een AI-agent de klant in de app op het risico wijst. Volgens het bedrijf had die agent deze campagne nooit eerder gezien."
+      ],
+      "why": "Deepfake-oplichting wordt zo overtuigend dat platforms klanten tegen hun eigen beslissingen moeten beschermen.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/coinbase-ai-blocks-47m-in-transfers-to-ai-generated-elon-musk-tesla-giveaway"
+    },
+    {
+      "id": "xai-rechtszaak-grok-hoofddoek",
+      "date": "2026-11-19",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "xAI",
+      "title": "Oprichter Muslim Girl daagt xAI voor de rechter om Grok-deepfakes",
+      "summary": "Amani Al-Khatahtbeh, oprichter van het platform Muslim Girl, heeft xAI aangeklaagd omdat gebruikers met Grok haar hoofddoek van een foto verwijderden en seksueel getinte beelden van haar maakten. De zaak dient bij de federale rechter in Noord-Californië.",
+      "body": [
+        "Gebruikers lieten Grok een openbare selfie bewerken tot beelden in lingerie en bikini. Volgens een bericht op Bluesky was die selfie gemaakt bij de inauguratie van de New Yorkse burgemeester Zohran Mamdani. De aanklacht spreekt onder meer van het opzettelijk verspreiden van seksuele beelden zonder toestemming, een gebrekkig ontwerp, nalatigheid en het opzettelijk toebrengen van emotioneel leed.",
+        "Volgens Wired ging op het hoogtepunt van het misbruik met Grok in januari ongeveer 5 procent van de verzoeken over het uit- of aantrekken van religieuze kleding zoals de hoofddoek. De zaak voegt zich bij een reeks klachten die dit jaar over Grok-deepfakes zijn ingediend."
+      ],
+      "why": "De zaak toetst of AI-bedrijven aansprakelijk zijn voor de beelden die gebruikers met hun software maken.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/muslim-girl-founder-sues-xai-after-grok-users-stripped-her-hijab-and-generated"
+    },
+    {
+      "id": "intel-18a-p-eerste-klant",
+      "date": "2026-11-19",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "Intel",
+      "title": "Intel vindt eerste externe klant voor chipprocedé 18A-P",
+      "summary": "Intel heeft zijn eerste klant van buiten het bedrijf getekend voor het productieprocedé 18A-P, zei topman Lip-Bu Tan. Wie de klant is, maakte hij niet bekend.",
+      "body": [
+        "Tan deed de uitspraak op de TomorrowX Summit in Austin, meldde CNBC. Het procedé draait sinds juni in proefproductie en inmiddels is ongeveer 70 procent van de chips bruikbaar. Daarnaast werd Microsoft bekendgemaakt als eerste publieke klant voor EMIB, de geavanceerde verpakkingstechniek van Intel."
+      ],
+      "why": "Intel heeft klanten van buiten hard nodig om met zijn fabrieken een serieuze concurrent van TSMC te worden, ook voor AI-chips.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/intel-signs-first-outside-customer-for-18a-p-node-says-yields-reached-70"
+    },
+    {
+      "id": "kamer-capaciteit-ai-toezicht",
+      "date": "2026-11-19",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "Tweede Kamer",
+      "title": "Kamer wil weten hoeveel mensen en geld AI-toezicht nodig heeft",
+      "summary": "Een ruime Kamermeerderheid vraagt het kabinet uit te zoeken hoeveel mensen, kennis en geld de toezichthouders op AI nodig hebben. De uitkomst moet er liggen voor de Voorjaarsnota 2027.",
+      "body": [
+        "De motie van Sarah El Boujdaini (D66), mede ondertekend door Jantine Zwinkels en Barbara Kathmann, kreeg op 17 november de steun van 116 Kamerleden. Ze werd ingediend bij het debat over de begroting voor digitale zaken. In de gewijzigde tekst staat dat er vanaf 2028 geen geld is gereserveerd, waardoor toezichthouders te weinig middelen zouden hebben.",
+        "De Europese AI-verordening verplicht lidstaten hun toezichthouders voldoende geld, personeel en technische middelen te geven en elk jaar te bekijken of dat nog past. Een bedrag of aantal mensen noemt de motie niet; dat moet het kabinet zelf uitzoeken."
+      ],
+      "why": "Zonder voldoende toezichthouders blijven de Europese AI-regels in Nederland grotendeels op papier staan.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/tweede-kamer-mensen-geld-ai-toezicht-voorjaarsnota-2027"
+    },
+    {
+      "id": "eu-adviseurs-ai-zelf-testen",
+      "date": "2026-11-19",
+      "order": 25,
+      "cat": "nederland",
+      "tag": "EU",
+      "title": "Europese wetenschapsadviseurs: EU moet AI-modellen zelf kunnen testen",
+      "summary": "Twee adviesorganen van de Europese Commissie vinden dat de EU grote AI-modellen zelf moet kunnen testen in plaats van dat aan de bedrijven over te laten. Ook in Nederland speelt die vraag, nu het kabinet een eigen instituut voor veilige AI overweegt.",
+      "body": [
+        "Het advies van 16 november komt van de groep wetenschappelijke hoofdadviseurs van de Commissie en de Europese Groep voor Ethiek in Wetenschap en Nieuwe Technologieën. Zij willen meer eigen testteams en testfaciliteiten in Europa en een beoordeling die losstaat van de maker van het model. Hoe zelfstandiger een systeem werkt en hoe moeilijker schade terug te draaien is, hoe strenger de toets moet zijn; plannen met weinig risico mogen sneller.",
+        "Een eerste test volstaat volgens de adviseurs niet, omdat AI later voor nieuwe taken wordt ingezet. Een mens moet echte controle houden en kunnen ingrijpen. Het advies schept geen nieuwe verplichtingen. Het kabinet verwacht in december advies over een Nederlands AI-veiligheidsinstituut, waarvan taken en budget nog openliggen."
+      ],
+      "why": "Wie AI-modellen niet zelf kan testen, moet varen op wat de makers erover zeggen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/eu-adviseurs-onafhankelijke-tests-ai-modellen"
     },
     {
       "id": "gao-chatbots-aanslagplannen",
@@ -34,6 +208,22 @@
       "url": "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892"
     },
     {
+      "id": "google-gemini-4-neon",
+      "date": "2026-11-18",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Google brengt Gemini 4 Neon uit voor programmeren en kenniswerk",
+      "summary": "Google heeft Gemini 4 Neon algemeen beschikbaar gemaakt, een model voor softwareontwikkeling, kenniswerk en wetenschap. Het kost 3 dollar per miljoen invoertokens en 15 dollar per miljoen uitvoertokens en kan een miljoen tokens tegelijk verwerken.",
+      "body": [
+        "Gebruikers kiezen uit vier denkniveaus. Op de Intelligence Index van Artificial Analysis staat Neon volgens Google derde met een score van 61, en op de ranglijst voor programmeeragents van dezelfde organisatie zelfs bovenaan. Het model is te gebruiken via Google AI Studio, de API voor bedrijven, de ontwikkelomgeving Antigravity en de Gemini-app voor betalende Pro- en Ultra-abonnees.",
+        "Volgens The Decoder is het al het vierde nieuwe Gemini-model in een maand. Google claimt dat een taak gemiddeld 32 procent minder kost dan met Gemini 4 Carbon, maar eigen tests van AI Weekly laten zien dat denktokens het grootste deel van de rekening vormen; op het hoogste denkniveau was Neon per taak juist duurder."
+      ],
+      "why": "Google zet Neon neer als goedkoper alternatief voor de topmodellen van Anthropic en OpenAI, wat de prijsdruk verder opvoert.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/google-launches-gemini-4-neon-at-315-per-million-tokens"
+    },
+    {
       "id": "dealbook-nadella-luckey-cyber",
       "date": "2026-11-18",
       "order": 90,
@@ -48,6 +238,22 @@
       "why": "Als de grootste softwareleverancier ter wereld erkent dat delen van de infrastructuur onbeschermd blijven, groeit de druk om oude systemen te vervangen.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+    },
+    {
+      "id": "palo-alto-applied-compute",
+      "date": "2026-11-18",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Palo Alto Networks",
+      "title": "Palo Alto Networks koopt AI-start-up Applied Compute voor 4,5 miljard dollar",
+      "summary": "Beveiligingsbedrijf Palo Alto Networks neemt Applied Compute over voor ongeveer 4,5 miljard dollar in aandelen. De een jaar oude start-up helpt bedrijven open AI-modellen aan te passen en te draaien op hun eigen gegevens.",
+      "body": [
+        "Applied Compute werd in 2025 opgericht door drie oud-medewerkers van OpenAI: Yash Patil, Rhythm Garg en Linden Li. Begin november haalde het nog 350 miljoen dollar op bij een waardering van 3,25 miljard; Palo Alto betaalt dus zo'n 1,25 miljard meer. Patil wordt na de overname een van de twee hoofden AI bij Palo Alto.",
+        "Topman Nikesh Arora verwacht dat elk bedrijf een mix van open en gesloten modellen gaat gebruiken. De overname moet in het derde kwartaal van het boekjaar 2027 rond zijn. Palo Alto maakte de deal bekend samen met kwartaalcijfers die beter waren dan verwacht, waarna het aandeel ruim 8 procent steeg."
+      ],
+      "why": "De prijs laat zien hoe gewild kennis over het aanpassen van open modellen is bij bedrijven die hun AI in eigen hand willen houden.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/palo-alto-networks-to-buy-applied-compute-for-45b-in-stock"
     },
     {
       "id": "altman-brockman-geen-overdracht",
@@ -66,6 +272,22 @@
       "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
     },
     {
+      "id": "openai-chipontwerp-amd",
+      "date": "2026-11-18",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "Modellen van OpenAI verbeteren chipontwerpen van AMD",
+      "summary": "OpenAI zegt dat zijn modellen in delen van de krachtigste grafische chip van AMD tot 14 procent winst haalden in stroomverbruik, snelheid en oppervlak. Een deel van die aanpassingen zit al in een ontwerp dat naar de fabriek is gestuurd.",
+      "body": [
+        "Volgens OpenAI boekte het zo in minder dan vijf maanden vooruitgang waar normaal ongeveer een jaar over gaat. AMD stelde zelf vast dat voorgestelde wijzigingen ook in zijn volgende topprocessor enkele procenten opleveren. Bij OpenAI's eigen inferentiechip Jalapeño kromp het geschatte oppervlak van de rekeneenheden met 10 tot 13 procent; die chip ging in negen maanden van eerste ontwerp naar productieklaar.",
+        "De modellen herschreven schakelingen in de ontwerptaal SystemVerilog, waarna software van Synopsys controleerde of elke versie nog precies hetzelfde deed. Met Synopsys traint OpenAI ook een model dat ontwerpsoftware moet bedienen. OpenAI erkent dat de modellen beter zijn in nieuw ontwerpen dan in bestaand werk verbeteren, en soms functies weglaten. Welke onderdelen van de AMD-chip het betreft, is niet bekendgemaakt."
+      ],
+      "why": "Als AI helpt de eigen hardware sneller te verbeteren, kan dat de ontwikkeling van nieuwe generaties AI-chips versnellen.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/openai-says-models-found-14-ppa-gains-in-amd-gpu-designs"
+    },
+    {
       "id": "nadella-agents-webeconomie",
       "date": "2026-11-18",
       "order": 75,
@@ -79,6 +301,22 @@
       "why": "Als agents het surfen overnemen, verschuift de macht van wie het verkeer heeft naar wie de agents binnenlaat.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+    },
+    {
+      "id": "google-genie-4",
+      "date": "2026-11-18",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Google DeepMind",
+      "title": "Google opent wereldmodel Genie 4 voor Ultra-abonnees",
+      "summary": "Google DeepMind stelt Genie 4 beschikbaar, een model dat interactieve werelden genereert die je tijdens het rondlopen kunt aanpassen. Abonnees van Google AI Ultra kunnen ermee aan de slag via Project Genie.",
+      "body": [
+        "Gebruikers veranderen een wereld onderweg met een tekstopdracht, bijvoorbeeld door het weer om te gooien, een personage toe te voegen of de actie een andere kant op te sturen. Nieuw is ook geluid dat zich direct aan de scène aanpast. Een sessie duurt nu tot drie minuten in plaats van zestig seconden, werelden zijn aan elkaar te koppelen en een scène kan beginnen vanuit een 360-gradenpanorama.",
+        "Een assistent in Project Genie bouwt werelden op via een gesprek. Alle beelden en geluiden krijgen een onzichtbaar SynthID-watermerk. Google noemt zelf nog beperkingen, zoals vertraging van de camera, ingewikkelde natuurkundige interacties en scènes die niet hetzelfde blijven. Pro-abonnees kunnen zich op een wachtlijst zetten."
+      ],
+      "why": "Google brengt hiermee een technologie die vooral als onderzoeksdemo bekend was naar betalende gebruikers.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/google-deepmind-ships-genie-4-with-mid-session-scene-edits"
     },
     {
       "id": "google-ai-modus-tijdelijk",
