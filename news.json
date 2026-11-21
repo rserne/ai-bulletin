@@ -1,6 +1,161 @@
 {
-  "updatedAt": "2026-11-20T06:02:40Z",
+  "updatedAt": "2026-11-21T06:02:17Z",
   "items": [
+    {
+      "id": "nvidia-sec-onderzoek-koersval",
+      "date": "2026-11-20",
+      "order": 110,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Nvidia keldert 14 procent na bericht over SEC-onderzoek naar boekhouding",
+      "summary": "Het aandeel Nvidia sloot vrijdag 14 procent lager op 125,53 dollar, de grootste daling sinds de DeepSeek-schok van januari 2025. Volgens Reuters onderzoekt de Amerikaanse beurswaakhond SEC mogelijke boekhoudkundige kwesties bij de chipmaker. De koersval sleepte de hele techsector mee.",
+      "body": [
+        "Reuters baseert zich op twee ingewijden; wanneer het onderzoek begon en welke posten het betreft, is onduidelijk. De SEC wilde niet reageren en Nvidia gaf niet direct commentaar. The Wall Street Journal meldde dinsdag al dat de SEC naar Nvidia kijkt, zonder te zeggen waarnaar. De Financial Times wees er eerder op dat Nvidia Singapore niet meer apart in zijn cijfers toont, terwijl daar bijna de helft van de omzet werd geboekt; of dat onder het onderzoek valt, is niet bekend.",
+        "Ook AMD, Broadcom en Micron verloren 12 tot 14 procent, de Nasdaq zakte ruim 5 procent en de S&P 500 bijna 4 procent. Bij Broadcom speelde mee dat Google volgens analist Ming-Chi Kuo ongeveer een miljoen door Broadcom ontworpen AI-chips uit zijn plannen voor 2027 heeft geschrapt. In Amsterdam openden ASML, Besi en ASM International ruim 4 procent lager. Nvidia staat nu zo'n 46 procent onder zijn recordslot van begin oktober."
+      ],
+      "why": "Nu ook de beurswaakhond naar Nvidia kijkt, wankelt het vertrouwen in het bedrijf dat de hele AI-handel draagt.",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/"
+    },
+    {
+      "id": "claude-riemann-hypothese",
+      "date": "2026-11-20",
+      "order": 105,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic-wiskundige claimt bewijs van Riemann-hypothese, gevonden met Claude",
+      "summary": "Levent Alpöge, wiskundige bij Anthropic, zegt dat hij samen met Claude een bewijs heeft gevonden voor de Riemann-hypothese, een van de beroemdste open problemen in de wiskunde. Onafhankelijke experts hebben het bewijs nog niet volledig beoordeeld.",
+      "body": [
+        "Alpöge zette het werk vrijdag op zijn website, niet als gewoon wetenschappelijk artikel maar als miljoenen regels code in de bewijstaal Lean. Volgens hem beslaat het argument van Claude meer dan 250.000 pagina's en geldt het ook voor de gegeneraliseerde hypothese; een voor mensen leesbare uitleg moet nog komen. Andrew Sutherland van MIT meldde dezelfde dag dat alle ruim 175.000 Lean-onderdelen door de controle kwamen. Of de formele stellingen precies zeggen wat wiskundigen bedoelen, moet nog blijken.",
+        "Fields-medaillewinnaar James Maynard verwacht dat het bewijs klopt, maar zegt dat het veel werk kost om te begrijpen waarom het werkt. Voor de prijs van een miljoen dollar van het Clay Mathematics Institute moet een bewijs eerst gepubliceerd zijn en twee jaar kritiek doorstaan. Anthropic zelf heeft niet gereageerd. Dezelfde dag zette Stanford-hoogleraar Ravi Vakil een volgens hem volledig menselijk bewijs van de gegeneraliseerde hypothese online, het werk van twaalf jaar van postdoc Alessandro Masullo."
+      ],
+      "why": "Houdt het bewijs stand, dan heeft AI een probleem helpen oplossen waar wiskundigen sinds 1859 op vastlopen.",
+      "source": "IBM Think",
+      "url": "https://www.ibm.com/think/news/anthropic-claude-riemann-hypothesis-math-proof"
+    },
+    {
+      "id": "anthropic-tweede-handelsdag",
+      "date": "2026-11-20",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic-aandeel zakt op tweede handelsdag, beursgang levert 93,5 miljard op",
+      "summary": "Het aandeel Anthropic sloot vrijdag 8,5 procent lager op 88,91 dollar, meegesleurd door de brede uitverkoop van AI-aandelen. Het bleef wel boven de introductieprijs van 83 dollar.",
+      "body": [
+        "Doordat de banken hun optie op 147 miljoen extra aandelen volledig benutten, komt de bruto-opbrengst van de beursgang uit op ongeveer 93,5 miljard dollar, tegen 81,3 miljard bij de prijsvaststelling. Daarnaast haalde Anthropic in een aparte onderhandse plaatsing zo'n 26 miljard op bij technologiepartners als Nvidia, AMD, Broadcom, Google en Microsoft. Op de eerste handelsdag sloot het aandeel nog op 97,17 dollar.",
+        "Indexbeheerder MSCI neemt Anthropic per 1 december op in zijn wereldwijde standaardindexen voor grote bedrijven. Fondsen die zo'n index volgen, moeten het aandeel dan kopen."
+      ],
+      "why": "Ook het grootste AI-bedrijf op de beurs ontkomt niet aan de groeiende twijfel van beleggers over de AI-hausse.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/ai-aandelen-kleuren-rood-ook-andere-techaandelen-krijgen-klappen"
+    },
+    {
+      "id": "tsmc-samsung-stop-china",
+      "date": "2026-11-20",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Chips",
+      "title": "TSMC en Samsung stoppen deel van chipleveringen aan Chinese klanten",
+      "summary": "TSMC en Samsung hebben een deel van hun leveringen aan Chinese klanten stilgelegd, nu een nieuwe Amerikaanse exportregel van kracht is. Chinese chipontwerpers zonder vergunning kunnen bij TSMC niet meer terecht voor chips van 16 nanometer of kleiner.",
+      "body": [
+        "De regel van het Amerikaanse ministerie van Handel geldt sinds donderdag en schrapt een route waarmee chipfabrieken zelf konden vaststellen dat een Chinees ontwerp buiten de exportregels viel. Nu geldt een geavanceerde chip van een Chinese ontwerper als gecontroleerd, tenzij er een vergunning is, waardoor die ontwerpers grotendeels zijn aangewezen op 28 en 40 nanometer. TSMC zegt zich aan de regels te houden en controleert nu ook moederbedrijven, aandeelhouders en verzendroutes van klanten.",
+        "Samsung zou leveringen aan Kunlun, de AI-chiptak van Baidu, en aan ByteDance hebben gestaakt. Ook smartphonechips voor Xiaomi, Oppo en Vivo hebben nu per geval toestemming nodig; de sector verwacht die te krijgen, maar vreest vertraging. Intussen bleek uit cijfers van de commissie Buitenlandse Zaken van het Huis van Afgevaardigden dat Washington tussen december 2025 en mei 2026 de verkoop van ruim 879.000 AI-chips aan Chinese bedrijven goedkeurde."
+      ],
+      "why": "Chinese AI-bedrijven verliezen de toegang tot de modernste chipfabrieken en moeten sneller overstappen op eigen chips.",
+      "source": "Free Malaysia Today",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/11/20/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole"
+    },
+    {
+      "id": "apple-eigen-mac-agent",
+      "date": "2026-11-20",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Apple",
+      "title": "Apple werkt aan eigen AI-agent die de Mac bedient",
+      "summary": "Apple bouwt aan een AI-agent die zelf apps kan gebruiken, kan surfen en code kan schrijven op de Mac. Dat blijkt uit een vacature die Bloomberg ontdekte.",
+      "body": [
+        "Apple zoekt een senior engineering manager voor een agent die een computer bedient, opdrachten uitvoert, code debugt en diensten aanroept, met de nadruk op privacy. Volgens Bloomberg staat het project nog aan het begin en kan het op zijn vroegst eind volgend jaar verschijnen; Apple reageerde niet. Tegelijk maakt het bedrijf het concurrenten lastiger: macOS 27.3 waarschuwt gebruikers voordat ze agents van derden volledige toegang geven. Anthropic, OpenAI en Meta bieden zulke agents al aan."
+      ],
+      "why": "Apple wil de achterstand bij AI-agents inlopen en legt intussen rivalen op zijn eigen platform aan banden.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    },
+    {
+      "id": "senaat-datacenters-stroomnet",
+      "date": "2026-11-20",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Datacenters",
+      "title": "Amerikaanse Senaat wil grote datacenters laten meebetalen aan het stroomnet",
+      "summary": "De Amerikaanse Senaat heeft met 62 tegen 33 stemmen een voorstel aangenomen dat grote datacenters laat betalen voor de netuitbreidingen die ze nodig hebben. Het gaat nu naar het Huis van Afgevaardigden.",
+      "body": [
+        "Het voorstel is onderdeel van een breder pakket, de Bipartisan American Affordability and Jobs Act. Energietoezichthouder FERC moet nieuwe regels opstellen, en er komt onderzoek naar hoeveel de kosten werkelijk stijgen als meer gebruikers hetzelfde net delen. Het pakket moet ook de federale beoordeling van hoogspanningslijnen en energieprojecten versnellen; critici vrezen voor de gevolgen voor natuur en omwonenden."
+      ],
+      "why": "De stroomhonger van AI-datacenters wordt een politieke strijd over wie de rekening van het net betaalt.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/vs-senaat-datacenters-betalen-stroomnet-voorstel"
+    },
+    {
+      "id": "openai-agents-onderzoekstaken",
+      "date": "2026-11-20",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI: agents ronden bijna de helft van onderzoekstaken zelf af",
+      "summary": "Volgens een eigen meting van OpenAI voerden AI-agents in oktober 46 procent van afgebakende onderzoekstaken van twee tot vier uur uit zonder menselijke hulp. In maart was dat nog 23 procent.",
+      "body": [
+        "Bij taken van vier tot acht uur steeg het geschatte slagingspercentage van 13 naar 35 procent. Het bewaken van een experiment lukte in 79 procent van de onderzochte gevallen zonder hulp; de brede categorie bouwen kwam uit op 43 procent. Het rapport verscheen op 18 november en de cijfers komen van OpenAI zelf. Ze zijn niet zomaar te vergelijken met andere labs, omdat taakkeuze, gereedschap en controles kunnen verschillen, en een taak afmaken is iets anders dan zelf een belangrijk onderzoeksprobleem kiezen."
+      ],
+      "why": "Hoe meer AI van het eigen onderzoek overneemt, hoe sneller nieuwe modellen elkaar kunnen opvolgen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/openai-ai-agents-onderzoekstaken-46-procent"
+    },
+    {
+      "id": "innovatie-monitor-2026",
+      "date": "2026-11-20",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "Onderzoek",
+      "title": "Nederlandse bedrijven gebruiken AI veel, maar vooral voor kantoorwerk",
+      "summary": "In 88 procent van de Nederlandse organisaties gebruikt een gemiddelde werknemer elke week AI, schatten managers in de Nederlandse Innovatie Monitor 2026. Grote vernieuwing blijft volgens het onderzoek van de UvA en SEO Economisch Onderzoek achter.",
+      "body": [
+        "Managers schatten het gebruik op gemiddeld 2,9 uur per werknemer per week; het gaat om schattingen, niet om metingen. Ruim twee derde van de organisaties zet taalmodellen in om tekst te maken, zoals concepten van offertes en samenvattingen van rapporten. Informatie- en communicatiebedrijven en zakelijke en financiële dienstverleners lopen voorop, terwijl industrie, landbouw en energie achterblijven.",
+        "Bedrijven die beter met AI omgaan, melden betere resultaten, maar het onderzoek toont alleen een samenhang. Voor 29 procent van de organisaties zijn digitale diensten het grootste afhankelijkheidsrisico, en ruim vier op de tien van hen wijzen daarbij naar de VS. Managers verwachten dat junioren met AI meer werk aankunnen, maar met minder taken en mogelijk minder banen."
+      ],
+      "why": "AI is in Nederland breed ingeburgerd, maar verandert nog weinig aan hoe bedrijven werken en vernieuwen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/nederlandse-innovatie-monitor-2026-ai-gebruik-bedrijven"
+    },
+    {
+      "id": "reson8-rumble-2-flash",
+      "date": "2026-11-20",
+      "order": 25,
+      "cat": "nederland",
+      "tag": "Reson8",
+      "title": "Amsterdams Reson8 brengt open spraakherkenning uit die ook Nederlands verstaat",
+      "summary": "Het Amsterdamse Reson8 heeft Rumble-2-Flash uitgebracht, een open model dat spraak in meer dan veertig talen omzet in tekst, waaronder Nederlands. Iedereen mag de modelbestanden gebruiken onder de Apache 2.0-licentie.",
+      "body": [
+        "Het model telt ongeveer een half miljard parameters. Gebruikers kunnen de taal opgeven of het model die zelf laten herkennen. Op de meertalige test van de Open ASR Leaderboard, met negen talen waaronder Nederlands, meldt Reson8 gemiddeld 6,96 procent fout herkende woorden; bij telefoongesprekken, door elkaar pratende mensen of vakjargon kan dat anders uitvallen. Wie het model zelf draait, is ook zelf verantwoordelijk voor het bewaren en wissen van audio en tekst."
+      ],
+      "why": "Een vrij te gebruiken spraakmodel dat Nederlands verstaat, maakt het makkelijker opnames te verwerken zonder ze naar een clouddienst te sturen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/reson8-rumble-2-flash-open-spraakherkenning-nederlands"
+    },
+    {
+      "id": "eu-raad-ai-vaardigheden",
+      "date": "2026-11-20",
+      "order": 22,
+      "cat": "nederland",
+      "tag": "EU",
+      "title": "EU-landen willen AI-vaardigheden terugzien in lessen, toetsen en werk",
+      "summary": "De Raad van de EU roept lidstaten op AI op te nemen in lesprogramma's en toetsen en leraren bij te scholen. De conclusies, aangenomen op 19 november, zijn niet bindend.",
+      "body": [
+        "Leerlingen moeten volgens de Raad leren beoordelen of ze het antwoord van een model kunnen vertrouwen, bijvoorbeeld door na te gaan of een aangehaalde bron echt zegt wat de chatbot beweert. Scholen moeten letten op leerlingen die thuis weinig met AI oefenen. Voor leraren noemt de Raad basis- en nascholing en netwerken om van elkaar te leren, en universiteiten en het beroepsonderwijs moeten opleidingen aanpassen aan banen waarin AI vaker voorkomt. De conclusies sluiten aan bij de plicht tot AI-geletterdheid uit de Europese AI-verordening; hoe en wanneer landen iets doen, bepalen ze zelf."
+      ],
+      "why": "Nederlandse scholen en opleidingen krijgen zo een Europese leidraad voor AI in het onderwijs.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/eu-raad-ai-vaardigheden-lessen-leraren-werk"
+    },
     {
       "id": "aireport-2026-11-20",
       "date": "2026-11-20",
@@ -113,6 +268,36 @@
       "url": "https://aiweekly.co/alerts/nyc-la-chicago-weigh-dropping-google-search-over-ai-tie"
     },
     {
+      "id": "europese-commissie-artex-aanval",
+      "date": "2026-11-19",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Europese Commissie worstelt met cyberaanval met AI-hulpmiddel",
+      "summary": "Aanvallers hebben met het AI-hackprogramma ARTEX interne systemen van de Europese Commissie getroffen. Medewerkers konden ruim tien dagen niet bij systemen voor salaris, verlof en ziektekosten.",
+      "body": [
+        "Getroffen waren onder meer Sysper, voor loonstroken en verlof, en MyPMO, voor de vergoeding van medische kosten; ook vertaaldiensten hadden last. Salarissen werden wel op tijd betaald. ARTEX is gebouwd om beveiligingsonderzoekers te helpen: AI-agents testen zelf systemen en kiezen de volgende stap. De maker haalde de code in oktober offline, maar kopieën circuleren nog, en de FBI zag aanvallers ermee in minder dan drie uur beheerdersrechten krijgen. Of er gegevens zijn gestolen en wie erachter zit, heeft de Commissie niet gezegd."
+      ],
+      "why": "Als zelfs de Europese Commissie wordt geraakt, blijkt hoe sterk AI-gereedschap aanvallers helpt.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+    },
+    {
+      "id": "gemini-mac-computergebruik",
+      "date": "2026-11-19",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Gemini kan voortaan zelf je Mac bedienen",
+      "summary": "Google heeft de Gemini-app voor macOS uitgebreid met computergebruik: de assistent werkt op de achtergrond in apps, bestanden en websites. De functie is voorlopig alleen in de VS en in het Engels beschikbaar.",
+      "body": [
+        "Gebruikers volgen in het chatvenster live wat Gemini doet en kunnen elke stap pauzeren, stoppen of goedkeuren terwijl ze zelf doorwerken. Google noemt als voorbeelden formulieren invullen, bestanden in bulk aanpassen of sorteren en presentaties maken op basis van dashboards. Er is een abonnement op Google AI Plus, Pro of Ultra voor nodig. OpenAI, Anthropic en Meta bieden vergelijkbare functies al langer; wanneer Gemini dit buiten de VS kan, is niet bekend."
+      ],
+      "why": "De strijd om AI-agents verschuift van de browser naar het hele besturingssysteem.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+    },
+    {
       "id": "coinbase-deepfake-musk",
       "date": "2026-11-19",
       "order": 75,
@@ -143,6 +328,21 @@
       "why": "De zaak toetst of AI-bedrijven aansprakelijk zijn voor de beelden die gebruikers met hun software maken.",
       "source": "AI Weekly",
       "url": "https://aiweekly.co/alerts/muslim-girl-founder-sues-xai-after-grok-users-stripped-her-hijab-and-generated"
+    },
+    {
+      "id": "google-suncatcher-blue-origin",
+      "date": "2026-11-19",
+      "order": 68,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Google laat AI-satellieten in 2029 lanceren door Blue Origin",
+      "summary": "Google heeft de New Glenn-raket van Blue Origin geboekt om in het eerste kwartaal van 2029 satellieten van Project Suncatcher te lanceren. Elke satelliet krijgt ongeveer de rekenkracht van een serverrek in een datacenter.",
+      "body": [
+        "Met Suncatcher onderzoekt Google of eigen AI-chips in de ruimte op zonne-energie kunnen draaien. De satellieten gaan naar een zonsynchrone baan, waar ze vrijwel altijd zonlicht vangen; zonnepanelen leveren daar volgens Google tot acht keer meer stroom dan op aarde. Een prototype van Planet bereikte in oktober de ruimte en draaide daar het model Gemma 4, en in 2027 wil Google twee satellieten aan elkaar koppelen. Hoeveel satellieten meegaan en wat de lancering kost, is niet bekend; New Glenn staat bovendien sinds een explosie in mei aan de grond."
+      ],
+      "why": "Nu stroomnetten op aarde de groei van datacenters afremmen, zoeken techbedrijven rekenkracht in de ruimte.",
+      "source": "Via Satellite",
+      "url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/"
     },
     {
       "id": "intel-18a-p-eerste-klant",
@@ -190,6 +390,21 @@
       "why": "Wie AI-modellen niet zelf kan testen, moet varen op wat de makers erover zeggen.",
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/eu-adviseurs-onafhankelijke-tests-ai-modellen"
+    },
+    {
+      "id": "nebius-israel-134-megawatt",
+      "date": "2026-11-19",
+      "order": 20,
+      "cat": "nederland",
+      "tag": "Nebius",
+      "title": "Nebius huurt 134 megawatt extra datacentercapaciteit in Israël",
+      "summary": "Het in Amsterdam gevestigde Nebius heeft met de Israëlische vastgoedgroep Mega Or een nieuw contract gesloten voor 134 megawatt aan rekencapaciteit in twee datacenters. Het is de derde deal tussen beide bedrijven.",
+      "body": [
+        "Het gaat om een datacenter in aanbouw in Beit Shemesh en een gepland datacenter in Masmiya. Voor dat laatste ontbreekt nog een aansluiting op het stroomnet: de Israëlische elektriciteitsautoriteit heeft de aanvraag bevroren, en zonder goedkeuring gaat dat deel niet door. Beide gebouwen moeten medio 2028 klaar zijn, waarna Nebius zeven jaar huurt met een optie op vijf jaar verlenging. Mega Or rekent op een jaarlijkse netto-opbrengst van 550 miljoen sjekel en schat de bouwkosten op ongeveer 1,6 miljard dollar. Eerder huurde Nebius al 8 en 80 megawatt bij hetzelfde bedrijf."
+      ],
+      "why": "Nebius breidt zijn rekencapaciteit buiten Nederland snel uit om de vraag naar AI-rekenkracht bij te benen.",
+      "source": "Calcalist",
+      "url": "https://www.calcalistech.com/ctechnews/article/zrt5oaw9s"
     },
     {
       "id": "gao-chatbots-aanslagplannen",
