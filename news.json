@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-11-21T06:02:17Z",
+  "updatedAt": "2026-11-22T06:04:38Z",
   "items": [
+    {
+      "id": "alice-huang-chipnetwerk-ft-nyt",
+      "date": "2026-11-21",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "FT en NYT: chipnetwerk rond Alice Huang liep via spelbedrijven en lege vennootschappen",
+      "summary": "Het netwerk rond Alice Huang, de oud-bestuurder van Megaspeed die centraal staat in het Nvidia-schandaal, leverde via honderden lege vennootschappen Nvidia-chips aan China. Dat meldt de Financial Times na eigen onderzoek. The New York Times schreef een dag eerder dat bedrijven rond haar familie toeleverancier zijn van het Chinese leger.",
+      "body": [
+        "De FT volgt de keten vanaf de Chinese serverbouwer Inspur, die sinds maart 2023 op de Amerikaanse zwarte lijst staat, via zijn Amerikaanse dochter Aivres. Megaspeed groeide uit de Singaporese tak van spelbedrijf 7Road; de Maleisische dochter Speedmatrix voerde in het jaar tot december 2025 voor zo'n 4,6 miljard dollar aan apparatuur van Aivres in. Volgens de krant hielp ook Hu Xiaowei bij het smokkelen, die de VS de tweede man van het Cambodjaanse Prince Group noemen. De groep ontkent dat hij er ooit heeft gewerkt.",
+        "De NYT baseert zich op een vertrouwelijke analyse van Strider Technologies: ongeveer 3,6 miljard dollar aan Chinees staatsgeld stroomde door bedrijven rond Huangs familie en kennissen, al lopen de meeste banden indirect. Nvidia blokkeerde Megaspeed in 2025 en beperkte de verkoop aan Aivres; Megaspeed zegt dat Huang in augustus 2025 vertrok. Of het Chinese leger de rekenkracht ook echt gebruikte, is onduidelijk, en The Next Web kon geen van beide berichten zelf controleren."
+      ],
+      "why": "De onthullingen vergroten de druk op Nvidia om uit te leggen hoe verboden chips via een netwerk zo dicht bij de top van het bedrijf in China belandden.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/alice-huang-chip-network-ft-nyt-prince-group-pla-suppliers"
+    },
+    {
+      "id": "taiwan-verbod-short-gaan",
+      "date": "2026-11-21",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Taiwan",
+      "title": "Taiwan verbiedt short gaan na zwaarste beursweek in ruim dertig jaar",
+      "summary": "De Taiwanese financiële toezichthouder FSC verbiedt vanaf maandag om short te gaan in aandelen die de vorige handelsdag zijn gedaald. Het is de eerste algemene beperking van dit soort sinds 2015. De maatregel volgt op een koersval van ruim 6 procent op vrijdag, aangewakkerd door twijfels over AI-aandelen.",
+      "body": [
+        "De Taiex sloot vrijdag op 36.033 punten, het laagste slot in bijna zeven maanden en ruim 28 procent onder de recordstand van 6 oktober. Het nieuwe verbod vervangt een regel van donderdag die alleen gold voor aandelen die minstens 3,5 procent waren gezakt. Beleggers moeten voortaan 150 in plaats van 130 procent onderpand storten, en de toezichthouder vraagt geldverstrekkers om geen aandelen meer uit te lenen.",
+        "Premier Cho Jung-tai riep zaterdagochtend de hoofden van de economische en financiële diensten bijeen. Een stabiliteitsfonds van 500 miljard Taiwanese dollar mag al sinds 6 november ingrijpen en koopt inmiddels aandelen. Buitenlandse beleggers verkopen al dagen, al neemt dat volgens het ministerie van Financiën af. Hoe lang de maatregelen blijven gelden, is niet bekend."
+      ],
+      "why": "De ingreep laat zien hoe hard de twijfel over AI-investeringen aankomt op een beurs die sterk leunt op de chipindustrie.",
+      "source": "Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611210013"
+    },
+    {
+      "id": "vn-autonome-wapens-geen-verbod",
+      "date": "2026-11-21",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "VN",
+      "title": "VN-overleg over autonome wapens eindigt zonder bindend verbod",
+      "summary": "De 128 landen van het VN-wapenverdrag CCW zijn het in Genève niet eens geworden over onderhandelingen voor een bindend verbod op autonome wapens. Ze spraken in de nacht naar zaterdag alleen af om tot 2028 verder te werken aan een mogelijk akkoord.",
+      "body": [
+        "Bijna honderd landen wilden onderhandelen over een verbod op wapens die zonder menselijk vuurbevel kunnen doden; Brazilië, Oostenrijk, België, Ierland, Mexico, Nieuw-Zeeland en Panama hadden daar vooraf een voorstel voor gedaan. Omdat het verdrag met consensus beslist, kan één land elk besluit tegenhouden. Activisten wijzen vooral naar Rusland, maar ook de VS verzetten zich tegen een concreet onderhandelingsmandaat.",
+        "VN-chef Guterres, die eind dit jaar vertrekt, had 2026 genoemd als uiterste datum om onderhandelingen te beginnen. VN-ontwapeningschef Izumi Nakamitsu sprak toch van een flinke prestatie, terwijl Stop Killer Robots de uitkomst de kleinste gemene deler noemde. Max Tegmark van het Future of Life Institute merkte op dat landen nu voor het veertiende jaar afspreken om te blijven praten."
+      ],
+      "why": "Zonder bindende afspraken gaat de ontwikkeling van wapens die zelf doelen kiezen vrijwel ongeremd door.",
+      "source": "The Boston Globe",
+      "url": "https://www.bostonglobe.com/2026/11/21/world/ai-killer-robots-un-more-talks/"
+    },
+    {
+      "id": "amazon-decart-overname",
+      "date": "2026-11-21",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Amazon",
+      "title": "Amazon onderhandelt over overname van AI-bedrijf Decart voor 7,5 miljard dollar",
+      "summary": "Amazon zit in vergevorderde gesprekken om het Israëlische AI-bedrijf Decart over te nemen voor ongeveer 7,5 miljard dollar, meldt de Financial Times. Een akkoord kan begin volgende week al rond zijn; Amazon en Decart hebben nog niets bevestigd.",
+      "body": [
+        "Decart maakt software die AI-systemen zuiniger laat draaien en modellen die in realtime bewegend beeld maken, zoals Lucy en Oasis. Het bedrijf draait al op Trainium, de eigen AI-chip van Amazon, en bouwt hulpmiddelen om werk makkelijker tussen verschillende soorten AI-chips te verplaatsen.",
+        "In mei werd Decart nog op 4 miljard dollar gewaardeerd. De Israëlische krant Calcalist meldde eerder een pakket van contant geld, aandelen en uitgestelde betalingen, met afspraken die de oprichters vijf jaar aan Amazon binden. Mogelijk volgt de aankondiging op Amazons cloudconferentie re:Invent, die op 30 november begint."
+      ],
+      "why": "Met Decart kan Amazon zijn eigen chips aantrekkelijker maken als alternatief voor die van Nvidia.",
+      "source": "Business Upturn",
+      "url": "https://businessupturn.com/technology/amazon-in-advanced-talks-to-buy-ai-startup-decart-for-7-5-billion-report-says/"
+    },
+    {
+      "id": "cset-chinese-modellen-amerikaanse-chips",
+      "date": "2026-11-21",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "China",
+      "title": "Onderzoekers: Amerikaanse datacenters draaien Chinese AI-modellen",
+      "summary": "Datacenters vol Amerikaanse chips bedienen gebruikers over de hele wereld met Chinese AI-modellen, schrijven drie onderzoekers van denktank CSET in Fortune. Het nieuwste model van DeepSeek is volgens hen te gebruiken via minstens zestien aanbieders buiten China, onder wie Amazon Bedrock.",
+      "body": [
+        "Ook Together AI, Baseten en Fireworks bieden Chinese modellen aan op Amerikaanse hardware. Moonshot AI eist van bedrijven die meer dan 20 miljoen dollar per jaar verdienen met zijn model Kimi K3 een licentie met winstdeling, en vroeg Microsoft, Amazon en Google naar verluidt om 30 procent van die inkomsten. Het stuk verschijnt kort nadat het Amerikaanse ministerie van Handel een maas dichtte waarmee Chinese bedrijven op afstand Amerikaanse chips konden huren.",
+        "Jacob Feldgoise, Hanna Dohmen en Sam Bresnick vinden een verbod voor Amerikaanse cloudbedrijven geen goed idee, omdat het duur is en Chinese vergelding kan uitlokken. Ze pleiten ervoor Amerikaanse modellen met openbare gewichten te steunen, zoals die van Meta en Thinking Machines, onder meer via overheidsinkoop. Hoeveel rekenkracht in totaal naar Chinese modellen gaat, vermelden ze niet."
+      ],
+      "why": "Exportregels houden de chips uit China, maar niet de Chinese modellen die op diezelfde chips draaien.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/"
+    },
     {
       "id": "nvidia-sec-onderzoek-koersval",
       "date": "2026-11-20",
@@ -66,6 +146,22 @@
       "url": "https://www.freemalaysiatoday.com/category/business/2026/11/20/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole"
     },
     {
+      "id": "trump-belasting-datacenters-buitenland",
+      "date": "2026-11-20",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "Datacenters",
+      "title": "Trump dreigt met forse belasting op Amerikaanse datacenters in het buitenland",
+      "summary": "President Trump wil Amerikaanse bedrijven die AI-datacenters buiten de VS bouwen een 'enorme belasting' opleggen. Hij zei dat vrijdag in het Witte Huis, na terugkeer van zijn reis door Azië. Hoe de heffing eruit moet zien, is onbekend: zijn eigen medewerkers waren nog niet ingelicht.",
+      "body": [
+        "Trump zegt dat de VS voorlopen op China in wat hij superintelligentie noemt, maar dat die voorsprong verdwijnt als verzet uit de samenleving de bouw van datacenters in eigen land stillegt. Dat verzet is groot: volgens peilingen van AP-NORC wil ongeveer zes op de tien Amerikanen nieuwe datacenters aan banden leggen, en onvrede erover droeg bij aan de zware nederlaag van de Republikeinen bij de tussentijdse verkiezingen. Trump wil dat gemeenten afspraken maken met bouwers, zoals belastingvoordelen of lagere energierekeningen voor omwonenden.",
+        "Volgens bank UBS kunnen de grootste techbedrijven volgend jaar tot 1800 miljard dollar aan AI uitgeven, grotendeels aan datacenters. In het buitenland staan grote projecten op het spel: Microsoft kondigde in april 25 miljard dollar aan voor Australië en Amazon in juni 20 miljard, en in Ierland slokten datacenters vorig jaar 23 procent van alle gemeten stroom op. Een wettelijke basis, tarief of tijdpad noemde Trump niet."
+      ],
+      "why": "Wordt de dreiging beleid, dan komen geplande Amerikaanse datacenters in Europa en elders op losse schroeven te staan.",
+      "source": "AP via American Press",
+      "url": "https://americanpress.com/2026/11/21/trump-seeks-to-penalize-us-companies-that-build-ai-data-centers-abroad/"
+    },
+    {
       "id": "apple-eigen-mac-agent",
       "date": "2026-11-20",
       "order": 85,
@@ -79,6 +175,38 @@
       "why": "Apple wil de achterstand bij AI-agents inlopen en legt intussen rivalen op zijn eigen platform aan banden.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    },
+    {
+      "id": "navier-stokes-zonder-externe-kracht",
+      "date": "2026-11-20",
+      "order": 82,
+      "cat": "wereld",
+      "tag": "Wiskunde",
+      "title": "Wiskundigen claimen met AI ook Navier-Stokes zonder externe kracht te kraken",
+      "summary": "Tristan Buckmaster (NYU) en Levent Alpöge (Anthropic) zeggen te hebben bewezen dat de Navier-Stokesvergelijkingen ook zonder kracht van buitenaf in eindige tijd kunnen ontsporen. Het bewijs kwam met veel hulp van AI tot stand en raakt aan een van de millenniumproblemen, waarvoor een prijs van een miljoen dollar staat.",
+      "body": [
+        "Ze zetten vrijdag een artikel van 79 pagina's op GitHub, met een formalisering in de bewijstaal Lean van ongeveer 600.000 regels. Een numeriek certificaat waarop het bewijs leunt, is nog niet vrijgegeven, en de rekencontrole daarvan valt buiten de Lean-code. Terence Tao noemt de aanpak in grote lijnen helder, maar vindt dat een goed uitgeschreven bewijs nog werk vergt.",
+        "OpenAI publiceerde in september een bewijs dat wel een externe kracht toeliet, wat veel wiskundigen een uitweg vonden; sindsdien ruziën beide kampen over wie wat als eerste had. Buckmaster zegt dat ze het zich niet konden permitteren langer te wachten, wat verklaart waarom de tekst nog ruw is. Dezelfde dag verscheen een vergelijkbaar bewijs voor de Euler-vergelijkingen, en eerder die week claimde Alpöge al een bewijs van de Riemann-hypothese met Claude."
+      ],
+      "why": "Houdt het stand, dan is het een van de grootste wiskundige doorbraken waarin AI een hoofdrol speelde, maar zonder certificaat en vakbeoordeling blijft het een claim.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge"
+    },
+    {
+      "id": "cairn-agents-lek-universiteit",
+      "date": "2026-11-20",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Beveiliging",
+      "title": "AI-agents vonden zelf een onbekend lek en kraakten een universiteitsserver",
+      "summary": "Aanvallers die vermoedelijk banden hebben met China lieten autonome AI-agents een onbekend lek vinden in medische beeldsoftware en zo een universiteitsserver overnemen, meldt Amazon. De agents hadden er ongeveer elf minuten voor nodig.",
+      "body": [
+        "De aanvaller gaf het open aanvalsprogramma Cairn één opdracht: toegang krijgen tot de server. De agents ontdekten in MONAI Label, software voor medisch beeldonderzoek, een fout bij het uploaden van bestanden, schreven zo kwaadaardige code weg en kregen volledige beheerrechten. Amazon stuitte op 10 september op een onbeveiligde Cairn-server; de campagne richtte zich twee dagen lang op universiteiten in Oost-Azië buiten het Chinese vasteland.",
+        "Andere doelwitten hielden stand: een campusserver doorstond ruim zestien uur aan pogingen en een rekencluster meer dan 30.000 geraden wachtwoorden. Daarna probeerde de aanvaller een tweede universiteit met dezelfde software; of dat lukte, is niet bekend. Het lek is inmiddels gedicht. Amazon-beveiligingschef CJ Moses waarschuwt dat verdedigers door zulke agents veel minder tijd krijgen om te reageren."
+      ],
+      "why": "Het laat zien dat AI-agents het hele traject van verkenning tot inbraak zelfstandig en razendsnel kunnen afleggen.",
+      "source": "CASRAI",
+      "url": "https://casrai.org/news/amazon-cairn-ai-agents-monai-label-zero-day-university-server-2026"
     },
     {
       "id": "senaat-datacenters-stroomnet",
@@ -109,6 +237,22 @@
       "why": "Hoe meer AI van het eigen onderzoek overneemt, hoe sneller nieuwe modellen elkaar kunnen opvolgen.",
       "source": "AI Wereld",
       "url": "https://aiwereld.nl/nieuws/openai-ai-agents-onderzoekstaken-46-procent"
+    },
+    {
+      "id": "crowdstrike-zscaler-gesprekken",
+      "date": "2026-11-20",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "CrowdStrike",
+      "title": "CrowdStrike praat over overname van concurrent Zscaler",
+      "summary": "Beveiligingsbedrijf CrowdStrike voert gesprekken over de overname van Zscaler, melden Reuters en Bloomberg. Het aandeel Zscaler steeg na beurstijd zo'n 17 procent, dat van CrowdStrike zakte ongeveer 8 procent.",
+      "body": [
+        "Zscaler is ongeveer 33,5 miljard dollar waard. CrowdStrike is vooral sterk in de beveiliging van computers en servers, Zscaler in netwerkbeveiliging via de cloud; samen kunnen ze beter op tegen Palo Alto Networks. Klanten willen met minder beveiligingsleveranciers werken, en dat jaagt zulke samenvoegingen aan.",
+        "De gesprekken kunnen nog op niets uitlopen, en beide bedrijven gaven geen commentaar. Gaat de deal door, dan wordt het de grootste overname in de sector, groter dan de aankoop van Wiz door Google voor 32 miljard dollar."
+      ],
+      "why": "Bedrijven willen hun beveiliging bij minder partijen onderbrengen, en dat drijft de grootste spelers tot steeds grotere overnames.",
+      "source": "Investing.com (Reuters)",
+      "url": "https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720"
     },
     {
       "id": "innovatie-monitor-2026",
