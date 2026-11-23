@@ -1,6 +1,181 @@
 {
-  "updatedAt": "2026-11-22T06:04:38Z",
+  "updatedAt": "2026-11-23T05:59:48Z",
   "items": [
+    {
+      "id": "riemann-lean-gecertificeerd",
+      "date": "2026-11-22",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Wiskunde",
+      "title": "Lean-gemeenschap: bewijs van Riemann-hypothese met hulp van Claude klopt",
+      "summary": "De gemeenschappen rond de bewijsassistent Lean en de wiskundebibliotheek Mathlib hebben volledig vertrouwen in het bewijs van de Riemann-hypothese van Anthropic-wiskundige Levent Alpöge. Volgens hun verklaring kloppen zowel de formele stelling als het bewijs zelf.",
+      "body": [
+        "Het bewijs is door meerdere programma's nagelopen: de officiële controle van Lean, de checkers con-leche en con-ron en nog enkele onafhankelijke controleprogramma's in andere programmeertalen. Voor con-leche en con-ron bestaat een formeel bewijs dat ze geen fout bewijs kunnen goedkeuren. Dat neemt de zorg weg dat een zwakke plek in Lean zelf is uitgebuit. De code leunt alleen rechtstreeks op Mathlib.",
+        "MIT-wiskundige Andrew Sutherland, die het resultaat zelf in Lean liet doorrekenen, spreekt van een historisch moment, maar zegt dat het tijd kost om te begrijpen wat er precies is gebeurd. Alpöge vertelt dat Claude hem op het laatst ver vooruit was. De certificering gaat over de formele controle: wiskundigen moeten de nieuwe ideeën in het bewijs nog doorgronden en uitleggen."
+      ],
+      "why": "Als het bewijs standhoudt, is een van de beroemdste open problemen uit de wiskunde opgelost met wezenlijke hulp van een AI-model.",
+      "source": "Slashdot",
+      "url": "https://science.slashdot.org/story/26/11/22/2031237/the-new-riemann-hypothesis-proof-has-been-confirmed-in-mathliblean-communities"
+    },
+    {
+      "id": "openai-perplexiteit-grens",
+      "date": "2026-11-22",
+      "order": 98,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI-hoofdwetenschapper stelt gezamenlijke rem op AI-ontwikkeling voor",
+      "summary": "Jakub Pachocki, hoofdwetenschapper van OpenAI, heeft voor het eerst interne meetwaarden gepubliceerd over hoe goed de modellen van het bedrijf tekst voorspellen. Hij stelt voor dat de grote AI-labs afspreken bepaalde grenswaarden niet te passeren tot het onderzoek naar toezicht op AI-gedrag is bijgebeend.",
+      "body": [
+        "Het gaat om perplexiteit: hoe verrast een model is door tekst die het niet eerder zag, waarbij lager beter is. GPT-3.5 zat rond 0,99 en GPT-4 rond 0,91. Onder 0,8 kregen modellen nieuwe vaardigheden in cyberbeveiliging en wiskunde, en rond 0,76 boekte een model opvallende resultaten op open wiskundeproblemen. Pachocki verwacht nieuwe, nog onbekende sprongen rond 0,68 tot 0,70 en vreest dat de huidige tests die niet opmerken.",
+        "Labs zouden samen normen voor evaluaties opstellen, veiligheidsclaims vooraf laten bestoken door testteams en afspraken maken over openheid. Volgens Pachocki kan de vooruitgang al in 2027 sterk versnellen als AI zelf meer bijdraagt aan algoritmisch onderzoek. De maat is wel grof: labs trainen op verschillende data, wat vergelijken lastig maakt, en winst door redeneren na de voortraining valt erbuiten. Over een tijdpad of steun van andere labs is nog niets bekend."
+      ],
+      "why": "Het is een van de eerste concrete voorstellen van een groot AI-lab voor een meetbare, gezamenlijke grens aan de ontwikkeling van krachtigere modellen.",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/"
+    },
+    {
+      "id": "bessent-nvidia-antwoorden",
+      "date": "2026-11-22",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Bessent: regering wacht nog op antwoorden van Nvidia over chipverkoop aan China",
+      "summary": "De Amerikaanse minister van Financiën Scott Bessent wil van Nvidia weten of het bedrijf zich aan de exportregels voor China heeft gehouden. Die antwoorden zijn er nog niet, zei hij zondag in het CBS-programma Face the Nation.",
+      "body": [
+        "Vorige week sprak Bessent al van een mogelijke cultuur van regels negeren bij Nvidia en gaf hij het bedrijf tien dagen. De regering heeft nu contact met de tijdelijke leiding, de leidende bestuurders en de advocaten. Bessent wil weten wie over de naleving ging en op welk niveau van de verkopen werd geweten; bij deals van deze omvang zijn er volgens hem altijd geldstromen en facturen die je kunt volgen.",
+        "Hij herhaalde dat Nvidia een topman van buiten moet aantrekken, terwijl president Trump juist wil dat Jensen Huang terugkeert. Het verband met Huangs affaire noemde Bessent een afleiding. Huang heeft toegezegd te getuigen voor de bankencommissie van de Senaat en wordt begin december gehoord door commissies van het Huis van Afgevaardigden."
+      ],
+      "why": "De druk uit Washington bepaalt mee wie Nvidia straks leidt en hoe streng het grootste AI-chipbedrijf ter wereld voortaan wordt gecontroleerd.",
+      "source": "CBS News",
+      "url": "https://www.yahoo.com/news/politics/articles/bessent-answers-nvidia-role-sending-184839233.html"
+    },
+    {
+      "id": "azie-steun-beurzen-ai",
+      "date": "2026-11-22",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "Beurs",
+      "title": "China, Zuid-Korea en Taiwan grijpen in na koersval van AI-aandelen",
+      "summary": "Na de zware beursverliezen van vorige week nemen overheden in Azië maatregelen om de markten te kalmeren. China verlaagt de eigen inbreng bij aandelenkopen met geleend geld en Zuid-Korea houdt een stabiliteitsfonds klaar.",
+      "body": [
+        "De beurzen van Shanghai, Shenzhen en Beijing verlagen de minimale marge per 30 november van 100 naar 80 procent; volgens persbureau Xinhua kan dat bijna 400 miljard yuan vrijmaken, ongeveer 60 miljard dollar. Ook de Chinese centrale bank zegt steun toe aan fondsbeheerders, verzekeraars en effectenhuizen. Zuid-Korea wil het fonds meteen inzetten als de koersen verder dalen, nadat de Kospi vrijdag 5,2 procent verloor. Taiwan breidde de beperkingen op short gaan verder uit.",
+        "De Nasdaq 100 zakte vorige week 10 procent, de grootste weekdaling sinds maart 2020, na het vertrek van Nvidia-topman Jensen Huang en een tegenvallend vervolg op de beursgang van Anthropic. Maandagochtend stegen de Amerikaanse futures in de Aziatische handel weer. Beleggers twijfelen of datacenters die met geleend geld worden gebouwd zich snel genoeg terugbetalen."
+      ],
+      "why": "De ingrepen laten zien dat de onrust rond AI-bedrijven inmiddels een zorg is voor overheden en voor de bredere economie.",
+      "source": "Briefs",
+      "url": "https://www.briefs.co/news/asian-regulators-roll-out-fresh-market-supports-after-us-sel/"
+    },
+    {
+      "id": "li-ming-megaspeed-wsj",
+      "date": "2026-11-22",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "WSJ: Chinese zakenman Li Ming trok achter de schermen aan Megaspeed",
+      "summary": "Achter het netwerk dat verboden Nvidia-chips naar China zou hebben gesmokkeld, stond de 52-jarige Chinees Li Ming, meldt The Wall Street Journal. Alice Huang was volgens de krant vooral het publieke gezicht, en een nieuw bedrijf van hetzelfde team zou nog altijd Nvidia-hardware ontvangen.",
+      "body": [
+        "Li woont in een villa in Singapore, een straat van de Chinese ambassade. Daar werd hij in februari 2025 aangeklaagd voor fraude; hij wacht op borgtocht op de voortzetting van zijn strafzaak. Volgens de aanklacht gebruikte hij een plaatselijk bedrijf als dekmantel om servers via Maleisië door te sturen. Met Alice Huang en haar man Kang Wei begon hij in 2021 een cloudbedrijf; later kochten ze de Singaporese tak van een Chinese spelontwikkelaar, die Megaspeed werd.",
+        "Hetzelfde team runt volgens ingewijden nu Novagate Cloud, dat zich presenteert als cloudpartner van Nvidia. Een Maleisische dochter ontving in de eerste vijf maanden van 2026 voor minstens 300 miljoen dollar aan apparatuur met Nvidia-chips. Shortfonds Culper Research wees in mei al op de banden tussen beide bedrijven. Li's advocaten wilden niet reageren; Huang, Kang en de bedrijven reageerden niet."
+      ],
+      "why": "Als de smokkelroute nog in bedrijf is, wordt het voor Nvidia nog lastiger om aan te tonen dat het de exportregels serieus handhaaft.",
+      "source": "Israel Hayom",
+      "url": "https://www.israelhayom.com/2026/11/22/nvidia-chip-smuggling-megaspeed-li-ming-novagate/"
+    },
+    {
+      "id": "openrouter-aanbieders-promptlekken",
+      "date": "2026-11-22",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Beveiliging",
+      "title": "OpenRouter zet drie AI-aanbieders eruit na lekken van prompts",
+      "summary": "Het AI-doorgeefplatform OpenRouter heeft drie aanbieders van AI-rekenkracht verwijderd en 125 aansluitpunten hun keurmerk voor 'geen gegevensopslag' afgenomen. Aanleiding is onderzoek van beveiligingsbedrijf Dragos, dat ontdekte dat prompts van gebruikers waren gestolen of toch bewaard.",
+      "body": [
+        "Dragos-onderzoeker HD Moore stuurde tussen juli en november zo'n twee miljoen prompts met nepgeheimen, zoals AWS-sleutels, door populaire AI-diensten en volgde wie ze gebruikte. Minstens drie aanbieders bleken gehackt zonder het te weten; bij de grootste inbraak werden eind oktober een paar honderd sleutels gestolen en binnen enkele uren misbruikt. Ook haalde een Chinees AI-lab geheime links uit prompts op, zelfs bij verzoeken waarvoor gebruikers hadden aangegeven dat niets bewaard mocht worden.",
+        "OpenRouter zegt zelf niet gehackt te zijn en noemt de verwijderde aanbieders niet. Phala meldt dat verzoeken aan een DeepSeek-model van 21 oktober tot 8 november als gelekt moeten worden beschouwd. Bij Together AI zette een AI-programmeeragent een toegangssleutel openbaar, waardoor voorbeelden van klantprompts uit de zomer konden worden gedownload. OpenRouter gaat de tests van Dragos voortaan zelf doorlopend uitvoeren."
+      ],
+      "why": "Wie gevoelige gegevens via tussenpartijen naar AI-modellen stuurt, kan er niet zomaar op rekenen dat privacybeloftes in de hele keten worden nagekomen.",
+      "source": "OpenRouter",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    {
+      "id": "trump-china-ai-vangrails",
+      "date": "2026-11-22",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Beleid",
+      "title": "Trump wil samen met China vangrails voor AI opstellen",
+      "summary": "President Trump heeft gezegd dat de Verenigde Staten met China gaan werken aan gezamenlijke vangrails voor kunstmatige intelligentie. Eerder waarschuwde hij juist dat regels de vernieuwing zouden afremmen.",
+      "body": [
+        "Volgens Semafor speelt mee dat een tegenbeweging tegen techbedrijven heeft bijgedragen aan de zware nederlaag van de Republikeinen bij de tussentijdse verkiezingen. Protesten tegen datacenters verspreiden zich inmiddels ook naar Europa, Japan en India. Tegelijk scherpen de VS de exportregels voor chips verder aan en heeft OpenAI de toegang van Chinese gebruikers tot zijn modellen beperkt. Wat de vangrails inhouden en wanneer ze er komen, is nog niet bekend."
+      ],
+      "why": "Afspraken tussen de twee grootste AI-landen kunnen bepalen hoe ver internationale regels voor AI reiken.",
+      "source": "Semafor",
+      "url": "https://www.yahoo.com/news/politics/articles/us-china-eye-joint-guardrails-221922578.html"
+    },
+    {
+      "id": "anthropic-beursgang-bankiers",
+      "date": "2026-11-22",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic legde banken bij beursgang ongewoon strenge eisen op",
+      "summary": "Anthropic beperkte bij zijn recordbeursgang sommige bankteams tot vier mensen en vroeg bankiers zes maanden niet voor concurrenten als OpenAI te werken, meldt Reuters. Een deel van de 22 betrokken banken had daar moeite mee.",
+      "body": [
+        "Het werkverbod gold ook voor Cursor, DeepSeek en Hugging Face. De deal heette intern Project Lantern, en de banken zegden hun medewerking toe zonder te weten wat ze zouden verdienen. Een concept met verkeerde gegevens over prijs en aantal aandelen ging eerst naar de banken; de verbeterde versie kwam rond twee uur 's nachts New Yorkse tijd, waarna ze nog maar enkele uren hadden om die goed te keuren.",
+        "Onder leiding van Goldman Sachs en Morgan Stanley streken de banken samen ruim een half miljard dollar aan vergoedingen op. Het aandeel steeg op de eerste handelsdag 17 procent, maar sloot vrijdag 8,5 procent lager."
+      ],
+      "why": "Het laat zien hoeveel macht toonaangevende AI-bedrijven tegenover Wall Street hebben, en hoe zwaar ze tillen aan geheimhouding.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/anthropic-capped-ipo-banker-teams-barred-work-with-rivals"
+    },
+    {
+      "id": "apple-siri-ai-eigen-apps",
+      "date": "2026-11-22",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Apple",
+      "title": "Apple rolt nieuwe Siri uit in eigen apps",
+      "summary": "Apple is begonnen de nieuwe AI-functies van Siri uit te rollen in eigen apps zoals Agenda, Mail, Kaarten, Berichten, Foto's en Safari. Ontwikkelaars kunnen al proefdraaien met koppelingen voor hun eigen apps, maar in de EU is Siri AI op iPhone, iPad en Apple Watch nog niet beschikbaar.",
+      "body": [
+        "Via App Intents kunnen andere apps inhoud en handelingen aan Siri aanbieden, zoals een bezorging volgen, een tafel reserveren of een bestelling plaatsen. Met zogeheten app skills kan Siri meerdere stappen achter elkaar zetten, ook over apps heen. Staat een app op de voorgrond of loopt er een Live Activity, dan hoeft de gebruiker de app niet bij naam te noemen.",
+        "De proefversie verscheen op 3 november met de bèta's van versie 27.3 en werkt alleen voor interne testers; de functies kunnen nog veranderen. Volgens Apple krijgen gebruikers de koppelingen over een paar maanden en kunnen apps met de functie in het voorjaar naar de App Store. Apple zegt met de EU te praten over beschikbaarheid in Europa."
+      ],
+      "why": "Als Siri ook apps van anderen kan bedienen, wordt de assistent een serieuze concurrent van de AI-agents van Google, OpenAI en Meta.",
+      "source": "Forkast",
+      "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview/"
+    },
+    {
+      "id": "frostbite-processor-ai-agents",
+      "date": "2026-11-22",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Chips",
+      "title": "AI-agents ontwerpen volledig nieuwe processor",
+      "summary": "De start-up Architect Labs zegt dat zwermen AI-agents een compleet nieuwe processor hebben ontworpen, van instructieset tot chipontwerp. Het ontwerp, Frostbite, zou in simulaties 4,59 keer zuiniger rekenen dan een vergelijkbare gewone processor.",
+      "body": [
+        "Frostbite werkt met interaction nets, een idee uit 1990 waarbij een programma bestaat uit bewerkingen die in willekeurige volgorde of tegelijk kunnen worden uitgevoerd. Een centrale planner is er niet: rekeneenheden nemen werk over van hun buren en schakelen zich uit als ze niets te doen hebben. Op de vijftien testtaken waarop de agents niet waren afgesteld, was de winst 3,83 keer.",
+        "Er is nog geen echte chip gemaakt: de cijfers komen uit een ontwerp op 7 nanometer en het stroomverbruik is berekend, niet gemeten. De vergelijkingsprocessor is een kleine, eenvoudige kern die het bedrijf naar eigen zeggen om juridische redenen niet noemt, en bestaande software draait niet op Frostbite. Architect Labs wil nog vergelijken met krachtigere processors en het ontwerp openbaar maken."
+      ],
+      "why": "Als de claims standhouden, kan AI niet alleen software maar ook hardware vanaf de basis ontwerpen.",
+      "source": "Hardware Busters",
+      "url": "https://hwbusters.com/news/frostbite-cpu-was-designed-end-to-end-by-ai-agents-and-architect-labs-claims-4-59x-the-perf-w-of-an-in-order-core/"
+    },
+    {
+      "id": "ap-ai-camerabrillen-afgeraden",
+      "date": "2026-11-22",
+      "order": 30,
+      "cat": "nederland",
+      "tag": "AP",
+      "title": "Privacywaakhond raadt AI-camerabrillen af na proeven met zes modellen",
+      "summary": "De Autoriteit Persoonsgegevens raadt consumenten af een AI-camerabril te kopen. Na tests met zes in Nederland verkochte brillen concludeert de toezichthouder dat ze de veiligheid van dragers en omstanders in gevaar brengen.",
+      "body": [
+        "Twee brillen werden uitgebreid getest in nagebootste alledaagse situaties. Bij een gesimuleerde reanimatie meldde één bril herhaaldelijk dat er een ambulance onderweg was, terwijl niemand had gebeld. Ook gaven brillen datingadvies aan een volwassene die zei interesse te hebben in een minderjarige, negeerden ze waarschuwingen op speelgoed voor jonge kinderen en lazen ze bijsluiters en weeralarmen verkeerd. Merken noemt de AP niet; de prijzen lopen van onder de 100 tot boven de 500 euro.",
+        "De AP wil dat Nederlandse en Europese politici de uitkomsten meewegen bij de vraag of de brillen verboden moeten worden, en raadt eigenaren van gebouwen aan ze in hun huisregels te weren. Bits of Freedom vindt een waarschuwing te weinig en wil de brillen uit de winkel. De Consumentenbond procedeert tegen Meta om de bril en de standaardinstellingen te laten aanpassen; die zaak dient op 26 november in Amsterdam."
+      ],
+      "why": "Het oordeel kan zwaar meewegen in een Nederlands of Europees verbod op AI-brillen.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/ap-raadt-ai-camerabrillen-af-onderzoek-zes-modellen"
+    },
     {
       "id": "alice-huang-chipnetwerk-ft-nyt",
       "date": "2026-11-21",
@@ -253,6 +428,22 @@
       "why": "Bedrijven willen hun beveiliging bij minder partijen onderbrengen, en dat drijft de grootste spelers tot steeds grotere overnames.",
       "source": "Investing.com (Reuters)",
       "url": "https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720"
+    },
+    {
+      "id": "meta-klimaatdoel-2030-ai",
+      "date": "2026-11-20",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Meta",
+      "title": "Meta heroverweegt klimaatdoel voor 2030 door groei van AI",
+      "summary": "Meta zet zijn doel om in 2030 klimaatneutraal te zijn ter discussie, omdat de bouw van AI-datacenters de uitstoot opdrijft. In zijn jaarlijkse duurzaamheidsverslag schrijft het bedrijf dat het tijdpad en de tussendoelen opnieuw worden bekeken.",
+      "body": [
+        "De netto-uitstoot van Meta steeg in 2025 met 45 procent tot 11,8 miljoen ton CO2-equivalent, al plaatsen klimaatorganisaties vraagtekens bij de rekenmethode. Het doel stamt uit 2020 en gold voor de hele keten van leveranciers tot gebruikers. Volgens de verantwoordelijke topmensen rekende Meta toen op gestage groei en goedkopere schone energie, maar bleek de werkelijkheid veel ingewikkelder.",
+        "Meta staat niet alleen: ook Google meldde dit jaar dat zijn uitstoot nog stijgt, ondanks een vergelijkbare belofte. Het Internationaal Energieagentschap verwacht dat het stroomverbruik van datacenters wereldwijd tot 2030 bijna verdubbelt. Een nieuwe deadline noemt Meta niet."
+      ],
+      "why": "Het is een duidelijk teken dat de AI-wedloop botst met de klimaatbeloften van grote techbedrijven.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up"
     },
     {
       "id": "innovatie-monitor-2026",
