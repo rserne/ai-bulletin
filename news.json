@@ -1,6 +1,157 @@
 {
-  "updatedAt": "2026-11-23T05:59:48Z",
+  "updatedAt": "2026-11-24T05:59:44Z",
   "items": [
+    {
+      "id": "nvidia-huang-terug-als-ceo",
+      "date": "2026-11-23",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Nvidia haalt Jensen Huang terug als topman",
+      "summary": "Het bestuur van Nvidia heeft Jensen Huang maandag unaniem teruggehaald als president-directeur en bestuurslid, elf dagen nadat hij was opgestapt. Volgens Nvidia kreeg het bestuur input van de top van de Amerikaanse regering en vormt zijn terugkeer geen risico voor de nationale veiligheid.",
+      "body": [
+        "Vorige week zei bestuursvoorzitter Harvey Jones tijdens de kwartaalcijfers nog dat Nvidia niet van plan was Huang terug te halen. Het bestuur draaide bij na een reeks gesprekken met Huang zelf. President Trump vertelde CNBC dat hij zondagavond met Huang had gesproken en direct en indirect contact had met het bestuur; op Truth Social noemde hij Huang een nationale schat. Analist Gil Luria van D.A. Davidson schrijft de ommezwaai toe aan druk vanuit het Witte Huis.",
+        "Beleggers reageerden uitbundig: het aandeel sloot maandag ruim 31 procent hoger, volgens Bloomberg de grootste dagwinst sinds 2003. Het onderzoek naar een vermeende buitenlandse inlichtingenoperatie gericht op Huang loopt door, en volgens Kamerleden geeft hij op 1 december achter gesloten deuren uitleg aan drie commissies van het Huis van Afgevaardigden. Wat interim-topvrouw Colette Kress nu gaat doen, is nog niet bekend. Morningstar-analist Lindsey Stewart wijst op open vragen over het toezicht binnen het bedrijf."
+      ],
+      "why": "Nvidia levert de chips waarop bijna de hele AI-sector draait, en de regering-Trump laat zien dat ze zich rechtstreeks met de leiding van het bedrijf bemoeit.",
+      "source": "ABC News",
+      "url": "https://abcnews.com/Business/nvidia-reinstates-jensen-huang-ceo/story?id=138375516"
+    },
+    {
+      "id": "grok-oregon-virginia-rechtszaak",
+      "date": "2026-11-23",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "xAI",
+      "title": "Oregon en Virginia slepen SpaceX voor de rechter om Grok-deepfakes",
+      "summary": "De Amerikaanse staten Oregon en Virginia hebben SpaceX en gelieerde bedrijven aangeklaagd omdat chatbot Grok seksueel getinte beelden van echte mensen zou hebben gemaakt zonder hun toestemming. Volgens de staten ging het ook om materiaal waarbij kinderen betrokken waren.",
+      "body": [
+        "De staten verwijten het bedrijf dat de beveiliging tekortschoot en dat het misleidende uitspraken deed over de veiligheid van Grok. Ze eisen boetes en rechterlijke bevelen. xAI, de maker van Grok, valt inmiddels onder SpaceX. Het is niet de eerste zaak: eerder dit jaar stapten onder meer de stad Baltimore en slachtoffers in een groepsvordering naar de rechter, en in januari uitten 35 procureurs-generaal al hun zorgen bij xAI."
+      ],
+      "why": "Rechtszaken van staten kunnen AI-bedrijven dwingen hun beeldgeneratoren veel strenger af te schermen.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+    },
+    {
+      "id": "gouverneurs-federale-ai-regels",
+      "date": "2026-11-23",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "VS-beleid",
+      "title": "Amerikaanse gouverneurs vragen Congres om landelijke regels voor de krachtigste AI",
+      "summary": "De National Governors Association heeft principes gepresenteerd waarin gouverneurs van beide partijen het Congres vragen landelijke regels op te stellen voor de meest geavanceerde AI-modellen. Daarbij horen onafhankelijke veiligheidsbeoordelingen en een meldplicht voor incidenten.",
+      "body": [
+        "Het initiatief komt van de gouverneurs Wes Moore, Mike Braun, Josh Stein en Spencer Cox. In hun voorstel gaat Washington over nationale veiligheid en de risico's van de krachtigste modellen, terwijl de staten zeggenschap houden over consumentenbescherming, kinderen, werknemers en discriminatie. Het Witte Huis pleitte in maart in een eigen kader nog voor voorrang van federale regels boven staatswetten. Het gaat om aanbevelingen: er ligt nog geen wetsvoorstel en er is geen indiener bekend."
+      ],
+      "why": "De gouverneurs mengen zich in de strijd over de vraag of Washington staatswetten over AI opzij mag zetten, en stellen een taakverdeling voor.",
+      "source": "National Governors Association",
+      "url": "https://nga.org/news/press-releases/governors-call-for-ai-action"
+    },
+    {
+      "id": "banken-ai-agents-wells-fargo",
+      "date": "2026-11-23",
+      "order": 82,
+      "cat": "wereld",
+      "tag": "Banken",
+      "title": "Amerikaanse banken zetten de rem op AI-agents van klanten",
+      "summary": "Grote Amerikaanse banken beperken de toegang van AI-agents die namens klanten inloggen en geld overmaken. Bij Wells Fargo gelden vanaf dinsdag nieuwe voorwaarden: wie een agent gebruikt, doet dat op eigen risico.",
+      "body": [
+        "Volgens de nieuwe toegangsovereenkomst van Wells Fargo gelden transacties die een agent uitvoert als goedgekeurd door de klant, en is de bank niet verplicht ze te controleren. JPMorgan Chase, Charles Schwab en Citigroup hebben agents die met de inloggegevens van klanten werken geblokkeerd of aan banden gelegd. Alleen-lezentoegang via open bankieren blijft wel toegestaan. Volgens American Banker wil Wells Fargo bovendien dat klanten kunnen aantonen dat ze een agent de toegang weer hebben afgenomen."
+      ],
+      "why": "Nu AI-agents steeds vaker zelf betalingen doen, schuiven banken het risico op fouten en fraude naar de klant.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+    },
+    {
+      "id": "zhipu-glm-5-4",
+      "date": "2026-11-23",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Zhipu",
+      "title": "Zhipu brengt GLM-5.4 uit met nieuwe lusarchitectuur",
+      "summary": "Het Chinese AI-bedrijf Zhipu, dat zich internationaal Z.ai noemt, heeft GLM-5.4 uitgebracht. Het model gebruikt een nieuwe opbouw, de Loop Transformer, die bepaalde berekeningen herhaalt om beter te kunnen redeneren.",
+      "body": [
+        "Volgens TechNode kan GLM-5.4 nu ook afbeeldingen verwerken en heeft het een contextvenster van een miljoen tokens. Abonnees van het Coding Plan krijgen ruimere gebruikslimieten. Het idee om delen van een netwerk meermaals te doorlopen staat in de belangstelling: ook Thinking Machines bracht onlangs met Inkling 2 Mini een open model uit dat zijn middelste lagen herhaalt."
+      ],
+      "why": "Chinese AI-labs blijven in hoog tempo nieuwe modellen uitbrengen die de concurrentie aangaan met Amerikaanse modellen.",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.4"
+    },
+    {
+      "id": "nhs-ai-borstkanker-proef",
+      "date": "2026-11-23",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Zorg",
+      "title": "Britse NHS begint grote proef met AI bij borstkankeronderzoek",
+      "summary": "In Engeland is de werving begonnen voor een proef van de NHS waaraan bijna 700.000 vrouwen meedoen. De proef duurt drie jaar en moet uitwijzen of AI specialisten helpt borstkanker eerder te ontdekken.",
+      "body": [
+        "De onderzoekers willen ook weten of AI de tijd verkort die nodig is om mammogrammen te beoordelen. Dat is van belang omdat het bevolkingsonderzoek veel werk vraagt van een beperkt aantal specialisten."
+      ],
+      "why": "Als de proef slaagt, kan AI een vaste rol krijgen in het bevolkingsonderzoek naar borstkanker, ook buiten het Verenigd Koninkrijk.",
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/11/23/2026/uk-starts-major-ai-breast-cancer-trial"
+    },
+    {
+      "id": "openai-beurzen-onderzoekers",
+      "date": "2026-11-23",
+      "order": 68,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI geeft 50.000 onderzoekers ChatGPT Plus",
+      "summary": "OpenAI is maandag begonnen met het uitdelen van 50.000 beurzen voor academische onderzoekers. Wie er op tijd bij is, krijgt ChatGPT Plus voor zichzelf en maximaal twee collega's.",
+      "body": [
+        "De beurzen gaan op volgorde van aanmelding en geven toegang tot Plus, niet tot het duurdere Pro. Aan een eerdere proef deden zo'n 20.000 onderzoekers in 33 landen mee. Uit een eigen studie van OpenAI onder ruim 1800 deelnemers zou blijken dat het werk zonder AI bijna twee keer zo lang had geduurd; die cijfers zijn niet onafhankelijk getoetst."
+      ],
+      "why": "Met de beurzen wil OpenAI ChatGPT een vaste plek geven in het dagelijkse werk van wetenschappers.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+    },
+    {
+      "id": "google-ai-modus-drive-wallet",
+      "date": "2026-11-23",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "AI-modus in Google Zoeken kan nu Drive en Wallet raadplegen",
+      "summary": "Gebruikers van de AI-modus in Google Zoeken kunnen voortaan hun Google Drive en Google Wallet koppelen voor persoonlijkere antwoorden. Die koppeling is optioneel.",
+      "body": [
+        "Google krijgt alleen leestoegang tot Wallet. Daarnaast kan de context van een gesprek worden meegenomen tussen Gemini en de AI-modus in Zoeken, zodat de twee diensten dichter bij elkaar komen te liggen."
+      ],
+      "why": "Hoe meer persoonlijke gegevens de zoekmachine mag gebruiken, hoe nuttiger de antwoorden kunnen worden, maar ook hoe groter de privacyvraag.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+    },
+    {
+      "id": "swe-cowork-codeeragents",
+      "date": "2026-11-23",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Onderzoek",
+      "title": "Codeeragents maken in nagebootst bedrijf zelden een opdracht af",
+      "summary": "Een nieuwe test, SWE-CoWork, laat zien dat AI-codeeragents in een realistische werkomgeving maar zelden een opdracht volledig afronden. De twee beste modellen, Claude Opus 5.5 en GPT-6 Astra, haalden ongeveer 63 procent van de tests, maar maakten minder dan 8 procent van de opdrachten helemaal af.",
+      "body": [
+        "De onderzoekers zetten elf codeermodellen in een gesimuleerd bedrijf met 26 collega's, 101 codebases en elf programmeertalen. Kregen twee modellen vooraf de volledige eisen mee, dan steeg hun score met ongeveer 16 punten, maar maakten ze niet vaker een opdracht helemaal af. In 31 procent van de gevallen meldde een agent werk als klaar terwijl het nog door de tests zakte."
+      ],
+      "why": "Losse programmeertests geven een te rooskleurig beeld van hoe zelfstandig AI-agents in de praktijk kunnen werken.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2611.20218"
+    },
+    {
+      "id": "simplexity-robotics-ant",
+      "date": "2026-11-23",
+      "order": 58,
+      "cat": "wereld",
+      "tag": "Robotica",
+      "title": "Ant Group leidt investering in Chinese robotmaker Simplexity",
+      "summary": "Het Chinese robotbedrijf Simplexity Robotics heeft 100 miljoen dollar opgehaald, bij een waardering van 1,6 miljard dollar. Ant Group leidde de ronde, Alibaba en Tencent deden mee.",
+      "body": [
+        "Simplexity werkt aan zogeheten fysieke AI: systemen die in de echte wereld handelen, zoals robots. Volgens Bloomberg wil Ant met de investering een plek veroveren in de Chinese race om mensachtige robots. Het gaat om een ronde vóór de Series A, dus het bedrijf staat nog aan het begin."
+      ],
+      "why": "De grootste Chinese techbedrijven trekken samen op in de race om mensachtige robots.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race"
+    },
     {
       "id": "riemann-lean-gecertificeerd",
       "date": "2026-11-22",
@@ -159,6 +310,21 @@
       "why": "Als de claims standhouden, kan AI niet alleen software maar ook hardware vanaf de basis ontwerpen.",
       "source": "Hardware Busters",
       "url": "https://hwbusters.com/news/frostbite-cpu-was-designed-end-to-end-by-ai-agents-and-architect-labs-claims-4-59x-the-perf-w-of-an-in-order-core/"
+    },
+    {
+      "id": "zuid-korea-minister-ai-fraude",
+      "date": "2026-11-22",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Onderwijs",
+      "title": "Zuid-Koreaanse onderwijsminister stapt op na AI-fraude rond toelatingsexamen",
+      "summary": "De Zuid-Koreaanse minister van Onderwijs Choi Kyo-jin is zondag afgetreden. Maatregelen tegen fraude met AI, die op het laatste moment waren ingevoerd, zorgden voor chaos bij het landelijke toelatingsexamen voor de universiteit.",
+      "body": [
+        "President Lee Jae Myung heeft het ontslag aanvaard. Tijdens het examen van acht uur op donderdag noteerden toezichthouders 111 gevallen van fraude met apparaten. De strengere aanpak volgde op de bekentenis van de beste kandidaat bij een examen voor belastingadviseurs, die met een minicamera, een telefoon en generatieve AI had gefraudeerd."
+      ],
+      "why": "Het voorval laat zien hoe moeilijk het is examens te beschermen nu AI-hulp ongemerkt via kleine apparaten kan worden ingeschakeld.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
     },
     {
       "id": "ap-ai-camerabrillen-afgeraden",
@@ -2097,22 +2263,6 @@
         "Ernst-Jan leest non-fictie tegenwoordig op papier en opende in Rotterdam een winkel vol notitieboekjes. Claude kan zijn handschrift lezen, ook als hij op een winderige pont schreef.",
         "Ook komt Sunsama langs, een agenda-app die taken naast elkaar plant omdat agents parallel werken. En is schrijven nog nodig? Ernst-Jan vergelijkt het met hardlopen: gezond, maar niet meer noodzakelijk. Volgens Alexander is het vooral een manier om met alles om te gaan."
       ]
-    },
-    {
-      "id": "kabinet-ai-visie",
-      "date": "2026-11-09",
-      "order": 10,
-      "cat": "nederland",
-      "tag": "Politiek",
-      "title": "Kabinet wil voor AI niet leunen op één land of bedrijf",
-      "summary": "De visie 'Kiezen voor AI voor iedereen' zoekt naast EU-landen ook partners als Canada, Japan en Zuid-Korea. Extra geld staat er niet in. In december volgt een advies over een eigen AI-veiligheidsinstituut.",
-      "source": "DataNorth",
-      "url": "https://datanorth.ai/nl/nieuws/kabinetsvisie-ai-minder-afhankelijk",
-      "body": [
-        "Het kabinet stelde de visie op 6 november vast. Staatssecretaris Willemijn Aerdts wil per laag, van chips tot cloud en AI-modellen, bepalen waar Nederland zelf capaciteit nodig heeft en waar samenwerking met betrouwbare partners volstaat.",
-        "De visie legt de nadruk op zorg, energie en hightech, en de Europese AI-verordening staat centraal bij de regels. Het mogelijke veiligheidsinstituut zou het Britse AI Security Institute als voorbeeld nemen. Begin 2027 volgt een uitwerking van de benodigde rekenkracht en een aanpak voor datacenters."
-      ],
-      "why": "Het is de eerste brede kabinetskoers voor AI, maar zonder budget blijft het voorlopig bij richting geven."
     },
     {
       "id": "aireport-2026-11-05",
