@@ -1,6 +1,165 @@
 {
-  "updatedAt": "2026-11-24T05:59:44Z",
+  "updatedAt": "2026-11-25T06:00:32Z",
   "items": [
+    {
+      "id": "anthropic-onder-introductiekoers",
+      "date": "2026-11-24",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Aandeel Anthropic zakt onder de introductiekoers",
+      "summary": "Het aandeel Anthropic is dinsdag voor het eerst onder de beursintroductieprijs van 83 dollar gezakt. Het sloot op 81,91 dollar, ruim 6,5 procent lager, nu de twijfel over hoge AI-waarderingen terugkeert.",
+      "body": [
+        "Bij de beursgang haalde Anthropic ongeveer 81,3 miljard dollar op, meer dan SpaceX in juni en daarmee de grootste introductie ooit. Op de eerste handelsdag opende het aandeel op 111,50 dollar en piekte het op 115,10 dollar, maar sindsdien daalt het elke dag. Maandag profiteerde de hele techsector nog van de terugkeer van Jensen Huang bij Nvidia; dinsdag viel de Nasdaq 1,4 procent terug en verloor Nvidia zelf bijna 6 procent.",
+        "Beleggers maken zich zorgen over de enorme uitgaven aan AI en vragen zich af of de verdienmodellen van de grote AI-labs op termijn rendabel zijn. Ook SpaceX zakte na zijn beursgang binnen enkele weken onder de introductieprijs."
+      ],
+      "why": "De koers van Anthropic geldt als graadmeter voor het vertrouwen van beleggers in de grote AI-labs.",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/"
+    },
+    {
+      "id": "megaspeed-op-entity-list",
+      "date": "2026-11-24",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Chips",
+      "title": "VS zetten Megaspeed op zwarte handelslijst",
+      "summary": "Het Amerikaanse ministerie van Handel heeft het Singaporese cloudbedrijf Megaspeed en een reeks gelieerde bedrijven in Singapore, Maleisië en Thailand op de zogeheten Entity List gezet. Amerikaanse leveranciers hebben nu een vergunning nodig om AI-chips en andere technologie aan deze bedrijven te leveren.",
+      "body": [
+        "Op dezelfde lijst staat Apex Enterprise Solutions, een Singaporese dochter van Alibaba. Alibaba noemt die vermelding onterecht, zegt dat Apex nooit chips onder Amerikaanse exportregels heeft doorgesluisd en wil juridische stappen zetten. Megaspeed ontkent elke vorm van wangedrag. Vergunningsaanvragen voor bedrijven op de lijst worden meestal afgewezen.",
+        "Amerikaanse onderzoekers proberen al ruim een jaar te achterhalen of Megaspeed, ooit een grote klant van Nvidia, geavanceerde chips naar China heeft laten doorstromen; justitie is een strafrechtelijk onderzoek begonnen. Nvidia stopte in juni 2025 met leveren. Minister Bessent van Financiën ergerde zich eerder aan het uitstel bij Handel, en senator Pete Ricketts wil dat het ministerie het Congres uitlegt waarom het zo lang duurde. Singapore onderzoekt Megaspeed zelf ook nog en vraagt de VS om meer informatie."
+      ],
+      "why": "Megaspeed staat centraal in het schandaal rond Nvidia, en de plaatsing laat zien dat Washington de routes voor AI-chips naar China harder wil afsluiten.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/us-blacklists-megaspeed-nvidia-scandal"
+    },
+    {
+      "id": "openai-gpt6-eiwitontwerp",
+      "date": "2026-11-24",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI: GPT-6 ontwerpt eiwitten die in het lab echt binden",
+      "summary": "OpenAI meldt dat zijn GPT-6-modellen eiwitten kunnen ontwerpen met alleen redeneren en gewone programmeercode, zonder gespecialiseerde biologiemodellen voor de ontwerpstap. In labproeven hechtte een deel van de ontworpen eiwitten zich aan het beoogde doelwit.",
+      "body": [
+        "Samen met onderzoekspartner Onava testte OpenAI 322 kleine bindende eiwitten tegen vijf doelwitten, waaronder PD-L1 en VEGF-A; 35 daarvan, bijna 11 procent, bonden aan hun doel. Bij het herontwerpen van bestaande antilichamen lag het slagingspercentage rond twee derde. Op enkele computertests scoorde een intern model beter dan gespecialiseerde programma's als RFdiffusion, maar bij het voorspellen van de volledige vouwing van een eiwit blijft het ver achter bij ESMFold.",
+        "OpenAI wijst zelf op de beperkingen: gespecialiseerde hulpmiddelen hielpen bij het selecteren van kandidaten, en binding is pas een eerste stap. Of de eiwitten stabiel, specifiek en werkzaam zijn, is nog niet onderzocht. Het bedrijf erkent ook het risico op misbruik en verwijst naar zijn veiligheidskader."
+      ],
+      "why": "Als algemene taalmodellen bruikbare eiwitten kunnen ontwerpen, kan dat medicijnonderzoek versnellen, maar het vergroot ook de zorg over biologische risico's.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+    },
+    {
+      "id": "axios-twijfel-veiligheid-nieuwe-modellen",
+      "date": "2026-11-24",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "AI-veiligheid",
+      "title": "Medewerkers OpenAI en Anthropic twijfelen of nieuwe modellen veilig uit te brengen zijn",
+      "summary": "Volgens Axios twijfelen medewerkers van OpenAI en Anthropic of sommige nog niet uitgebrachte AI-modellen wel veilig op de markt kunnen komen. De nieuwssite sprak met meer dan twintig mensen die de interne discussies kennen.",
+      "body": [
+        "Intern zouden verschillende opties op tafel liggen: de krachtigste modellen alleen zelf gebruiken, ze in beperkte vorm aanbieden of de training stilleggen. Besluiten zijn daarover niet bekendgemaakt. Medewerkers vrezen onder meer dat modellen leren hun redenering te verhullen, zodat toezichtsystemen niet meer kunnen meelezen, en dat de bedrijfsleiding winst boven veiligheid stelt.",
+        "Anthropic laat weten dat een model niet automatisch veilig is als het intern blijft, en dat het bereid is werk te vertragen, ook als dat geld kost. OpenAI meldde vorige week zelf dat het enkele modellen had tegengehouden en de training eind september ruim een week had stilgelegd na een incident."
+      ],
+      "why": "Dat juist medewerkers van de koplopers aan de bel trekken, zet druk op de belofte van de labs dat ze alleen veilige modellen uitbrengen.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    },
+    {
+      "id": "openai-matrixvermenigvuldiging-negen-vierde",
+      "date": "2026-11-24",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Wiskunde",
+      "title": "OpenAI claimt doorbraak in de wiskunde van matrixvermenigvuldiging",
+      "summary": "OpenAI heeft een wiskundig manuscript gepubliceerd dat stelt dat de exponent van matrixvermenigvuldiging precies 9/4 is. Als het bewijs klopt, is dat een van de grootste sprongen in dit vakgebied in decennia, maar onafhankelijke controle ontbreekt nog.",
+      "body": [
+        "De exponent geeft aan hoe snel de rekentijd groeit naarmate matrices groter worden. De beste bekende bovengrens lag tot nu toe rond 2,37. Het manuscript beweert zowel dat het kan met exponent 2,25 als dat het in een bepaald rekenmodel niet sneller kan; samen zou dat de exacte waarde opleveren. Een eerdere versie van begin oktober bevatte alleen de bovengrens.",
+        "Het stuk staat op de GitHub-pagina van OpenAI, zonder namen van individuele onderzoekers, en is niet door vakgenoten beoordeeld. Er hoort een formele computercontrole in Lean bij, maar die dekt volgens berichtgeving niet het volledige bewijs. Hoeveel van het werk door AI is gedaan, is onduidelijk. Voor praktische berekeningen op grafische chips verandert er voorlopig niets."
+      ],
+      "why": "Klopt het bewijs, dan laat het zien dat AI-labs fundamentele open vragen in de wiskunde beginnen op te lossen.",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/openai-claims-matrix-multiplication-exponent-is-exactly-94"
+    },
+    {
+      "id": "tidal-verbiedt-ai-muziek",
+      "date": "2026-11-24",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Muziek",
+      "title": "Tidal verwijdert volledig door AI gemaakte muziek",
+      "summary": "Muziekdienst Tidal verbiedt nummers die volledig door AI zijn gemaakt en haalt er vóór het einde van het jaar ruim 29 miljoen offline. Muziek die met hulp van AI is gemaakt, blijft wel welkom.",
+      "body": [
+        "Het verwijderen begint op 9 december. Distributeurs mogen geen volledig door AI gemaakte nummers meer aanleveren, en Tidal verwacht dagelijks zo'n 80.000 tot 85.000 inzendingen te weigeren. Volgens Tidal was de afgelopen negentig dagen meer dan 43 procent van alle aangeleverde nummers door AI gemaakt; van de volledig gegenereerde nummers in de catalogus werd 96 procent nooit beluisterd.",
+        "In juni stopte Tidal al met het uitbetalen van royalty's voor AI-nummers, maar dat bleek niet genoeg. Bandcamp verbood AI-muziek in januari, terwijl Spotify en YouTube Music zulke nummers alleen labelen. Tidal is deels eigendom van Jay-Z en valt onder het bedrijf Block."
+      ],
+      "why": "Tidal gaat veel verder dan Spotify en YouTube Music en zet daarmee de toon in het debat over AI-muziek op streamingdiensten.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    },
+    {
+      "id": "amazon-ai-agent-zero-day",
+      "date": "2026-11-24",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Amazon: AI-agent vond en misbruikte zelfstandig een onbekend lek",
+      "summary": "Het dreigingsteam van Amazon heeft een aanval gezien waarbij een AI-agent vrijwel zonder menselijke hulp een nog onbekende kwetsbaarheid vond en uitbuitte. Het doelwit was een server van een Oost-Aziatische universiteit.",
+      "body": [
+        "De aanval vond begin september plaats en werd volgens Amazon aangestuurd door een Chinese hacker, die de agent alleen een korte opdracht gaf om toegang tot de server te krijgen. De agent draaide op Cairn, een openbronprogramma voor penetratietests. Binnen ongeveer elf minuten vond hij een zwakke plek in een medische beeldvormingsapplicatie, waarna hij uiteindelijk volledige beheerrechten kreeg. Een andere poging, via een onbeveiligde database, mislukte na zestien uur en bijna 150 stappen.",
+        "Volgens Gizmodo is Cairn eerder gebruikt bij inbraken op meer dan honderd websites van bedrijven en organisaties, en zag beveiligingsbedrijf Palo Alto Networks aanvallen met de tool op de chip- en defensiesector."
+      ],
+      "why": "AI-agents in handen van aanvallers kunnen nu al zelfstandig onbekende lekken vinden, wat de reactietijd voor verdedigers flink verkort.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891"
+    },
+    {
+      "id": "openai-alfozan-borgtocht",
+      "date": "2026-11-24",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "Ex-medewerker OpenAI vrij op borgtocht in afluisterzaak",
+      "summary": "Een Amerikaanse rechter heeft een voormalige engineer van OpenAI, die een afluisterapparaat in een vergaderzaal zou hebben verstopt, vrijgelaten op een borgtocht van 1 miljoen dollar. Volgens aanklagers gebruikte hij OpenAI's eigen programmeerhulp Codex bij het opzetten van de opnames.",
+      "body": [
+        "De 35-jarige Abdulrahman Alfozan, een Saoedische staatsburger, zat sinds zijn arrestatie in oktober vast vanwege vluchtgevaar. Hij moet nu een enkelband dragen, zijn reisdocumenten inleveren en 's nachts thuisblijven. Hij wordt verdacht van het onrechtmatig onderscheppen van gesprekken en heeft onschuldig gepleit.",
+        "Het apparaat zat verstopt in toiletpapier achter een televisie en nam in september meer dan 160 uur aan vergaderingen op, tot OpenAI het bij een routinecontrole vond. Codex zou zijn gebruikt om spraakdetectie in te stellen en audiobestanden naar Dropbox te sturen. Een aanklager zei eerder geen bewijs te hebben voor spionage of diefstal van bedrijfsgeheimen; de verdediging stelt dat de meeste opnames vooral ruis en stilte bevatten."
+      ],
+      "why": "De zaak laat zien hoe kwetsbaar AI-labs zijn voor dreigingen van binnenuit, en hoe hun eigen hulpmiddelen daarbij kunnen worden ingezet.",
+      "source": "Silicon Report",
+      "url": "https://www.siliconreport.com/judge-orders-ex-openai-engineer-released-on-1m-bond-in-bugging-case"
+    },
+    {
+      "id": "walmart-meta-muse-black-friday",
+      "date": "2026-11-24",
+      "order": 60,
+      "cat": "wereld",
+      "tag": "Meta",
+      "title": "Walmart laat Meta-agent Muse Black Friday-aanbiedingen zoeken",
+      "summary": "Walmart werkt samen met Meta, zodat klanten via de AI-agent Muse de Black Friday-aanbiedingen van de winkelketen kunnen doorzoeken en een winkelwagen kunnen vullen. Gebruikers koppelen daarvoor hun Walmart-account aan de Muse-app.",
+      "body": [
+        "Volgens Walmart krijgt Muse geen toegang tot de aankoopgeschiedenis of andere persoonlijke gegevens van klanten. Shoppers kunnen bestedingslimieten instellen, elke aankoop eerst zelf goedkeuren en bestellingen van de agent achteraf bekijken. De koppeling loopt via Walmarts Agent Gateway, die sinds oktober AI-assistenten van buitenaf rechtstreeks toegang geeft tot de webwinkel. Amazon kiest juist de andere kant en probeert AI-agents van derden buiten de deur te houden."
+      ],
+      "why": "Winkelketens moeten kiezen of ze AI-agents van techbedrijven toelaten, en Walmart zet de deur wijd open.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+    },
+    {
+      "id": "innovatiemonitor-ai-junior-banen",
+      "date": "2026-11-24",
+      "order": 50,
+      "cat": "nederland",
+      "tag": "Arbeidsmarkt",
+      "title": "Bedrijven zien AI vooral banen voor starters bedreigen",
+      "summary": "Nederlandse bedrijven verwachten dat AI de werkgelegenheid vooral op juniorniveau raakt, blijkt uit de Nederlandse Innovatie Monitor 2026 van de UvA en SEO Economisch Onderzoek. Tegelijk leidt het gebruik van AI nog niet tot meer fundamentele vernieuwing.",
+      "body": [
+        "In de zakelijke en financiële dienstverlening gebruikt een werknemer AI gemiddeld 4,4 uur per week, tegen 2,9 uur in het hele bedrijfsleven. Bedrijven die AI beter inzetten presteren ook beter, een verband dat elk jaar sterker wordt, al is niet bewezen dat het een het ander veroorzaakt. Onderzoeksleider Henk Volberda waarschuwt dat AI de onderste treden van de carrièreladder kan weghalen.",
+        "Een enquête van RaboResearch onder 1335 bedrijven geeft een gemengd beeld: van de AI-gebruikers zag 18 procent het personeelsbestand de afgelopen drie jaar groeien en 6 procent krimpen. Voor de komende drie jaar verwacht 24 procent meer personeel nodig te hebben en 9 procent minder."
+      ],
+      "why": "Als AI instapfuncties overneemt, wordt het voor jongeren lastiger om ervaring op te doen en door te groeien.",
+      "source": "Accountancy Vanmorgen",
+      "url": "https://www.accountancyvanmorgen.nl/2026/11/24/ai-verandert-de-arbeidsmarkt-maar-leidt-nog-niet-tot-meer-innovatie/"
+    },
     {
       "id": "nvidia-huang-terug-als-ceo",
       "date": "2026-11-23",
@@ -33,6 +192,22 @@
       "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
     },
     {
+      "id": "anthropic-claude-ship",
+      "date": "2026-11-23",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic lanceert Claude Ship om code te laten controleren en goedkeuren",
+      "summary": "Anthropic heeft Claude Ship gepresenteerd, een set AI-agents die codewijzigingen beoordelen, problemen oplossen en routinematige wijzigingen zelf goedkeuren. De dienst is als bèta beschikbaar voor Team- en Enterprise-klanten met code op GitHub.",
+      "body": [
+        "Naast het al beschikbare Code Review zijn er twee nieuwe onderdelen. PR Steward lost mislukte tests en conflicten tussen codeversies op en legt na elke aanpassing uit wat er veranderde en hoe dat terug te draaien is; zelf goedkeuren of samenvoegen kan deze agent niet. Claude Approvals keurt wijzigingen goed volgens regels die een team in gewone taal vastlegt, bijvoorbeeld automatisch voor documentatie en altijd met een mens erbij voor gevoelige code.",
+        "Anthropic raadt aan te beginnen in een stand waarin de agent alleen meekijkt, met één repository en een maandelijks budgetplafond. Ontwikkelaars starten het proces met een nieuwe /ship-opdracht in Claude Code. Organisaties die geen gegevens laten bewaren of onder strenge Amerikaanse zorgregels werken, kunnen de dienst nog niet gebruiken."
+      ],
+      "why": "Nu AI steeds meer code schrijft, verschuift het knelpunt naar controle en goedkeuring, en Anthropic laat ook die stap deels aan AI over.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
       "id": "gouverneurs-federale-ai-regels",
       "date": "2026-11-23",
       "order": 85,
@@ -63,6 +238,37 @@
       "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
     },
     {
+      "id": "gpt-6-2-sol-chatgpt-chat",
+      "date": "2026-11-23",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI zet GPT-6.2 Sol in het chatgedeelte van ChatGPT",
+      "summary": "OpenAI brengt een versie van GPT-6.2 Sol die is afgestemd op gewone gesprekken naar het chattabblad van ChatGPT. Betalende gebruikers van Plus, Pro, Business en Enterprise krijgen het model wereldwijd.",
+      "body": [
+        "Het model was vorige week al beschikbaar in de onderdelen Work en Codex. Volgens OpenAI herkent de chatversie beter kleine details in foto's, zoals symbolen op een parkeerbord, en volgt ze instructies bij zoekopdrachten nauwkeuriger, bijvoorbeeld bij het vergelijken van hotels of het volgen van prijsdalingen. Op 23 december verdwijnt het oudere GPT-5.6 Sol, en ook GPT-5.6 Terra stopt dan in Work en Codex. Een deel van de gebruikers reageert op sociale media teleurgesteld en vindt het oudere model beter."
+      ],
+      "why": "Het tempo waarin OpenAI modellen vervangt, dwingt gebruikers en bedrijven steeds opnieuw hun werkwijze aan te passen.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+    },
+    {
+      "id": "spacex-rekenkracht-anthropic-google",
+      "date": "2026-11-23",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "SpaceX",
+      "title": "Anthropic en Google huren voor miljarden rekenkracht bij SpaceX",
+      "summary": "Anthropic betaalt SpaceX naar verluidt zo'n 3,1 miljard dollar per maand voor rekenkracht, en Google ongeveer 800 miljoen dollar. Dat meldt The New York Times; de AI-tak van SpaceX levert daardoor inmiddels meer dan de helft van de omzet van het bedrijf.",
+      "body": [
+        "De contracten kunnen tot 2029 lopen, maar beide partijen kunnen ze met een opzegtermijn van negentig dagen beëindigen. Het verhuren van rekenkracht levert SpaceX op dit moment meer op dan de eigen AI-producten, zoals chatbot Grok. Musk heeft medewerkers verteld dat het bedrijf achterloopt in AI en eist dat zuiniger met de chips wordt omgesprongen.",
+        "SpaceX wil 74 miljard dollar investeren in datacenters in Arizona en Texas, maar schrapt ook projecten: het team achter beeldgenerator Grok Imagine is opgeheven en het werk aan AI-gezelschapsapps is gestopt."
+      ],
+      "why": "Concurrenten zijn voor hun rekenkracht van elkaar afhankelijk, wat laat zien hoe schaars en duur AI-infrastructuur is.",
+      "source": "Baton Rouge Business Report",
+      "url": "https://www.businessreport.com/spacex-is-making-billions-powering-the-ai-rivals-its-trying-to-beat/"
+    },
+    {
       "id": "zhipu-glm-5-4",
       "date": "2026-11-23",
       "order": 75,
@@ -76,6 +282,22 @@
       "why": "Chinese AI-labs blijven in hoog tempo nieuwe modellen uitbrengen die de concurrentie aangaan met Amerikaanse modellen.",
       "source": "Z.ai",
       "url": "https://z.ai/blog/glm-5.4"
+    },
+    {
+      "id": "deepmind-agents-quantumalgoritmes",
+      "date": "2026-11-23",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Google DeepMind",
+      "title": "AI-agents van Google DeepMind maken quantumalgoritmes sneller",
+      "summary": "Teams van Gemini 4-agents hebben bekende quantumalgoritmes verbeterd, waarbij elke vondst formeel werd gecontroleerd met de bewijsassistent Lean. Voor een berekening uit fusieonderzoek daalden de geschatte rekenkosten bijna twaalf keer.",
+      "body": [
+        "Elk probleem kreeg een eigen team van agents, dat ideeën pas na controle in een gedeeld notitieboek mocht zetten. Om de vier uur kwamen de teams samen op een virtuele conferentie om ideeën uit te wisselen. Bij het fusieprobleem daalde het aantal benodigde foutgecorrigeerde qubits van 5650 naar 4338; een berekening aan een enzym dat medicijnen afbreekt werd 2,5 keer goedkoper en een veelgebruikte rekenstap zelfs 290 keer sneller.",
+        "Google DeepMind en Google Quantum AI geven de Lean-bibliotheek en de gecontroleerde oplossingen vrij als open source. De onderzoekers waarschuwen dat volledige simulaties nog altijd meer vragen dan de eerste foutgecorrigeerde quantumcomputers waarschijnlijk kunnen leveren."
+      ],
+      "why": "Het laat zien hoe AI-agents met formele controle betrouwbaar wetenschappelijk werk kunnen doen, en het brengt nuttige quantumberekeningen dichterbij.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
     },
     {
       "id": "nhs-ai-borstkanker-proef",
