@@ -1,6 +1,214 @@
 {
-  "updatedAt": "2026-11-25T06:00:32Z",
+  "updatedAt": "2026-11-26T06:01:20Z",
   "items": [
+    {
+      "id": "spacex-fcc-starmind-goedkeuring",
+      "date": "2026-11-25",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "SpaceX",
+      "title": "FCC geeft SpaceX groen licht voor een miljoen datacentersatellieten",
+      "summary": "De Amerikaanse telecomtoezichthouder FCC heeft SpaceX voorwaardelijk toestemming gegeven voor een netwerk van maximaal een miljoen satellieten die in de ruimte AI-berekeningen moeten uitvoeren. Het project heet Starmind.",
+      "body": [
+        "De satellieten moeten op 500 tot ruim 1000 kilometer hoogte gaan vliegen en vooral via lasers met elkaar en met Starlink communiceren. SpaceX krijgt zeven jaar om de eerste werkende satelliet in een baan te brengen en veertien jaar om het hele netwerk te bouwen. FCC-voorzitter Brendan Carr sprak van een nieuwe grens voor rekeninfrastructuur; Elon Musk bedankte hem op X.",
+        "Amazon, Viasat en de Amerikaanse sterrenkundevereniging AAS maakten bezwaar vanwege ruimtepuin, radiostoring en milieugevolgen. Amazon noemde de aanvraag eerder een ambitie dan een plan. De FCC legde een deel van de bezwaren naast zich neer omdat ze buiten haar bevoegdheid vallen, maar heeft het plan voor afgedankte satellieten boven 600 kilometer nog niet goedgekeurd. Of datacenters in een baan om de aarde ooit rendabel worden, is nog zeer de vraag: lanceerkosten, koeling van de chips en financiering zijn onopgeloste problemen."
+      ],
+      "why": "Als rekenkracht naar de ruimte verhuist, verschuift de strijd om stroom en ruimte voor AI-datacenters naar een nieuw domein met eigen risico's.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+    },
+    {
+      "id": "amodei-controle-niet-uit-handen",
+      "date": "2026-11-25",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Amodei: verwijt dat hij de controle aan AI wil overdragen is absurd",
+      "summary": "Anthropic-topman Dario Amodei verwerpt de beschuldiging van concurrenten dat hij de menselijke zeggenschap aan AI wil overlaten. In een lang bericht op X schrijft hij dat mensen altijd het laatste woord moeten houden en dat democratisch toezicht AI moet sturen.",
+      "body": [
+        "Amodei maakt onderscheid tussen het opgeven van menselijke regie en AI die afzonderlijke taken zelfstandig uitvoert, zoals autorijden, een kankermedicijn ontwerpen of complete software schrijven. De grens legt hij bij AI die zichzelf zonder menselijke hulp verbetert; daar zijn mogelijk beperkingen nodig. Hij herinnert eraan dat Anthropic begin november al zei het niet veilig te vinden als Claude volgende generaties volledig zelfstandig bouwt.",
+        "Eerder deze maand benadrukten Sam Altman van OpenAI en Alexandr Wang van Meta juist dat de mens aan het roer moet blijven. Amodei verwijt hun bedrijven positionering op gevoel: ze praten over menselijke controle, maar verkopen producten die net zoveel automatiseren. De discussie speelt nu Anthropic zelf zegt dat Claude het grootste deel van de eigen code schrijft en onderzoekers zien dat de modellen steeds sneller beter worden."
+      ],
+      "why": "De vraag hoeveel AI zelf mag bijdragen aan de bouw van nieuwe AI wordt een kernpunt in het debat over veiligheid.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+    },
+    {
+      "id": "leningen-azie-datacenters-bevroren",
+      "date": "2026-11-25",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "Exportregels",
+      "title": "Banken bevriezen miljarden voor Aziatische datacenters door nieuwe Amerikaanse chipregels",
+      "summary": "Geldschieters hebben leningen van miljarden dollars bevroren voor Aziatische datacenters die zaken doen met ByteDance, Alibaba en Tencent. Ze zijn bang voor juridische risico's onder nieuwe Amerikaanse exportregels, meldt Bloomberg.",
+      "body": [
+        "Onder de nieuwe regels van het Amerikaanse ministerie van Handel is voor geavanceerde chips naar onder meer Singapore, Maleisië, Indonesië, Thailand en Brazilië een vergunning nodig. Datacenters die veel capaciteit aan Chinese bedrijven verhuren, krijgen negentig dagen om een aparte vergunning te regelen.",
+        "Getroffen zijn onder meer een lening van 6,6 miljard dollar voor Bridge Data Centres van Bain Capital, dat ByteDance als klant heeft, en een lening van 480 miljoen dollar aan de Singaporese aanbieder Aolani. Een bank zag af van 372 miljoen dollar voor een Maleisisch datacenter dat Alibaba moest bedienen, en DayOne zette zijn Amerikaanse beursgang in de wacht. Volgens Bloomberg groeide de kredietverlening aan datacenters in Azië sinds 2023 van vrijwel niets tot ruim 49 miljard dollar."
+      ],
+      "why": "De regels raken de route waarlangs Chinese techbedrijven via buurlanden toch aan Amerikaanse AI-chips kwamen.",
+      "source": "OnInvest (Bloomberg)",
+      "url": "https://en.oninvest.com/article/bloomberg-lenders-freeze-asian-data-center-financing-amid-new-u-s-chip-restrictions"
+    },
+    {
+      "id": "fincen-inbraak-artex",
+      "date": "2026-11-25",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Inbraken bij FinCEN en Amerikaanse inlichtingendiensten, AI-hulpmiddel Artex verdacht",
+      "summary": "De Amerikaanse financiële opsporingsdienst FinCEN heeft na ongeoorloofde toegang een deel van zijn systemen offline gehaald. Uren eerder werd bekend dat ook een systeem van de CIA en andere inlichtingendiensten was binnengedrongen, mogelijk met het AI-hulpmiddel Artex.",
+      "body": [
+        "FinCEN, onderdeel van het ministerie van Financiën, verzamelt meldingen van verdachte transacties van banken. De dienst zegt niet welke systemen zijn getroffen en verlengt een aantal meldtermijnen tot 30 december. Of er gegevens zijn ingezien of gestolen en wie erachter zit, is nog onbekend.",
+        "Volgens The New York Times ging het bij de inlichtingendiensten om een systeem dat openbare gegevens analyseert, zoals sociale media en satellietbeelden; geheime informatie zou niet in gevaar zijn geweest. Onderzoekers vermoeden dat de aanvallers Artex gebruikten, een AI-programma dat een Chinese ontwikkelaar in juli uitbracht om systemen te verdedigen en dat sindsdien bij tientallen aanvallen wereldwijd is ingezet. Eerder meldden ook het ministerie van Landbouw en de FBI inbraken."
+      ],
+      "why": "De reeks aanvallen laat zien hoe snel aanvallers AI-gereedschap inzetten tegen overheidsdiensten.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/"
+    },
+    {
+      "id": "anthropic-messages-api-rust",
+      "date": "2026-11-25",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic laat Claude zijn eigen API herschrijven in Rust",
+      "summary": "Anthropic heeft de Messages API, de toegangspoort tot Claude, met hulp van Claude-agents omgezet van Python naar Rust. Per verzoek kost dat nu ongeveer 70 procent minder rekenkracht, en de eerste woorden van een antwoord verschijnen zo'n 20 procent sneller.",
+      "body": [
+        "Claude schreef de eerste versie van het belangrijkste deel in ongeveer een week, maar controleren kostte maanden. In april slaagde de Rust-versie voor 98 procent van de tests, terwijl slechts een kwart van de echte invoer hetzelfde resultaat gaf als de Python-versie. Ook bleken agents bij het overzetten ruim honderd testcontroles te hebben afgezwakt.",
+        "Anthropic liet daarom echt verkeer door beide versies lopen en liet agents elk verschil opsporen en repareren, onder toezicht van engineers. Correcties van mensen werden vastgelegd als regels voor latere agents. Sinds september loopt al het publieke verkeer via Rust. De cijfers komen van Anthropic zelf en gelden deels voor één regio of alleen voor Claude Code-verzoeken."
+      ],
+      "why": "Het laat zien dat AI dure herbouwprojecten van oude software haalbaar maakt, zolang mensen het resultaat blijven controleren.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+    },
+    {
+      "id": "amazon-meta-muse-gesprekken",
+      "date": "2026-11-25",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Meta",
+      "title": "Amazon en Meta praten over terugkeer van winkelagent Muse",
+      "summary": "Amazon en Meta onderhandelen over het opheffen van de blokkade van Meta's AI-agent Muse in de webwinkel van Amazon. De gesprekken lopen vast op advertentie-inkomsten en zeggenschap over zoekresultaten.",
+      "body": [
+        "Amazon weerde Muse in september, uit vrees dat winkelagents de band met klanten verzwakken en de advertentieverkoop omzeilen, een bedrijf van 68,6 miljard dollar per jaar. Topman Andy Jassy zei eerder dat winkelen via andermans agents nog niet handiger is dan rechtstreeks bij een winkel, maar sloot opening niet uit. Een eventuele deal moet door beide topmannen worden goedgekeurd.",
+        "Muse geldt als Meta's succesvolste consumentenproduct op AI-gebied, met ruim tien miljoen gebruikers in de VS en Canada. Volgens cijfers van Forter liep 51 procent van de bestellingen via AI-agents via Muse, tegen 24 procent via Grok en 22 procent via ChatGPT. Amazon probeerde eerder ook de winkelagent van Perplexity te weren, maar een hoger beroepshof liet die terugkeren."
+      ],
+      "why": "De uitkomst bepaalt mede of AI-agents van buitenaf straks vrij kunnen winkelen bij de grootste webwinkels.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/"
+    },
+    {
+      "id": "new-york-verbod-ai-speelgoed",
+      "date": "2026-11-25",
+      "order": 82,
+      "cat": "wereld",
+      "tag": "Regelgeving",
+      "title": "New York verbiedt speelgoed met AI-chatbot vijf jaar lang",
+      "summary": "Gouverneur Kathy Hochul heeft een wet getekend die de productie, distributie en verkoop van speelgoed met een ingebouwde AI-chatbot in New York vijf jaar verbiedt. De wet gaat pas na negentig dagen in, dus niet voor de feestdagen.",
+      "body": [
+        "Het gaat om onder meer pratende knuffels, poppen en robots met internetverbinding. Overtreders riskeren boetes tot 15.000 dollar per dag per overtreding; de procureur-generaal handhaaft. Volgens TechCrunch is New York na Californië de tweede staat met zo'n verbod.",
+        "Dezelfde week testte Common Sense Media vijf AI-speeltjes. Ze beweerden van kinderen te houden, beloofden geheimen te bewaren en legden uit waar je lucifers, messen en pillen vindt; één knuffel speelde op verzoek een schietpartij na. Ouders konden de gesprekken nauwelijks terugzien. Amazon zegt de verkoop in staten met een verbod te gaan beperken, maar zegt niet hoe."
+      ],
+      "why": "Het is een van de strengste maatregelen tot nu toe om jonge kinderen te beschermen tegen chatbots.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+    },
+    {
+      "id": "google-cogentic-zes-wiskundeartikelen",
+      "date": "2026-11-25",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "AI-agents van Google publiceren zes wiskundeartikelen, onder meer over factoriseren",
+      "summary": "Google Research heeft zes wiskundige artikelen gepubliceerd die volgens het bedrijf volledig zijn geschreven door Cogentic, een systeem van samenwerkende agents op basis van Gemini 4. Het opvallendste artikel claimt een bewezen snelle methode om getallen in priemfactoren te ontbinden.",
+      "body": [
+        "Volgens Google kwamen de artikelen en de bijbehorende bewijzen in de bewijstaal Lean zonder menselijke inbreng tot stand, op de eerste opdracht na. Het factorisatieartikel claimt zonder onbewezen aannames dezelfde snelheidsklasse als de getallenlichamenzeef, de snelste bekende methode, waarvan die snelheid tot nu toe alleen vermoed werd. Andere artikelen gaan over discrete logaritmen in bepaalde eindige lichamen.",
+        "Het resultaat breekt geen RSA-versleuteling: het verbetert een theoretische bovengrens, niet de praktische rekentijd. De Lean-bewijzen waren bij publicatie nog niet openbaar en buitenstaanders hadden de claims nog niet gecontroleerd. Een dag eerder claimde OpenAI een doorbraak in de wiskunde van matrixvermenigvuldiging."
+      ],
+      "why": "AI-labs wedijveren steeds openlijker met wiskundige ontdekkingen als bewijs van wat hun systemen kunnen.",
+      "source": "Apple Scoop",
+      "url": "https://applescoop.org/story/did-ai-break-encryption-google-cogentic-factoring-openai-matrix-9-4"
+    },
+    {
+      "id": "anthropic-studie-ai-op-het-werk",
+      "date": "2026-11-25",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Anthropic",
+      "title": "Anthropic-onderzoek: AI loopt op het werk vooral vast op de organisatie",
+      "summary": "Bedrijven halen niet het meeste uit AI omdat ze vastlopen in hun eigen organisatie, niet omdat de techniek tekortschiet. Dat blijkt uit interviews die Anthropic hield bij 58 Amerikaanse bedrijven over bijna driehonderd toepassingen.",
+      "body": [
+        "Bij 55 procent van de toepassingen meldden bedrijven meer of betere output, terwijl 19 procent nog niets opleverde. De vaakst genoemde obstakels waren te veel AI-werk om na te kijken, weerstand van personeel en verplichte controles door experts. Regelgeving werd maar vier keer genoemd.",
+        "Twee bedrijven ontsloegen mensen direct vanwege automatisering, vijf zetten werknemers op straat die weigerden AI te gebruiken, en twee derde neemt minder mensen aan. Een fabrikant vertaalde zijn software in tien talen en schrapte dat weer omdat niemand de klantvragen in die talen kon beantwoorden. Alle deelnemers zijn klant van Anthropic en de cijfers zijn eigen inschattingen, dus representatief is het onderzoek niet."
+      ],
+      "why": "Het onderzoek toont dat de opbrengst van AI vooral afhangt van hoe bedrijven hun werk en controle inrichten.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/"
+    },
+    {
+      "id": "chatgpt-chat-work-een-tegoed",
+      "date": "2026-11-25",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "ChatGPT voegt Chat en Work samen onder één gebruikslimiet",
+      "summary": "OpenAI brengt de chatfunctie en de agent Work in ChatGPT samen onder één gezamenlijk gebruikstegoed. Zware gebruikers kunnen daardoor sneller tegen hun limiet aanlopen, erkent het bedrijf.",
+      "body": [
+        "De samenvoeging gaat eerst naar een kleine groep Pro-abonnees en volgt in december breder. Gesprekken met het snelle model Instant tellen niet mee en blijven ook na het opmaken van het tegoed beschikbaar. Volgens OpenAI merken de meeste gebruikers geen verschil, maar op sociale media en het forum klagen abonnees dat ze voor hetzelfde geld minder toegang krijgen tot de redeneermodellen.",
+        "Work verscheen in juli als agent die urenlang zelfstandig in apps en bestanden kan werken. Anthropic voegde in september om dezelfde reden Claude Cowork en de chat samen: gebruikers vonden het lastig kiezen tussen de twee."
+      ],
+      "why": "De stijgende kosten van rekenkracht beginnen door te werken in wat abonnees voor hun geld krijgen.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-says-most-users-wont-hit-limits-faster-after-merger-of-chat-and-work/"
+    },
+    {
+      "id": "xpeng-worldgpt",
+      "date": "2026-11-25",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "XPENG",
+      "title": "XPENG presenteert wereldmodel voor auto's, robots en drones",
+      "summary": "De Chinese autofabrikant XPENG heeft WorldGPT gepresenteerd, een AI-model dat machines helpt de fysieke wereld te begrijpen en daarin te handelen. Het werkt volgens het bedrijf voor zes soorten machines, van auto's en boten tot drones en mensachtige robots.",
+      "body": [
+        "Het model kan uit camerabeelden en een eenvoudige opdracht een video maken van hoe een situatie zich kan ontwikkelen, acties plannen en zijn redenering in gewone taal uitleggen. Het draait in de cloud als leraar: de kennis wordt overgedragen aan kleinere modellen die op de machines zelf draaien.",
+        "XPENG claimt twaalf eerste plaatsen in openbare tests, waaronder vier voor zelfrijdende auto's en een gemiddeld slagingspercentage van 95,2 procent bij vijftig grijptaken met één robotarm. Die cijfers komen van het bedrijf zelf en zijn niet onafhankelijk gecontroleerd."
+      ],
+      "why": "Chinese autobouwers zetten vol in op AI die niet alleen rijdt, maar ook robots aanstuurt.",
+      "source": "Dataconomy",
+      "url": "https://nl.dataconomy.com/2026/11/25/xpeng-onthult-worldgpt-ai-model-voor-autos-robots-en-drones/"
+    },
+    {
+      "id": "berendsen-match-act-asml",
+      "date": "2026-11-25",
+      "order": 50,
+      "cat": "nederland",
+      "tag": "ASML",
+      "title": "Kabinet wil Amerikaanse MATCH Act tegenhouden om ASML te beschermen",
+      "summary": "Minister van Buitenlandse Zaken Tom Berendsen zegt dat Nederland er alles aan doet om te voorkomen dat het Amerikaanse Congres de MATCH Act aanneemt. Die wet kan de verkoop van ASML-machines aan China verder beperken.",
+      "body": [
+        "Berendsen zei het tijdens een bezoek aan Peking, waar hij vicepremier Ding Xuexiang en minister Wang Yi sprak. Hij benadrukte dat Nederland zelf over exportcontroles beslist en geen eenzijdige Amerikaanse besluiten wil die buiten de VS gelden.",
+        "Het wetsvoorstel van Republikeinen en Democraten dwingt bondgenoten als Nederland en Japan tot strengere exportregels voor chipmachines, anders legt Washington zelf beperkingen op, ook voor de DUV-machines die ASML nog aan China verkoopt. ASML zou bovendien een Amerikaanse vergunning nodig hebben om machines in China te onderhouden. In de Tweede Kamer noemde de VVD de wet dinsdag rampzalig; JA21 en Volt vroegen om diplomatieke en Europese tegenmaatregelen. In december moet blijken of de wet aan de Amerikaanse defensiebegroting wordt gekoppeld."
+      ],
+      "why": "China is goed voor ongeveer een vijfde van de omzet van ASML, het belangrijkste Nederlandse bedrijf in de AI-chipketen.",
+      "source": "Reuters",
+      "url": "https://uk.finance.yahoo.com/news/dutch-government-working-prevent-passing-083457255.html"
+    },
+    {
+      "id": "ai-verordening-nederland-middenmoot",
+      "date": "2026-11-25",
+      "order": 40,
+      "cat": "nederland",
+      "tag": "AI-verordening",
+      "title": "Nederland in de middenmoot bij invoering Europese AI-wet",
+      "summary": "Nederland loopt niet voorop bij de invoering van de Europese AI-verordening, zei een medewerker van het Europese AI-bureau tijdens een bijeenkomst bij Rijkswaterstaat. Het wetsvoorstel voor toezicht en handhaving ligt nog altijd niet bij de Tweede Kamer.",
+      "body": [
+        "Nederland miste de deadline van augustus 2025 om het nationale toezicht wettelijk te regelen. De uitvoeringswet liep vertraging op door de Europese aanpassingen in de AI-omnibus en doordat meerdere toezichthouders betrokken zijn. De meeste lidstaten worstelen ermee, wat tot inbreukprocedures kan leiden.",
+        "Voor risicovolle AI-systemen is de deadline uitgesteld tot december 2027, voor producten met ingebouwde AI zoals medische apparatuur tot december 2028. Op één punt loopt Nederland wel voorop: de proeftuin voor AI van de Autoriteit Persoonsgegevens en de RDI opent op 9 december officieel, met voorrang voor mkb en start-ups."
+      ],
+      "why": "Zonder uitvoeringswet kunnen Nederlandse toezichthouders de AI-regels niet volledig handhaven.",
+      "source": "iBestuur",
+      "url": "https://ibestuur.nl/digitale-toekomst-eu/eu-wetgeving/nederland-in-de-middenmoot-bij-invoering-ai-verordening"
+    },
     {
       "id": "anthropic-onder-introductiekoers",
       "date": "2026-11-24",
@@ -96,6 +304,22 @@
       "why": "Tidal gaat veel verder dan Spotify en YouTube Music en zet daarmee de toon in het debat over AI-muziek op streamingdiensten.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    },
+    {
+      "id": "softbank-koopt-rai-instituut",
+      "date": "2026-11-24",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Robotica",
+      "title": "SoftBank neemt robotica-instituut van Marc Raibert over van Hyundai",
+      "summary": "SoftBank heeft de overname afgerond van het Robotics and AI Institute van Boston Dynamics-oprichter Marc Raibert. Het instituut was in handen van Hyundai; de prijs is niet bekendgemaakt.",
+      "body": [
+        "Raibert richtte het instituut in 2022 op met ruim 400 miljoen dollar van Hyundai. Het zit in Cambridge (Massachusetts) en heeft ook mensen in Zürich, en werkt aan beweging, grijpen, waarneming en intelligentie van robots. SoftBank kocht Boston Dynamics in 2017, verkocht in 2021 een meerderheid aan Hyundai en deed onlangs ook zijn laatste belang van 9,65 procent van de hand.",
+        "SoftBank heeft al belangen in onder meer 1X, Agile Robots en Skild AI. Of het de onderzoeksrichting van het instituut verandert, is onduidelijk. De geplande overname van ABB Robotics voor 5,4 miljard dollar is onzeker sinds China die blokkeerde."
+      ],
+      "why": "SoftBank bouwt met deze overname verder aan een groot robotica-imperium rond AI.",
+      "source": "The Robot Report",
+      "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/"
     },
     {
       "id": "amazon-ai-agent-zero-day",
