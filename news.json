@@ -1,6 +1,245 @@
 {
-  "updatedAt": "2026-11-26T06:01:20Z",
+  "updatedAt": "2026-11-27T06:07:19Z",
   "items": [
+    {
+      "id": "nvidia-stopt-servers-zuidoost-azie",
+      "date": "2026-11-26",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Nvidia stopt leveringen van AI-servers aan vier landen in Zuidoost-Azië",
+      "summary": "Nvidia heeft partners als Dell en Supermicro opgedragen voorlopig geen servers met zijn chips meer te leveren aan Maleisië, Singapore, Thailand en Indonesië. Dat meldden de Financial Times en The Wall Street Journal donderdag.",
+      "body": [
+        "Volgens de WSJ wil Nvidia eerst nagaan of zijn partners in de regio aan de nieuwe Amerikaanse exportregels voldoen. Die gelden sinds 19 november en verplichten tot een vergunning voor geavanceerde AI-chips naar deze landen en Brazilië. Cloudaanbieders hebben negentig dagen om aan te tonen dat er geen Chinese bedrijven op de zwarte lijst tussen hun klanten zitten. Een cloudtopman zei tegen de FT dat er geen enkele uitleg is over hoe dat moet en sprak van chaos in de regio.",
+        "Hoe lang de stop duurt, is onduidelijk; Nvidia, Dell en Supermicro reageerden niet. Sinds de nieuwe regels staan volgens CNBC opvallend veel Nvidia-chips te koop, waaronder duizenden B300's die bedoeld waren voor datacenters met Chinese huurders. De denktank Institute for Progress schat dat zulke datacenters buiten China ongeveer een kwart van de Chinese AI-rekenkracht leveren. Voor Nvidia staat veel op het spel: de Singaporese dochter boekte vorig jaar 104 miljard dollar omzet."
+      ],
+      "why": "Met deze stop droogt een van de belangrijkste routes op waarlangs Chinese AI-bedrijven toch aan Amerikaanse rekenkracht kwamen.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+    },
+    {
+      "id": "chinese-ai-labs-vertraging-chipregels",
+      "date": "2026-11-26",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "China",
+      "title": "Chinese AI-labs lopen vertraging op door chipregels en strengere bescherming tegen kopiëren",
+      "summary": "Het Chinese Z.ai loopt achter met zijn nieuwe topmodel GLM-5.5, en Moonshot AI is overgestapt op het distilleren van modellen van Google en Meta. Volgens Reuters remmen Amerikaanse chipregels en maatregelen van OpenAI en Anthropic tegen kopiëren de Chinese ontwikkeling af.",
+      "body": [
+        "GLM-5.5 telt ongeveer drie biljoen parameters en moest in november verschijnen; een ingewijde verwacht nu dat het begin 2027 of later wordt. Z.ai bracht maandag als tussenoplossing GLM-5.4 uit en draait een eigen datacenter deels op Chinese chips. Moonshot huurt rekenkracht in het buitenland en zoekt die nu ook in Europa. Verliest het die toegang helemaal, dan kan de tijd tussen grote modellen oplopen van zes maanden tot een jaar of meer, waardoor Kimi K4 pas rond medio 2027 zou komen.",
+        "The Information meldde eerder al dat veel projecten bij DeepSeek, Moonshot en Alibaba vertraging oplopen. Onderzoekers van DeepSeek schatten intern dat hun achterstand op de beste Amerikaanse modellen kan groeien van drie tot zes maanden naar negen maanden als distilleren onmogelijk wordt. In september koppelde Anthropic al meer dan 23 miljoen Claude-gesprekken aan Moonshot."
+      ],
+      "why": "Het is een van de eerste concrete aanwijzingen dat de Amerikaanse maatregelen de Chinese inhaalrace echt vertragen.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay"
+    },
+    {
+      "id": "microsoft-artex-staatshackers",
+      "date": "2026-11-26",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Microsoft: hackers van Chinese en Noord-Koreaanse staat gebruiken AI-aanvalsplatform Artex",
+      "summary": "Hackersgroepen die door China en Noord-Korea worden gesteund, zetten het AI-platform Artex in om aanvallen grotendeels te automatiseren. Microsoft beschrijft in een uitgebreid rapport hoe dat werkt en hoe bedrijven zich kunnen verweren.",
+      "body": [
+        "Microsoft noemt onder meer Salt Typhoon, de groep die in 2024 bij minstens negen Amerikaanse telecombedrijven binnendrong, en Crystal Typhoon, Onyx Sleet en Storm-0940. Artex verscheen in juli op GitHub; de maker haalde de code in oktober offline, maar kopieën circuleren nog en het Chinese beveiligingsbedrijf ThreatBook verkoopt inmiddels een betaalde versie. Een planningsagent verdeelt het werk over agents die echte hackgereedschappen bedienen, en aanvallers kunnen elk taalmodel aansluiten.",
+        "In één geval ging een agent in vijf minuten van gelekte wachtwoorden op GitHub naar de geheime sleutels in Azure Key Vault. Bij Storm-0940 kregen agents soms binnen drie uur beheerdersrechten, en één campagne telde ruim 151.000 mislukte inlogpogingen, tot 2.900 per minuut. Microsoft raadt aan aanvallers met lokaas, zoals nepsystemen en valse successen, op een dwaalspoor te zetten. The Decoder vraagt zich af hoe lang dat werkt als modellen zulke valstrikken leren herkennen."
+      ],
+      "why": "Staatshackers gebruiken nu op grote schaal AI-agents, waardoor aanvallen sneller gaan dan veel verdedigers kunnen bijhouden.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+    },
+    {
+      "id": "openai-gpt62-factuurfout",
+      "date": "2026-11-26",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI herstelt rekenfout: GPT-6.2-gebruikers zitten sneller aan hun limiet",
+      "summary": "Door een fout bij de lancering van GPT-6.2 kregen de meeste ChatGPT-gebruikers onbedoeld korting op hun gebruik van Astra en Sol. Nu die fout is hersteld, bereiken ze hun limiet bij Astra 40 procent en bij Sol 25 procent sneller dan vorige week.",
+      "body": [
+        "Thibault Sottiaux van OpenAI meldde de correctie donderdag op X. Het verschil wordt niet alsnog in rekening gebracht, en de tegoeden zouden nog steeds langer meegaan dan bij GPT-6 Astra en GPT-6.1 Sol. Andere modellen hadden geen last van de fout. Als pleister krijgen abonnees van Go, Plus, Pro en Business één extra reset van hun limiet; zakelijke gebruikers krijgen tot het einde van het jaar gratis de snelle modus. Een Reddit-gebruiker noemde die compensatie vrij mager.",
+        "Hoe groot de onterechte korting precies was en hoeveel gebruikers het betrof, zegt OpenAI niet."
+      ],
+      "why": "Voor intensieve gebruikers betekent de correctie dat ze voor hetzelfde geld merkbaar minder met de nieuwste modellen kunnen doen.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+    },
+    {
+      "id": "sap-10000-banen-ai",
+      "date": "2026-11-26",
+      "order": 86,
+      "cat": "wereld",
+      "tag": "SAP",
+      "title": "SAP wil volgens Bloomberg ruim 10.000 banen schrappen in AI-omslag",
+      "summary": "Het Duitse softwarebedrijf SAP is van plan minstens 10.000 banen te schrappen, meer dan 9 procent van het personeel. De ingreep hangt samen met de inzet van AI in de eigen producten, meldt Bloomberg.",
+      "body": [
+        "De grootste klappen vallen naar verwachting bij productontwikkeling, techniek en verkoop. Omdat SAP met de Duitse ondernemingsraad een baangarantie tot 2028 heeft afgesproken, komen de ontslagen vooral buiten Duitsland terecht. Het precieze aantal kan nog veranderen, en wanneer het plan wordt aangekondigd is onbekend; SAP doet dat traditioneel in januari.",
+        "Het bedrijf staat er financieel goed voor, met betere resultaten dan verwacht en een orderportefeuille in de cloud van ruim 24 miljard euro. Financieel directeur Dominik Asam zei vorige week al tegen beleggers dat het personeelsbestand zal krimpen. In 2024 schrapte SAP ook al zo'n 10.000 functies, wat ongeveer 3 miljard euro kostte. SAP zelf zegt alleen dat het zijn organisatie voortdurend tegen het licht houdt."
+      ],
+      "why": "Een van de grootste Europese techbedrijven laat zien dat AI ook bij goedlopende bedrijven tot grootschalig banenverlies leidt.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"
+    },
+    {
+      "id": "c4ads-nvidia-partners-china",
+      "date": "2026-11-26",
+      "order": 84,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Onderzoek: Amerikaanse partners van Nvidia hebben banden met China",
+      "summary": "Enkele Amerikaanse bedrijven die als partner bevoorrecht Nvidia-chips kunnen kopen, blijken banden met China te hebben. Dat blijkt uit onderzoek van de Washingtonse organisatie C4ADS in opdracht van CBS News.",
+      "body": [
+        "RiCloud AI uit San Jose, een voorkeurspartner van Nvidia, is een dochter van het Chinese Yuxing InfoTech uit Shenzhen, waarvan de topman aan een universiteit van het Chinese leger studeerde. RiCloud sloot onlangs een contract van 120 miljoen dollar om Nvidia-servers te verhuren aan een Taiwanese whiskyproducent die vorig jaar 609.000 dollar winst maakte. Topmost Corp. is volgens het onderzoek verbonden aan een Californische zakenman die is aangeklaagd voor het smokkelen van chips naar China.",
+        "Aivres uit Californië exporteerde sinds 2024 voor 3 miljard dollar aan Nvidia-servers naar Zuidoost-Azië; het bedrijf is een dochter van Inspur, dat op de Amerikaanse zwarte handelslijst staat. Het onderzoek stelt geen overtredingen vast. Het verschijnt in een week waarin het Congres zich opmaakt voor verhoren van Jensen Huang over de chipverkoop aan China."
+      ],
+      "why": "Het onderzoek laat zien hoe lek de controle op wie Nvidia-chips koopt nog altijd is.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/26/report-sheds-light-on-china-ties-of-some-us-based-nvidia-partners/"
+    },
+    {
+      "id": "huawei-hbm-geheugenchip",
+      "date": "2026-11-26",
+      "order": 82,
+      "cat": "wereld",
+      "tag": "Huawei",
+      "title": "Huawei kondigt eigen AI-geheugenchip aan als antwoord op Samsung en SK Hynix",
+      "summary": "Huawei heeft een ontwerp voor snel AI-geheugen (HBM) met volgens het bedrijf twee keer zoveel aansluitingen per oppervlak als de chips die Samsung en SK Hynix in massa maken. Dat blijkt uit de titel van een artikel dat Huawei in februari in San Francisco presenteert, meldt Bloomberg.",
+      "body": [
+        "Hoe ver Huawei echt is, is onduidelijk: op zulke conferenties worden vaak ontwerpen getoond en geen kant-en-klare producten, en Huawei reageerde niet. Samsung, SK Hynix en Micron mogen geen HBM aan Chinese klanten verkopen, en de Chinese voorraden van buitenlands geheugen raken op. Huawei zou sommige klanten al hebben verteld dat zijn volgende Ascend-chip vooral op Koreaans HBM draait dat via smokkelaars binnenkomt. Het Chinese CXMT begint ondanks lage opbrengsten met eigen HBM-productie.",
+        "Het bericht drukte de koersen van Samsung, SK Hynix en Micron."
+      ],
+      "why": "Zonder eigen snel geheugen blijft China voor zijn AI-chips afhankelijk van smokkel, dus een werkend Huawei-ontwerp zou de exportbeperkingen ondergraven.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/huawei-hbm-ai-memory-samsung-sk-hynix-isscc"
+    },
+    {
+      "id": "aaronson-ai-labs-cryptografie",
+      "date": "2026-11-26",
+      "order": 78,
+      "cat": "wereld",
+      "tag": "Wiskunde",
+      "title": "Scott Aaronson: AI-labs zitten op ontdekkingen in de cryptografie",
+      "summary": "Informaticus Scott Aaronson schrijft dat hij er vrijwel zeker van is dat de grote AI-labs een of meer grote doorbraken in de cryptografie achter de hand houden. Wat die precies inhouden, weet hij niet.",
+      "body": [
+        "Aaronson baseert zich op meerdere betrouwbare bronnen, maar is over de details veel minder zeker. Dinsdag schreef hij al dat er geruchten gaan dat een of beide labs grote getallen snel kunnen ontbinden, wat het veelgebruikte RSA-versleutelen zou breken. Die opmerking ging rond op X; in zijn nieuwe blog benadrukt hij dat de geruchten daar ver vandaan blijven. Een nieuw ontbindingsalgoritme dat Google woensdag publiceerde, levert volgens hem theoretisch veel op maar helpt niet bij het kraken van versleuteling.",
+        "Dezelfde week publiceerden OpenAI en Anthropic allebei een bewijs dat de complexiteitsklassen VP en VNP verschillen, een stap richting het beroemde P-versus-NP-probleem. Aaronson denkt nu dat een bewijs van P ≠ NP niet ver weg is en vindt dat AI-bewijzen geaccepteerd moeten worden nu labs ze laten controleren met de bewijsassistent Lean."
+      ],
+      "why": "Als AI de wiskunde onder internetversleuteling raakt, staat de beveiliging van betalingen, berichten en overheden op het spel.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/scott-aaronson-ai-labs-cryptography-rsa-rumours"
+    },
+    {
+      "id": "alice-huang-geen-bewijs-spionage",
+      "date": "2026-11-26",
+      "order": 76,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Spionageverwijt tegen Alice Huang blijkt op dun bewijs te rusten",
+      "summary": "De beschuldiging dat Alice Huang, met wie Nvidia-topman Jensen Huang een affaire had, een Chinese spion is, staat steeds minder stevig. Hoge inlichtingenfunctionarissen vertelden het Congres dat er geen bewijs is dat de Chinese geheime dienst haar op de affaire afstuurde.",
+      "body": [
+        "Het verwijt komt uit een geheim memo dat in maart onder verantwoordelijkheid van minister Marco Rubio werd opgesteld. Volgens CNN concludeerde dat memo dat ze voor Chinese inlichtingen werkte, volgens The Wall Street Journal zei het dat niet met zekerheid. The New York Times meldde dat ze van voorjaar 2025 tot dit najaar contact had met een officier van het Chinese ministerie van Staatsveiligheid. China spreekt van laster, en Megaspeed zegt dat ze er in augustus 2025 vertrok.",
+        "Het aankomende hoofd van de inlichtingencommissie, Jim Himes, weet na een briefing niet of ze een spion was of onbewust werd gebruikt. Minister van Justitie Todd Blanche zei dinsdag geen reden te zien om aan Nvidia te twijfelen, en Trump noemde een gratie voor Jensen Huang mogelijk maar waarschijnlijk overbodig. Volgende week verschijnt Huang voor de bankencommissie van de Senaat."
+      ],
+      "why": "De zaak bepaalt mede hoeveel ruimte Nvidia houdt om chips aan Azië te verkopen en hoeveel invloed Washington op het bedrijf krijgt.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/"
+    },
+    {
+      "id": "polen-palantir-defensie",
+      "date": "2026-11-26",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Palantir",
+      "title": "Pools leger krijgt AI-software van Palantir",
+      "summary": "Het Poolse ministerie van Defensie tekent vrijdag een contract met Palantir voor AI-software die het leger helpt bij beslissingen. De waarde van de deal is niet bekendgemaakt.",
+      "body": [
+        "Minister Władysław Kosiniak-Kamysz woont de ondertekening in de Citadel in Warschau bij; het contract gaat via de Poolse dochter van Palantir. De samenwerking begon in december 2024 met een afspraak over cyberbeveiliging, en in oktober 2025 tekende de minister met Palantir-topman Alex Karp een intentieverklaring. De minister wijst erop dat de NAVO en Oekraïne de software ook gebruiken.",
+        "In Warschau werd eerder deze maand gedemonstreerd vanwege zorgen over veiligheid en privacy, en de burgerrechtengroep Nasze Dane vroeg de Poolse ombudsvrouw de deal te onderzoeken. Polen kiest daarmee een andere koers dan Frankrijk en Duitsland, die een Europees alternatief voor Palantir willen; ook Nederland wil binnen twee jaar zo'n alternatief."
+      ],
+      "why": "Europa is verdeeld over de vraag of het zijn defensie mag laten leunen op Amerikaanse AI-software.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/poland-palantir-ai-software-contract"
+    },
+    {
+      "id": "canada-fonds-rekenkracht-700-miljoen",
+      "date": "2026-11-26",
+      "order": 70,
+      "cat": "wereld",
+      "tag": "Canada",
+      "title": "Canada trekt 700 miljoen extra uit voor AI-rekenkracht, met voorrang voor eigen cloud",
+      "summary": "De Canadese regering vult haar fonds dat bedrijven helpt rekenkracht voor AI te betalen aan met 700 miljoen Canadese dollar, tot 1 miljard. Wie kiest voor rekenkracht die in Canadese handen is, krijgt meer vergoed.",
+      "body": [
+        "Het fonds is bedoeld voor kleinere bedrijven die AI-producten bouwen en draaien. De overheid vergoedt tot 80 procent van de kosten bij soevereine Canadese aanbieders en de helft bij andere in Canada gevestigde aanbieders. Minister van AI Evan Solomon zei dat Canadese ideeën Canadese rekenkracht verdienen. De eerste nieuwe ronde is voor projecten in de zorg en de levenswetenschappen.",
+        "Uit de eerste fase ging al ruim 118 miljoen dollar naar 89 bedrijven. Het geld komt uit de nationale AI-strategie van juni, waarin Ottawa ook 500 megawatt aan eigen AI-rekenkracht plant. Hoe het eigendom van een aanbieder precies wordt beoordeeld, is nog niet duidelijk."
+      ],
+      "why": "Canada probeert met subsidie een eigen cloudmarkt op te bouwen, een aanpak die ook in Europa wordt bepleit om minder van Amerikaanse aanbieders af te hangen.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+    },
+    {
+      "id": "marlinspike-ai-toezicht-massasurveillance",
+      "date": "2026-11-26",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "Privacy",
+      "title": "Signal-oprichter Marlinspike: AI-veiligheid groeit uit tot massasurveillance",
+      "summary": "Moxie Marlinspike, de bouwer van Signal, zegt dat de manier waarop AI-bedrijven misbruik opsporen uitgroeit tot het grootste systeem voor massasurveillance ooit. Hij zei het in de podcast van econoom Tyler Cowen.",
+      "body": [
+        "Bedrijven geven nu alles wat gebruikers doen een score voor kwade bedoelingen en laten de ergste gevallen door mensen bekijken. Marlinspike wil liever de modellen zelf in de gaten houden met kleine, gespecialiseerde modellen die elk één soort misbruik herkennen. Hij leidt zelf Confer, een chatdienst waarvan alleen de gebruiker de gesprekken kan lezen, en vindt dat Claude en ChatGPT geen privédiensten zijn, al zouden de labs die wel kunnen bouwen.",
+        "Hij verwacht ongeveer een jaar waarin AI beter is in het vinden van lekken dan in het dichten ervan. Het gesprek werd op 10 oktober live opgenomen en woensdag uitgezonden."
+      ],
+      "why": "Steeds meer werk en privéleven loopt via AI-chatbots, en daarmee groeit de vraag wie meeleest.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/moxie-marlinspike-ai-surveillance-confer-encryption"
+    },
+    {
+      "id": "cbs-ai-gebruik-bedrijven-verdubbeld",
+      "date": "2026-11-26",
+      "order": 50,
+      "cat": "nederland",
+      "tag": "CBS",
+      "title": "CBS: AI-gebruik bij Nederlandse bedrijven ruim verdubbeld",
+      "summary": "Vier op de tien Nederlandse bedrijven gebruiken inmiddels een of meer AI-toepassingen, meldt het CBS. Een jaar eerder was dat nog 18 procent.",
+      "body": [
+        "Het aandeel steeg naar 41 procent, met de sterkste groei bij het mkb met 2 tot 250 werknemers. Grote bedrijven lopen voorop: 89 procent gebruikt AI. Het populairst is het laten maken van tekst, spraak of code, waarvan het gebruik steeg van 8 naar 28 procent. Bedrijven zetten AI het vaakst in voor marketing en verkoop, maar de snelste groei zit in boekhouding en financieel beheer.",
+        "De ICT-sector gebruikt AI het meest (80 procent), gevolgd door uitgeverijen en media (75 procent). In de bouw, de horeca en het vervoer is het gebruik het laagst, al verviervoudigde het in horeca en vervoer. Eerder deze maand kwam de Nederlandse Innovatie Monitor op 88 procent, maar die hanteert een ruimere definitie."
+      ],
+      "why": "De cijfers laten zien dat AI in één jaar van experiment in de grote bedrijven is doorgedrongen tot de gewone mkb-ondernemer.",
+      "source": "Computable",
+      "url": "https://www.computable.nl/2026/11/26/kort-ai-gebruik-onder-nl-bedrijven-verdubbelt-nederland-hekkensluiter-ai-verzekering-en-meer/"
+    },
+    {
+      "id": "hiscox-nederland-ai-verzekering",
+      "date": "2026-11-26",
+      "order": 40,
+      "cat": "nederland",
+      "tag": "Verzekeringen",
+      "title": "Nederlandse organisaties zijn het minst verzekerd tegen AI-risico's",
+      "summary": "Slechts een kwart van de Nederlandse professionals zegt dat hun organisatie verzekerd is tegen risico's van AI. Daarmee is Nederland hekkensluiter van negen Europese landen, blijkt uit het AI-rapport 2026 van verzekeraar Hiscox.",
+      "body": [
+        "Het Europese gemiddelde ligt op 34 procent. Hiscox ondervroeg 4.520 professionals. Tegelijk verwacht 63 procent van de Nederlanders dat hun organisatie volgend jaar meer in AI investeert. Een op de vijf weet niet dat AI-risico's te verzekeren zijn, en bijna even veel weten niet of hun eigen organisatie verzekerd is.",
+        "Ruim een kwart van de Europese organisaties heeft al eens een AI-incident gehad; 6 procent daarvan leed direct financiële schade."
+      ],
+      "why": "Nederlandse bedrijven omarmen AI snel, maar dekken de risico's ervan nog nauwelijks af.",
+      "source": "Computable",
+      "url": "https://www.computable.nl/2026/11/26/kort-ai-gebruik-onder-nl-bedrijven-verdubbelt-nederland-hekkensluiter-ai-verzekering-en-meer/"
+    },
+    {
+      "id": "aireport-2026-11-26",
+      "date": "2026-11-26",
+      "order": 10,
+      "cat": "aireport",
+      "tag": "Podcast",
+      "title": "Wat moet Nederland als Amerika de AI-kraan dichtdraait? + Google weigert scholen een uitknop voor zijn AI-chatbot",
+      "summary": "Google laat de AI-chatbot in zijn zoekmachine ook op Nederlandse basisscholen aanstaan. Een woordvoerder vertelde Alexander dat wie de chatbot niet wil, Google Zoeken helemaal moet uitzetten, terwijl de Tweede Kamer AI op basisscholen wil verbieden.",
+      "body": [
+        "De rode draad van de aflevering is de vraag wie de schakelaar van AI in handen heeft. Volgens Alexander ligt die in Washington: als de beste modellen alleen in Amerika draaien en Amerika ze kan afsluiten, staat een kenniseconomie als Nederland met lege handen, op ASML na. Hij stelt voor de machines van ASML niet tegen geld te ruilen, maar tegen gegarandeerde toegang tot de beste AI.",
+        "Verder: een wiskundige van Anthropic bewees met Claude de Riemann-hypothese, maar bijna niemand kan het bewijs volgen. Wat is een oplossing waard als je de weg ernaartoe niet begrijpt? Ook komen aan bod de terugkeer van Jensen Huang bij Nvidia na een telefoontje van Trump, een Chinees AI-programma waarmee de CIA en het DIVD zouden zijn gehackt, en De Nederlandsche Bank, die verwacht dat een AI-aanval op het betalingsverkeer ooit slaagt. De aflevering duurt 1 uur en 5 minuten."
+      ],
+      "source": "AI Report",
+      "url": "https://podcastluisteren.nl/ep/AI-Report-Wat-moet-als-de-AI-kraan-dichtdraait-Google-weigert-scholen-een-uitknop-voor-zijn-AI-chatbot"
+    },
     {
       "id": "spacex-fcc-starmind-goedkeuring",
       "date": "2026-11-25",
@@ -160,6 +399,22 @@
       "why": "De stijgende kosten van rekenkracht beginnen door te werken in wat abonnees voor hun geld krijgen.",
       "source": "PYMNTS",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-says-most-users-wont-hit-limits-faster-after-merger-of-chat-and-work/"
+    },
+    {
+      "id": "sp-nvidia-kredietwaardigheid",
+      "date": "2026-11-25",
+      "order": 72,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "S&P overweegt Nvidia lagere kredietwaardigheid te geven na chaos rond Huang",
+      "summary": "Kredietbeoordelaar S&P Global overweegt de kredietwaardigheid van Nvidia te verlagen van AA naar AA-. Het wijst op zwak toezicht op de leiding, een ontbrekend opvolgingsplan en de grote afhankelijkheid van Jensen Huang.",
+      "body": [
+        "S&P wil binnen negentig dagen een besluit nemen; Nvidia blijft hoe dan ook een betrouwbare debiteur. Moody's verlaagde eerder al het vooruitzicht voor Nvidia van positief naar stabiel. Een lagere score kan Nvidia duurder laten lenen, en dat raakt ook kleinere cloudbedrijven waarvoor Nvidia garant staat: hun schulden kunnen duurder worden of meer onderpand vergen.",
+        "In augustus kondigde Nvidia aan met zes financiers, onder wie Goldman Sachs, Apollo en Blackstone, 500 miljard dollar aan financiering voor AI-infrastructuur te regelen en een kwart van die leningen te garanderen. Volgens Bloomberg drongen geldschieters al vóór het vertrek en de terugkeer van Huang aan op grotere garanties."
+      ],
+      "why": "Nvidia staat garant voor een groot deel van de schulden achter de AI-bouwgolf, dus twijfel over zijn kredietwaardigheid werkt door in de hele sector.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
     },
     {
       "id": "xpeng-worldgpt",
