@@ -1,6 +1,182 @@
 {
-  "updatedAt": "2026-11-27T06:07:19Z",
+  "updatedAt": "2026-11-28T06:00:02Z",
   "items": [
+    {
+      "id": "openai-tegenzaak-apple",
+      "date": "2026-11-27",
+      "order": 100,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI klaagt Apple aan om diefstal van bedrijfsgeheimen en druk op leveranciers",
+      "summary": "OpenAI is vrijdag bij een Californische rechtbank een tegenzaak tegen Apple begonnen. Het bedrijf beschuldigt Apple van diefstal van bedrijfsgeheimen en van het bedreigen van leveranciers die voor beide bedrijven werken.",
+      "body": [
+        "Volgens de aanklacht, waarover de Financial Times als eerste berichtte, spoort Apple werknemers aan bedrijfsgegevens op privéapparaten en in eigen cloudaccounts te bewaren, en gebruikt het die gewoonte vervolgens tegen mensen die willen vertrekken. Een oud-medewerker van OpenAI zou na zijn terugkeer bij Apple details over productplannen en leveranciers hebben doorgespeeld. OpenAI ziet de zaak van Apple vooral als een poging om te voorkomen dat het Apple-personeel aanneemt.",
+        "De tegenzaak is een antwoord op de rechtszaak die Apple in juli aanspande tegen OpenAI, het hardwarebedrijf io en twee oud-medewerkers. Apple stelt dat vertrouwelijke technische informatie is gebruikt voor de apparaten die OpenAI ontwikkelt sinds het de studio io van Jony Ive voor 6,4 miljard dollar overnam. Die zaak dient in juli 2027. Twee jaar geleden spraken beide bedrijven nog af om ChatGPT in de iPhone te verwerken."
+      ],
+      "why": "Het conflict draait om de toeleveranciers die OpenAI nodig heeft om met eigen apparaten de concurrentie met de iPhone aan te gaan.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"
+    },
+    {
+      "id": "sap-cyberaanval-broncode-github",
+      "date": "2026-11-27",
+      "order": 95,
+      "cat": "wereld",
+      "tag": "SAP",
+      "title": "SAP bevestigt cyberaanval op zijn ontwikkelomgeving",
+      "summary": "SAP heeft bevestigd dat aanvallers zijn ontwikkelomgeving zijn binnengedrongen. Volgens Der Spiegel gebruikten ze gestolen inloggegevens van medewerkers om broncode op GitHub te kopiëren en deels te wijzigen.",
+      "body": [
+        "Der Spiegel meldde de inbraak op 26 november op basis van interne communicatie. Tegenover Reuters zei SAP dat het tot nu toe geen aanwijzingen heeft dat aanvallers bij bedrijfsgegevens van klanten zijn gekomen. Het Duitse softwarebedrijf beperkte de toegang tot GitHub, legde geautomatiseerde ontwikkelprocessen tijdelijk stil en verving de sleutels waarmee het zijn code ondertekent. Intern heet het onderzoek volgens Handelsblatt Project Granite.",
+        "Wie achter de aanval zit en hoe de aanvallers binnenkwamen, is onduidelijk, net als de vraag of gewijzigde code bij klanten terecht is gekomen. Der Spiegel houdt rekening met de inzet van AI-agents, maar onafhankelijk technisch bewijs daarvoor is er nog niet. De aanval komt in dezelfde week waarin uitlekte dat SAP minstens 10.000 banen wil schrappen."
+      ],
+      "why": "Een inbraak in de broncode van een leverancier waar talloze bedrijven op draaien, kan doorwerken tot ver buiten SAP zelf.",
+      "source": "FinanceFeeds",
+      "url": "https://financefeeds.com/sap-hit-by-cyberattack-as-hackers-reportedly-steal-github-credentials-and-alter-source-code/"
+    },
+    {
+      "id": "blackwell-chips-shanghai-alice-huang",
+      "date": "2026-11-27",
+      "order": 92,
+      "cat": "wereld",
+      "tag": "Nvidia",
+      "title": "Verboden Blackwell-chips van Nvidia opgedoken in datacenter in Shanghai",
+      "summary": "Twee Chinese bedrijven hebben servers met Nvidia's Blackwell-chips geplaatst in een datacenter in Shanghai dat banden heeft met Alice Huang. Dat meldt Bloomberg op basis van documenten die bij Chinese toezichthouders zijn ingediend.",
+      "body": [
+        "Shanghai Shuoyao gaf een rack van het type GB300-NVL72 in onderpand voor een lening van 96 miljoen yuan, ongeveer 14 miljoen dollar, bij Shanghai Innovation Bank. Een tweede bedrijf, Shanghai Kezhan, noemde in leningpapieren een GB200-server op dezelfde locatie. Via een serienummer in een openbare garantiedatabase herleidde Bloomberg het GB300-rack naar de Taiwanese fabrikant Gigabyte. Zonder Amerikaanse vergunning mogen deze chips niet naar China.",
+        "Shanghai Shuoyao heeft volgens Bloomberg nauwe banden met het Singaporese Megaspeed, dat Alice Huang in 2023 oprichtte en dat de Amerikaanse regering deze maand op een zwarte handelslijst zette op verdenking van chipsmokkel. Nvidia keurde Megaspeed destijds binnen vier dagen goed als partner, waarna het uitgroeide tot Nvidia's grootste klant in Zuidoost-Azië. Of Huang persoonlijk bij deze aankopen betrokken was, blijkt niet uit de berichtgeving."
+      ],
+      "why": "Het is een concrete aanwijzing dat de nieuwste Amerikaanse AI-chips ondanks het exportverbod toch in China belanden.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"
+    },
+    {
+      "id": "luchtmacht-cloud-one-inbraak",
+      "date": "2026-11-27",
+      "order": 90,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Hackers drongen cloudplatform van Amerikaanse luchtmacht binnen",
+      "summary": "Aanvallers zijn binnengedrongen in Cloud One, het centrale cloudplatform van de Amerikaanse luchtmacht. Volgens Reuters konden ze daardoor mogelijk bij gevoelige tactische, personeels- en logistieke gegevens.",
+      "body": [
+        "De inbraak werd vorige maand ontdekt tijdens routinematige upgrades. Volgens een bron misbruikten de aanvallers een softwarelek om het beheerdeel van het platform over te nemen. Cloud One bundelt sinds 2017 rekenkracht van Microsoft, Amazon, Oracle en Alphabet en draait onder meer toepassingen voor luchtverdedigingsradar en munitiebeheer.",
+        "De luchtmacht heeft de verhuizing van extra toepassingen stilgelegd, updates geblokkeerd en beheerdersrechten ingetrokken; het Amerikaanse Cyber Command brengt de schade in kaart. Wie de aanval uitvoerde en of er gegevens zijn buitgemaakt, is nog onbekend. Het incident volgt op minstens zes andere recente inbraken bij Amerikaanse overheidsdiensten, terwijl Microsoft waarschuwt dat statelijke hackers hun aanvallen automatiseren met het AI-hulpmiddel Artex."
+      ],
+      "why": "Nu AI-hulpmiddelen snel zwakke plekken in grote cloudnetwerken kunnen vinden, laat deze inbraak zien hoe groot de gevolgen voor defensie kunnen zijn.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/"
+    },
+    {
+      "id": "zwitserland-ai-agents-cyberaanvallen",
+      "date": "2026-11-27",
+      "order": 88,
+      "cat": "wereld",
+      "tag": "Cyberveiligheid",
+      "title": "Zwitserland bevestigt eerste cyberaanvallen door AI-agents",
+      "summary": "Het Zwitserse federale bureau voor cyberveiligheid BACS heeft vijf cyberaanvallen vastgesteld waarbij AI-agents werden ingezet, drie daarvan tegen vitale infrastructuur. Directeur Florian Schütz maakte dat bekend in een interview met de Zwitserse omroep SRF.",
+      "body": [
+        "Volgens Schütz veroorzaakte geen van de aanvallen een grote storing. Over het aantal geslaagde aanvallen lopen de berichten uiteen: SRF spreekt van vier van de vijf, persbureau Keystone-SDA van twee. Reuters noemt op gezag van SRF stroom-, water- en telecombedrijven als doelwit; het BACS zelf maakt de slachtoffers niet bekend. Omdat kleinere bedrijven aanvallen alleen vrijwillig melden, ligt het werkelijke aantal mogelijk hoger.",
+        "De agents zoeken volgens het BACS zelfstandig naar kwetsbaarheden, kiezen hun gereedschap en plannen de volgende stap, en misbruiken vooral zwakke wachtwoorden en bekende lekken in systemen die aan internet hangen. Het bureau noemt Artex en CyberStrikeAI als voorbeelden van zulke hulpmiddelen, zonder te zeggen dat die hier zijn gebruikt. Het adviseert kritieke updates binnen 24 uur te installeren en verwacht meer geslaagde aanvallen."
+      ],
+      "why": "Het is een van de eerste keren dat een overheid officieel bevestigt dat zelfstandig werkende AI-aanvallers vitale infrastructuur weten binnen te dringen.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/331659/20261127/swiss-ai-agent-cyberattacks-confirmed-five-cases-three-targeted-critical-infrastructure.htm"
+    },
+    {
+      "id": "japan-wet-ai-cyberveiligheid",
+      "date": "2026-11-27",
+      "order": 85,
+      "cat": "wereld",
+      "tag": "Japan",
+      "title": "Japan wil AI-makers straffen die hun modellen niet beveiligen tegen cybermisbruik",
+      "summary": "Een AI-strategiepanel van de Japanse regering stelt een wetswijziging voor die aanbieders van geavanceerde AI verplicht maatregelen te nemen tegen cyberaanvallen. Wie zich daar niet aan houdt, riskeert uiteindelijk een straf.",
+      "body": [
+        "Het voorstel, op 27 november besproken in Tokio, past de AI-wet uit mei 2025 aan. Die wet is vooral bedoeld om AI-gebruik te stimuleren en laat de overheid nu alleen onderzoeken en adviseren. De handhaving verloopt straks in stappen: eerst een aanbeveling, dan een bevel tot herstel, en pas bij overtreding van dat bevel een straf. Volgens de Yomiuri Shimbun moeten aanbieders van AI met cybercapaciteiten hun gebruikers controleren, verzoeken om aanvallen weigeren en veiligheidsgebreken melden.",
+        "De regels richten zich vooral op de makers van de onderliggende modellen, niet op bedrijven die daar producten op bouwen. Ook buitenlandse aanbieders kunnen eronder vallen als hun diensten in Japan op enige schaal worden gebruikt; in Japanse berichtgeving worden OpenAI en Anthropic genoemd. Hoe de regels uitpakken voor open modellen die iedereen zelf kan draaien, is nog onduidelijk."
+      ],
+      "why": "Japan zou zo een van de eerste landen worden die makers van topmodellen, ook buitenlandse, kunnen dwingen misbruik voor cyberaanvallen tegen te gaan.",
+      "source": "AI Affairs",
+      "url": "https://www.aiaffairs.com/government/japan-ai-law-cyber-safety-penalties-draft/"
+    },
+    {
+      "id": "openai-athena-dataplatform",
+      "date": "2026-11-27",
+      "order": 80,
+      "cat": "wereld",
+      "tag": "OpenAI",
+      "title": "OpenAI bouwt dataplatform Athena om agents minder te laten gokken",
+      "summary": "OpenAI werkt aan een platform met de codenaam Athena dat zijn AI-agents nauwkeuriger moet laten werken met bedrijfsgegevens. Dat meldt The Information.",
+      "body": [
+        "Athena lijkt op een zogeheten semantische laag: een vaste set definities voor bedrijfscijfers als omzet of aantal klanten, zodat elke agent er hetzelfde onder verstaat. Minstens één klant vond de data-analyse-agent van ChatGPT Work niet nauwkeurig genoeg. Volgens een ingewijde wil OpenAI agents bouwen die bedrijfsregels verzamelen, vastleggen en bijwerken, zodat andere agents niet telkens vanaf nul beginnen.",
+        "Dataplatforms als Snowflake en Databricks bieden al eigen semantische lagen, dus OpenAI begeeft zich op hun terrein. Van semantische laag wisselen is lastiger dan van AI-model, wat OpenAI een voorsprong kan geven. Het platform staat nog aan het begin; een planning of prijs is er niet."
+      ],
+      "why": "Wie de definities van een bedrijf beheert, bindt klanten sterker aan zich dan met alleen een goed model.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"
+    },
+    {
+      "id": "wallonie-stopt-bouw-google-datacenter",
+      "date": "2026-11-27",
+      "order": 75,
+      "cat": "wereld",
+      "tag": "Google",
+      "title": "Wallonië legt bouw van Google-datacenter stil",
+      "summary": "De Belgische regio Wallonië heeft Google bevolen te stoppen met de bouw van een datacenter van drie hectare in Aiseau-Presles. Inspecteurs troffen het gebouw vrijwel af aan, terwijl de aangepaste bouwvergunning al was ingetrokken.",
+      "body": [
+        "Bij de inspectie op 26 november kregen ongeveer driehonderd bouwvakkers mondeling de opdracht het werk neer te leggen. De regio stuurt een proces-verbaal wegens illegale bouw naar het parket. Google kreeg in 2024 toestemming voor drie kleinere, luchtgekoelde datacenters, maar wilde er later twee samenvoegen en per uur 600 kubieke meter water uit de Samber halen voor koeling. Infrastructuurminister François Desquesnes trok die wijziging in augustus in vanwege droogte.",
+        "Google stelt dat de oorspronkelijke vergunning nog geldt; de regio vindt dat het gebouw onderdelen bevat die onder de ingetrokken wijziging vallen. De Raad van State behandelt op 7 januari het verzoek van Google om de intrekking te schorsen. Greenpeace had eerder al met dronebeelden aan de bel getrokken."
+      ],
+      "why": "Het conflict laat zien dat de waterhonger van datacenters ook in Europa steeds vaker botst met lokale regels.",
+      "source": "AI Affairs",
+      "url": "https://www.aiaffairs.com/government/wallonia-orders-google-stop-datacentre-construction/"
+    },
+    {
+      "id": "gta6-pc-ports-codeeragents",
+      "date": "2026-11-27",
+      "order": 65,
+      "cat": "wereld",
+      "tag": "Games",
+      "title": "AI-codeeragents versnellen illegale pc-versies van GTA 6",
+      "summary": "Ruim veertig projecten proberen een gelekte Xbox-versie van GTA 6 naar de pc over te zetten, en AI-hulpmiddelen als Claude Code versnellen dat werk flink. Dat zet het verdienmodel van Rockstar onder druk.",
+      "body": [
+        "GTA 6 verscheen op PS5 en Xbox Series X|S en bracht op de eerste dag naar schatting 3,79 miljard dollar op. Een dag later verspreidde de hackersgroep CyberLeek een gestolen Xbox-image. Minder dan vier dagen na het uitlekken van het programmabestand telde een volgsite veertig actieve projecten, waarvan bijna de helft het spel al op een pc kan opstarten. Op 26 november doken beelden op van een onofficiële multiplayermodus.",
+        "Rockstar brengt grote titels gewoonlijk eerst op consoles uit en pas veel later op de pc: bij GTA V duurde dat zo'n negentien maanden. Een officiële pc-datum voor GTA 6 is er niet. Moederbedrijf Take-Two liet via een DMCA-verzoek op GitHub een eerste project en ruim drieduizend kopieën verwijderen, maar volgens The Decoder is zo'n juridische strijd nauwelijks te winnen, omdat open modellen ook gewoon lokaal draaien."
+      ],
+      "why": "Het laat zien hoe AI-codeeragents werk van maanden terugbrengen tot dagen, met gevolgen voor elk bedrijf dat op technische drempels leunt.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/"
+    },
+    {
+      "id": "sjoerdsma-tegenmaatregelen-match-act",
+      "date": "2026-11-27",
+      "order": 50,
+      "cat": "nederland",
+      "tag": "ASML",
+      "title": "Sjoerdsma wil tegenmaatregelen als VS de MATCH Act aannemen",
+      "summary": "Minister Sjoerd Sjoerdsma van Buitenlandse Handel vindt dat Nederland moet terugslaan als het Amerikaanse Congres de MATCH Act aanneemt. Die wet zou Amerikaanse exportregels voor chipmachines van ASML ook buiten de VS laten gelden.",
+      "body": [
+        "In de Tweede Kamer zei Sjoerdsma donderdag dat Amerikaanse zeggenschap over Nederlandse technologie onacceptabel is en dat hij wil dat het Congres het voorstel intrekt. Duitsland, Frankrijk en andere EU-landen steunen Nederland; ook Zuid-Korea, Taiwan en Japan maken zich zorgen, maar houden zich stiller. Maandag brengt de minister de kwestie in bij een overleg van EU-ministers in Brussel, waar hij pleit voor een breed pakket aan middelen. Welke maatregelen dat precies zijn, zei hij niet.",
+        "De Kamer steunt die lijn. JA21-Kamerlid Michiel Hoogeveen schaarde zich achter een gezamenlijk diplomatiek tegenoffensief, en Volt-Kamerlid Dassen zei dat het Congres pas inbindt als de VS duidelijke gevolgen zien."
+      ],
+      "why": "ASML levert de machines waarmee de meest geavanceerde AI-chips worden gemaakt, dus deze strijd raakt direct aan de Nederlandse positie in de AI-keten.",
+      "source": "Computable",
+      "url": "https://www.computable.nl/2026/11/27/kabinet-zint-op-harde-reactie-op-us-match-act/"
+    },
+    {
+      "id": "politieacademie-databank-cold-cases",
+      "date": "2026-11-27",
+      "order": 40,
+      "cat": "nederland",
+      "tag": "Politie",
+      "title": "Politieacademie bouwt slimme databank die moet helpen cold cases op te lossen",
+      "summary": "Onderzoekers van de Politieacademie, Saxion en de Universiteit Twente bouwen een databank die rechercheurs helpt misdrijven te reconstrueren. Op termijn moet AI daaruit de meest waarschijnlijke scenario's naar voren halen.",
+      "body": [
+        "De databank combineert politiedossiers, 3D-reconstructies van plaatsen delict, sensordata zoals telefoon- en gps-gegevens, en openbare bronnen; echte politiegegevens blijven strikt gescheiden van het onderzoeksplatform. Lector Jaap Knotter, die het project leidt, bouwt voort op een methode die een verhaal opdeelt in twaalf onderdelen, zoals dader, slachtoffer en locatie. Voor de plaats delict gebruiken de onderzoekers 360-gradencamera's en software die er een bijna fotorealistische 3D-omgeving van maakt; volgens hen is dat zes tot tien keer sneller en goedkoper dan vergelijkbare technieken.",
+        "De scenario's zijn bedoeld als hypotheses om te toetsen, niet als conclusies: het systeem moet ze rangschikken en uitleggen waarom het ene waarschijnlijker is dan het andere. In Nederland blijven naar schatting 1.300 tot 1.700 moordzaken jarenlang onopgelost."
+      ],
+      "why": "Als het werkt, kan AI rechercheurs in vastgelopen zaken nieuwe sporen laten zien zonder hun het oordeel uit handen te nemen.",
+      "source": "Computable",
+      "url": "https://www.computable.nl/2026/11/27/politieacademie-werkt-aan-slimme-databank-voor-cold-cases/"
+    },
     {
       "id": "nvidia-stopt-servers-zuidoost-azie",
       "date": "2026-11-26",
@@ -146,6 +322,22 @@
       "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/"
     },
     {
+      "id": "bank-of-england-ai-schulden",
+      "date": "2026-11-26",
+      "order": 74,
+      "cat": "wereld",
+      "tag": "Financiën",
+      "title": "Bank of England waarschuwt voor ondoorzichtige schulden achter de AI-bouwwoede",
+      "summary": "De Bank of England ziet de financiering van AI als een groeiend risico voor het financiële systeem. De bank noemt die financiering steeds complexer, circulairder en ondoorzichtiger, waardoor problemen op één markt snel kunnen overslaan naar andere.",
+      "body": [
+        "Medewerkers van de bank schatten de totale mogelijke verplichtingen van de grote cloudbedrijven op ruim 4 biljoen dollar, inclusief leasecontracten, afnameafspraken en garanties die niet op de balans staan. De bank rekent Alphabet, Amazon, Microsoft, Meta, Oracle en SpaceX tot die groep. Hun obligatie-uitgifte komt dit jaar naar verwachting boven 305 miljard dollar uit, ongeveer 8 procent van alle beleggingswaardige obligaties wereldwijd.",
+        "Ook private kredietverstrekkers spelen een steeds grotere rol: volgens een schatting van Morgan Stanley die de bank aanhaalt, financieren zij tussen 2026 en 2028 voor 700 miljard dollar aan datacenters. De kosten om schulden van Oracle en CoreWeave tegen wanbetaling te verzekeren bereikten deze week een record. AI-bedrijven zijn samen nog altijd goed voor iets meer dan de helft van de beurswaarde van de S&P 500."
+      ],
+      "why": "Als de verwachte AI-winsten uitblijven, kan de schuldenberg achter de datacenters de hele financiële sector raken.",
+      "source": "Stock Analysis",
+      "url": "https://stockanalysis.com/news/boe-financial-stability-report-ai-november-2026/"
+    },
+    {
       "id": "polen-palantir-defensie",
       "date": "2026-11-26",
       "order": 72,
@@ -210,6 +402,22 @@
       "url": "https://www.computable.nl/2026/11/26/kort-ai-gebruik-onder-nl-bedrijven-verdubbelt-nederland-hekkensluiter-ai-verzekering-en-meer/"
     },
     {
+      "id": "rechter-meta-ai-bril-kort-geding",
+      "date": "2026-11-26",
+      "order": 45,
+      "cat": "nederland",
+      "tag": "Meta",
+      "title": "Rechter beslist voor kerst of Meta zijn AI-bril in Nederland mag blijven verkopen",
+      "summary": "De rechtbank Amsterdam heeft donderdag twee kort gedingen behandeld over de camerabril van Meta. Offlimits, The Firewall en de Consumentenbond vinden dat de bril heimelijk filmen te makkelijk maakt; de uitspraak volgt uiterlijk 24 december.",
+      "body": [
+        "Offlimits en The Firewall eisen dat Meta en brillenmaker Luxottica stoppen met brillen waarmee mensen ongemerkt kunnen worden gefilmd, en dat Meta geen AI meer traint op herkenbare opnames van mensen in Nederland. Ze vragen een dwangsom van 100.000 euro per dag per gedaagde. De Consumentenbond wil dat Meta de bril en de standaardinstellingen binnen twee weken aanpast, en anders een verkoopverbod en een terugroepactie met geld terug.",
+        "Meta ontkent dat de bril bedoeld is om stiekem te filmen en wijst onder meer op het lampje dat tijdens een opname aangaat. Volgens de advocaat van Luxottica heeft dat bedrijf geen toegang tot de opnames en zou een verkoopverbod buiten proporties zijn. Een versie voor mensen met een visuele beperking, die wel uitleg geeft maar geen beelden opslaat, willen de eisers wel toestaan."
+      ],
+      "why": "De uitspraak kan bepalen hoe ver slimme brillen met camera en AI in Nederland mogen gaan.",
+      "source": "AI Wereld",
+      "url": "https://aiwereld.nl/nieuws/mag-meta-zijn-ai-bril-blijven-verkopen-nederlandse-rechter-moet-beslissen"
+    },
+    {
       "id": "hiscox-nederland-ai-verzekering",
       "date": "2026-11-26",
       "order": 40,
@@ -224,6 +432,22 @@
       "why": "Nederlandse bedrijven omarmen AI snel, maar dekken de risico's ervan nog nauwelijks af.",
       "source": "Computable",
       "url": "https://www.computable.nl/2026/11/26/kort-ai-gebruik-onder-nl-bedrijven-verdubbelt-nederland-hekkensluiter-ai-verzekering-en-meer/"
+    },
+    {
+      "id": "utf-ai-europese-modellen-publieke-waarden",
+      "date": "2026-11-26",
+      "order": 35,
+      "cat": "nederland",
+      "tag": "Onderzoek",
+      "title": "Europese open AI-modellen scoren slecht op Nederlandse publieke waarden",
+      "summary": "Het Tilburgse AI-bedrijf UTF.ai heeft 22 bekende taalmodellen getoetst aan de normen die voor Nederlandse ambtenaren gelden. Europese open modellen doen het daarbij niet beter dan Amerikaanse of Chinese, en geen enkel model komt in de buurt van een voldoende.",
+      "body": [
+        "De onderzoekers legden de modellen meer dan 1.300 praktijksituaties voor, met antwoorden die zijn gebaseerd op de wet en op uitspraken van rechters en toezichthouders. Eén Europees model bleek in acht van de tien gevallen bereid mensen te selecteren op afkomst. Het beste Europese model, Mistral Medium 3.5, scoorde 28,8 van de 100 punten; het beste Chinese model haalde 28 en het beste Amerikaanse 30,3.",
+        "Volgens UTF.ai kennen Europese modellen de regels vaak wel, maar zijn ze te meegaand: ze helpen ook bij verzoeken die juridisch of ethisch niet door de beugel kunnen, en weigerden maar in één op de drie gevallen waarin dat had gemoeten. Medeoprichter Giulio Tosato roept de overheid op vast te leggen welke publieke waarden AI moet waarborgen; voor wat een model zegt, bestaan nog geen regels."
+      ],
+      "why": "Wie bij de overheid op Europese modellen overstapt om minder afhankelijk te worden, krijgt daarmee nog geen modellen die zich aan Nederlandse normen houden.",
+      "source": "Computable",
+      "url": "https://www.computable.nl/2026/11/26/europese-ai-opensource-modellen-nog-vaak-strijdig-met-publieke-waarden/"
     },
     {
       "id": "aireport-2026-11-26",
@@ -2920,22 +3144,6 @@
       "why": "Nebius is een van de weinige grote Europese aanbieders van AI-rekenkracht; vertraging daar raakt ook Europese ambities."
     },
     {
-      "id": "uber-fireworks-datalek",
-      "date": "2026-11-13",
-      "order": 100,
-      "cat": "wereld",
-      "tag": "Beveiliging",
-      "title": "Hack bij AI-leverancier Fireworks treft rijbewijsgegevens van Uber-chauffeurs",
-      "summary": "Uber waarschuwt duizenden chauffeurs dat hun persoonsgegevens en rijbewijsgegevens zijn gestolen. De hackers kwamen binnen via Fireworks AI, een platform dat ontwikkelaars toegang geeft tot open AI-modellen.",
-      "body": [
-        "Uit meldingen bij Amerikaanse staten blijkt dat het gaat om zeker 2567 mensen in Massachusetts, 3430 in South Carolina en 1873 in Rhode Island. Ook chauffeurs in Californië en Illinois zijn getroffen; hoeveel, is nog onduidelijk, en het totaal zal naar verwachting oplopen. Ook Notion bevestigde dat er gegevens zijn buitgemaakt.",
-        "Fireworks hoorde begin oktober dat interne inloggegevens waren gestolen. Later bleek de schade groter: via een getroffen cloudleverancier kwamen de aanvallers op ontwikkelmachines terecht en kregen ze toegang tot factuurgegevens, sommige datasets van klanten en onvoltooide modellen. Het bedrijf wijst een financieel gedreven groep aan die gestolen toegang tot taalmodellen doorverkoopt. Voor Uber is het al het tweede bekende datalek dit jaar."
-      ],
-      "why": "Bedrijven die hun data aan AI-leveranciers toevertrouwen, lopen mee met elk beveiligingslek bij die partij.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
-    },
-    {
       "id": "aireport-2026-11-12",
       "date": "2026-11-12",
       "order": 10,
@@ -2993,20 +3201,6 @@
       ],
       "source": "POM",
       "url": "https://www.pom.show/p/nos-decor-nu-al-gedateerd-mcp-all"
-    },
-    {
-      "id": "pom-s12e09",
-      "date": "2026-10-28",
-      "order": 10,
-      "cat": "pom",
-      "tag": "S12E09",
-      "title": "Lachen op NPO Start",
-      "summary": "Op NPO Start kijken makers terug naar hun eigen programma's. Verder gaat het over het einde van Buzz en een gehackte Jack van Gelder.",
-      "source": "POM",
-      "url": "https://www.pom.show/archive",
-      "body": [
-        "Verder komt Henk Krol met een machete voorbij. Alexander plaatst vraagtekens bij makers die naar hun eigen programma's kijken. De aflevering duurt 57 minuten."
-      ]
     }
   ]
 }
